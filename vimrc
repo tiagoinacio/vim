@@ -34,6 +34,7 @@ set softtabstop=4    " number of spaces in tab when editing
 set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,eol:¬,nbsp:⋅
+set shiftwidth=4
 
 ""#############################
 ""# UI Config                 #
