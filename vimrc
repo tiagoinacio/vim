@@ -1,5 +1,4 @@
-set rtp+=~/.vim/bundle/Vundle.vim
-"set autoindent
+"set rtp+=~/.vim/bundle/Vundle.vim
 "set gdefault
 set guioptions-=Be
 set completeopt-=preview
@@ -17,6 +16,7 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags noci
 autocmd StdinReadPre * let s:std_in=1
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags noci
 let g:golden_ratio_autocommand = 0
+let g:syntastic_javascript_checkers = ['jslint']
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 ""#############################
@@ -121,8 +121,8 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 ""# Launch Config             #
 ""#############################
 call pathogen#infect()                      " use pathogen
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
+"call vundle#begin()
+"Plugin 'gmarik/Vundle.vim'
 
 ""#############################
 ""# TMux                      #
