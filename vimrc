@@ -10,7 +10,6 @@ set list!
 ""############################
 ""# Auto Commands             #
 ""############################
-
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags noci
 autocmd StdinReadPre * let s:std_in=1
@@ -22,9 +21,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 ""#############################
 ""# Colors                    #
 ""#############################
-colorscheme solarized "nice colorscheme
+colorscheme lucario "nice colorscheme
 syntax enable        " enable syntax processing
-set background=dark
+"set background=dark
 
 ""#############################
 ""# Spaces & Tabs             #
@@ -103,8 +102,6 @@ inoremap jk <esc>
 ""#############################
 ""# GundoToggle               #
 ""#############################
-" toggle gundo
-nnoremap <leader>u :GundoToggle<CR>
 " save session
 nnoremap <leader>s :mksession<CR>
 
@@ -206,11 +203,39 @@ set number "This will be folded
 ""###########################
 ""# Mappings                #
 ""###########################
-map <C-s> :NERDTreeToggle<CR>
-nnoremap <C-h> :GundoToggle<CR>
+let mapleader = ","
+noremap <leader>ne :NERDTreeToggle<CR>
+noremap <leader>gu :GundoToggle<CR>
+noremap <leader>cp :CtrlP<CR>
+noremap <leader>si :SyntasticInfo<CR>
+noremap <leader>sy :SyntasticCheck jslint<CR>
+noremap <leader>ta :Tagbar<CR>
+noremap <leader>td :TernDef<CR>
+noremap <leader>re :TernRename<CR>
+noremap <leader>tt :TernType<CR>
+noremap <leader>tr :TernRefs<CR>
+noremap <leader>fw :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap <leader>gr :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap <leader>ag :Ag<space><CR>
+nnoremap <leader>bn :bn<CR>
+nnoremap <leader>bp :bp<CR>
+nnoremap <leader>ls :ls<CR>
+nnoremap <leader>hh  <C-w>h<CR>
+nnoremap <leader>ll  <C-w>l<CR>
+nnoremap <leader>kk  <C-w>k<CR>
+nnoremap <leader>jj  <C-w>j<CR>
+nmap <leader>ln :lnext<CR>
+nmap <leader>vs :vsplit<CR>
+nmap <leader>hs :split<CR>
+"resize current buffer by +/- 5
+nnoremap <leader>-- :vertical resize -20<cr>
+nnoremap <leader>v- :vertical resize -10<cr>
+nnoremap <leader>v+ :vertical resize +10<cr>
+nnoremap <leader>++ :vertical resize +20<cr>
+nnoremap <leader>h+ :resize +10<cr>
+nnoremap <leader>h- :resize -10<cr>
 inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
-map <leader>m :NERDTreeToggle<CR>
-
+let g:user_emmet_leader_key=',em'
 
 ""#############################
 ""# Preferences               #
@@ -218,7 +243,6 @@ map <leader>m :NERDTreeToggle<CR>
 let g:ycm_add_preview_to_completeopt=0
 let g:ycm_confirm_extra_conf=0
 let g:airline#extensions#tabline#enabled = 1
-let mapleader = ","
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 set autochdir
 
@@ -227,7 +251,7 @@ set autochdir
 ""# Conditionals             #
 ""############################
 if has("gui_macvim")
-    colorscheme solarized
+    colorscheme lucario
     let macvim_hig_shift_movement = 1
 endif
 
@@ -246,6 +270,8 @@ vnoremap <silent><F1> :JSHint<CR>
 nnoremap <silent><F2> :lnext<CR>
 inoremap <silent><F2> <C-O>:lnext<CR>
 vnoremap <silent><F2> :lnext<CR>
+let g:syntastic_loc_list_height = 5
+let g:syntastic_auto_loc_list = 2
 
 " " show previous jshint error
 nnoremap <silent><F3> :lprevious<CR>
@@ -275,3 +301,39 @@ filetype indent on
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
+
+"Less Plugin
+nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
+
+"AG Plugin
+let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
+      \ --ignore .git
+      \ --ignore .svn
+      \ --ignore .hg
+      \ --ignore .DS_Store
+      \ --ignore "**/*.pyc"
+      \ -g ""'
+"let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+"let g:airline#extensions#tabline#enabled = 1
+
+" The Silver Searcher
+if executable('ag')
+    " Use ag over grep
+    set grepprg=ag\ --nogroup\ --nocolor
+
+    " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+    "ag is fast enough that CtrlP doesn't need to cache
+    let g:ctrlp_use_caching = 0
+endif
+
+" bind \ (backward slash) to grep shortcut
+command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+
+" Tagbar
+let g:tagbar_sort = 0
+
+"" Fugitive
+"vertical split
+set diffopt+=vertical
