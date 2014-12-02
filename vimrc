@@ -6,7 +6,7 @@ set guioptions=aAc
 set noswapfile
 set shell=/bin/sh
 set list!
-
+set mouse=a
 ""############################
 ""# Auto Commands             #
 ""############################
@@ -21,9 +21,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 ""#############################
 ""# Colors                    #
 ""#############################
-colorscheme lucario "nice colorscheme
+colorscheme solarized"lucario nice colorscheme
 syntax enable        " enable syntax processing
-"set background=dark
+"set background=light
 
 ""#############################
 ""# Spaces & Tabs             #
@@ -204,37 +204,41 @@ set number "This will be folded
 ""# Mappings                #
 ""###########################
 let mapleader = ","
-noremap <leader>ne :NERDTreeToggle<CR>
-noremap <leader>gu :GundoToggle<CR>
+noremap <leader>ag :Ag<space><CR>
+noremap <leader>bn :bn<CR>
+noremap <leader>bp :bp<CR>
+noremap <leader>bd :bd<CR>
 noremap <leader>cp :CtrlP<CR>
+noremap <leader>do :JsDoc<CR>
+noremap <leader>fw :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+noremap <leader>kk  <C-w>k<CR>
+noremap <leader>gr :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+noremap <leader>gu :GundoToggle<CR>
+noremap <leader>hh  <C-w>h<CR>
+noremap <leader>hs :split<CR>
+noremap <leader>jj  <C-w>j<CR>
+noremap <leader>ls :ls<CR>
+noremap <leader>ln :lnext<CR>
+noremap <leader>ll  <C-w>l<CR>
+noremap <leader>ne :NERDTreeToggle<CR>
+noremap <leader>re :TernRename<CR>
 noremap <leader>si :SyntasticInfo<CR>
 noremap <leader>sy :SyntasticCheck jslint<CR>
 noremap <leader>ta :Tagbar<CR>
 noremap <leader>td :TernDef<CR>
-noremap <leader>re :TernRename<CR>
 noremap <leader>tt :TernType<CR>
 noremap <leader>tr :TernRefs<CR>
-noremap <leader>fw :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
-nnoremap <leader>gr :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
-nnoremap <leader>ag :Ag<space><CR>
-nnoremap <leader>bn :bn<CR>
-nnoremap <leader>bp :bp<CR>
-nnoremap <leader>ls :ls<CR>
-nnoremap <leader>hh  <C-w>h<CR>
-nnoremap <leader>ll  <C-w>l<CR>
-nnoremap <leader>kk  <C-w>k<CR>
-nnoremap <leader>jj  <C-w>j<CR>
-nmap <leader>ln :lnext<CR>
-nmap <leader>vs :vsplit<CR>
-nmap <leader>hs :split<CR>
-"resize current buffer by +/- 5
-nnoremap <leader>-- :vertical resize -20<cr>
+noremap <leader>vs :vsplit<CR>
+noremap <leader>hs :split<CR>
 nnoremap <leader>v- :vertical resize -10<cr>
-nnoremap <leader>v+ :vertical resize +10<cr>
-nnoremap <leader>++ :vertical resize +20<cr>
-nnoremap <leader>h+ :resize +10<cr>
-nnoremap <leader>h- :resize -10<cr>
-inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+noremap <leader>v+ :vertical resize +10<cr>
+"
+"resize current buffer by +/- 5
+noremap <leader>-- :vertical resize -20<cr>
+noremap <leader>++ :vertical resize +20<cr>
+noremap <leader>h+ :resize +10<cr>
+noremap <leader>h- :resize -10<cr>
+noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 let g:user_emmet_leader_key=',em'
 
 ""#############################
