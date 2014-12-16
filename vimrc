@@ -15,15 +15,15 @@ autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags noci
 autocmd StdinReadPre * let s:std_in=1
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags noci
 let g:golden_ratio_autocommand = 0
-let g:syntastic_javascript_checkers = ['jslint']
+let g:syntastic_javascript_checkers = ['jshint']
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 ""#############################
 ""# Colors                    #
 ""#############################
-colorscheme solarized"lucario nice colorscheme
+"colorscheme solarized"lucario nice colorscheme
 syntax enable        " enable syntax processing
-"set background=light
+set background=dark
 
 ""#############################
 ""# Spaces & Tabs             #
@@ -32,7 +32,8 @@ set tabstop=4        " number of visual spaces per TAB
 set softtabstop=4    " number of spaces in tab when editing
 set expandtab        " tabs are spaces
 set linespace=2
-set listchars=tab:▸\ ,eol:¬,nbsp:.
+"set listchars=tab:▸\ ,eol:¬,nbsp:.
+set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
 
 ""#############################
@@ -209,6 +210,7 @@ noremap <leader>bn :bn<CR>
 noremap <leader>bp :bp<CR>
 noremap <leader>bd :bd<CR>
 noremap <leader>cp :CtrlP<CR>
+noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader>do :JsDoc<CR>
 noremap <leader>fw :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 noremap <leader>kk  <C-w>k<CR>
@@ -341,3 +343,10 @@ let g:tagbar_sort = 0
 "" Fugitive
 "vertical split
 set diffopt+=vertical
+
+" auto-change directory to current buffer
+autocmd BufEnter * lcd %:p:h
+
+
+hi NonText guifg=bg
+set laststatus=2
