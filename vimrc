@@ -21,9 +21,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 ""#############################
 ""# Colors                    #
 ""#############################
-"colorscheme solarized"lucario nice colorscheme
+"colorscheme toychest "lucario nice colorscheme
 syntax enable        " enable syntax processing
-set background=dark
 
 ""#############################
 ""# Spaces & Tabs             #
