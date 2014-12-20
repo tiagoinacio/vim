@@ -349,3 +349,4 @@ autocmd BufEnter * lcd %:p:h
 
 hi NonText guifg=bg
 set laststatus=2
+set winfixwidth
