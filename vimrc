@@ -350,3 +350,5 @@ autocmd BufEnter * lcd %:p:h
 hi NonText guifg=bg
 set laststatus=2
 set winfixwidth
+au BufRead,BufNewFile *.json setf json
+let g:NERDTreeMapOpenInTabSilent = '<2-LeftMouse>'
