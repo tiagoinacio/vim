@@ -21,7 +21,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 ""#############################
 ""# Colors                    #
 ""#############################
-"colorscheme toychest "lucario nice colorscheme
+colorscheme solarized "lucario nice colorscheme
 syntax enable        " enable syntax processing
 
 ""#############################
@@ -352,3 +352,7 @@ set laststatus=2
 set winfixwidth
 au BufRead,BufNewFile *.json setf json
 let g:NERDTreeMapOpenInTabSilent = '<2-LeftMouse>'
+set autochdir
+let NERDTreeChDirMode=2
+
+map! <C-v>t τ
