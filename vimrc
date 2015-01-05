@@ -356,3 +356,5 @@ set autochdir
 let NERDTreeChDirMode=2
 
 map! <C-v>t τ
+vmap <C-x> :!pbcopy<CR>
+vmap <C-c> :w !pbcopy<CR><CR>
