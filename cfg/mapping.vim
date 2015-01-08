@@ -32,6 +32,11 @@ noremap <leader>-- :vertical resize -20<cr> "resize current buffer by +/- 5
 noremap <leader>++ :vertical resize +20<cr>
 noremap <leader>h+ :resize +10<cr>
 noremap <leader>h- :resize -10<cr>
+noremap <leader>gp :GitGutterPreviewHunk<cr>
+noremap <leader>gs :GitGutterStageHunk<cr>
+noremap <leader>gr :GitGutterRevertHunk<cr>
+noremap <leader>gn :GitGutterNextHunk<cr>
+noremap <leader>gp :GitGutterPrevHunk<cr>
 noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 " Disable arrow keys

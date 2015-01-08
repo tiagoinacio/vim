@@ -4,7 +4,7 @@ set showcmd             " show command in bottom barset cursorline
 set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
-"set lazyredraw          " redraw only when we need to.
+set lazyredraw          " redraw only when we need to.
 set showmatch           " highlight matching [{()}]
 set encoding=utf-8
 set laststatus=2
@@ -29,5 +29,5 @@ set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
-
-
+highlight NonText ctermfg=234
+highlight CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
