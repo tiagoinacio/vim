@@ -1,8 +1,10 @@
 let mapleader = ","
+noremap <leader><left> :bp<CR>
+noremap <leader><right> :bn<CR>
 noremap <leader>ag :Ag<space><CR>
 noremap <leader>bn :bn<CR>
 noremap <leader>bp :bp<CR>
-noremap <leader>bd :bd<CR>
+noremap <leader>bd :bd<CR>:b
 noremap <leader>cp :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader>do :JsDoc<CR>

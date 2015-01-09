@@ -18,7 +18,5 @@ set modelines=1
 set number "This will be folded
 
 " Movement
-nnoremap j gj " move vertically by line
-nnoremap k gk
 nnoremap B ^
 nnoremap E $

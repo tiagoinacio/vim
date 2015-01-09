@@ -15,4 +15,6 @@ highlight GitGutterAddLine ctermfg=14
 highlight GitGutterChangeLine ctermfg=14
 highlight GitGutterDeleteLine ctermfg=14
 highlight GitGutterChangeDeleteLine ctermfg=14
-let g:gitgutter_sign_removed = '-'
+let g:gitgutter_sign_removed = 'R'
+let g:gitgutter_sign_modified = 'M'
+let g:gitgutter_sign_added = 'A'
