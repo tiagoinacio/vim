@@ -20,12 +20,24 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 
 function! Tab_Or_Complete()
-  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
-      return "\<C-N>"
+    if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+        return "\<C-N>"
     else
-      return "\<Tab>"
-  endif
+        return "\<Tab>"
+    endif
 endfunction
+
+function! <SID>AutoProjectRootCD()
+    try
+        if &ft != 'help'
+            ProjectRootCD
+        endif
+    catch
+        " Silently ignore invalid buffers
+    endtry
+endfunction
+
+autocmd BufEnter * call <SID>AutoProjectRootCD()
 
 autocmd BufWritePre * :%s/\s\+$//e
 
