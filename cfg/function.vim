@@ -27,3 +27,5 @@ function! Tab_Or_Complete()
   endif
 endfunction
 
+autocmd BufWritePre * :%s/\s\+$//e
+

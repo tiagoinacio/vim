@@ -20,4 +20,6 @@ Bundle 'elzr/vim-json'
 Bundle 'tpope/vim-surround'
 Bundle 'wesQ3/vim-windowswap'
 Bundle 'Valloric/YouCompleteMe'
-
+"Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+"vividchalk
+Bundle 'decibel/codeschool-vim-theme'

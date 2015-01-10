@@ -11,7 +11,7 @@ set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
 set guifont=Monaco:h12
-set term=screen-256color
+"set term=screen-256color
 set winheight=3
 set winheight=999
 set columns=120
@@ -29,5 +29,6 @@ set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
-highlight NonText ctermfg=234
-highlight CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE
+highlight NonText ctermfg=blue
+set t_Co=256
+highlight CursorLine cterm=NONE
