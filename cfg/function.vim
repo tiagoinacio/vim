@@ -37,7 +37,24 @@ function! <SID>AutoProjectRootCD()
     endtry
 endfunction
 
-autocmd BufEnter * call <SID>AutoProjectRootCD()
+function! AutoUpdateCTags()
+    if filewritable("tags")==1
+        if &ch>1
+            echo "Updating tags..."
+        endif
+        let filename = expand('%')
+        let filename = substitute(filename, '^./',     '', '')
+        silent exec '!ctags -a ' . shellescape(filename) . ' 2> >(grep -v "^ctags: Warning: ignoring null tag")'
+    endif
+endfunction
+augroup AutoUpdateCTags
+    autocmd!
+    autocmd BufWritePost,FileWritePost *.* call AutoUpdateCTags()
+augroup END
 
+autocmd BufEnter * call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufDelete * if len(filter(range(1, bufnr('$')), 'buflisted(v:val)')) == 1 | quit | endif
+
+
 
