@@ -23,3 +23,4 @@ Bundle 'Valloric/YouCompleteMe'
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Bundle 'dbakker/vim-projectroot'
 Bundle 'duythinht/vim-coffee'
+Bundle 'whatyouhide/vim-gotham'

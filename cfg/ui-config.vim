@@ -30,5 +30,5 @@ set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
 highlight NonText ctermfg=blue
-set t_Co=256
+set background=light
 highlight CursorLine cterm=NONE
