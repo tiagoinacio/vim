@@ -12,3 +12,5 @@ let g:airline#extensions#tabline#buffer_idx_mode = 0
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#fnamecollapse = 0
 let g:airline#extensions#windowswap#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t:.'
+let g:airline_section_c = '%{getcwd()}/%t'

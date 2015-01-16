@@ -8,11 +8,11 @@ let g:syntastic_javascript_checkers = ['jshint']
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_check_on_open = 1
 let g:syntastic_enable_signs=0
 
 highlight SpellBad ctermbg=NONE
 highlight SpellBad ctermfg=NONE
+highlight SpellBad ctermfg=NONE
+highlight SpellBad ctermbg=NONE
 highlight SpellBad cterm=underline
 

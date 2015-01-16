@@ -54,7 +54,6 @@ augroup END
 
 autocmd BufEnter * call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
-autocmd BufDelete * if len(filter(range(1, bufnr('$')), 'buflisted(v:val)')) == 1 | quit | endif
 
 
 

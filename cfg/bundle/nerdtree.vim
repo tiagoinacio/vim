@@ -1,4 +1,4 @@
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 "let NERDTreeChDirMode=2
 au BufRead,BufNewFile *.json setf json
 let g:NERDTreeMapOpenInTabSilent = '<2-LeftMouse>'

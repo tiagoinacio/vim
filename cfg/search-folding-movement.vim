@@ -20,3 +20,6 @@ set number "This will be folded
 " Movement
 nnoremap B ^
 nnoremap E $
+
+" copy to clipboard
+set clipboard=unnamed

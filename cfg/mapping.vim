@@ -7,6 +7,7 @@ noremap <leader>bp :bp<CR>
 noremap <leader>bd :bd<CR>:b
 noremap <leader>cp :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
+noremap <leader><TAB> :CtrlPBuffer<CR>
 noremap <leader>do :JsDoc<CR>
 noremap <leader>fw :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 noremap <leader>kk  <C-w>k<CR>
@@ -41,8 +42,6 @@ noremap <leader>gn :GitGutterNextHunk<cr>
 noremap <leader>gp :GitGutterPrevHunk<cr>
 noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 cnoreabbrev wq w<bar>bd
-cnoreabbrev qq <bar>quit
-cnoreabbrev q <bar>bd
 
 " Disable arrow keys
 "map <up> <nop>
