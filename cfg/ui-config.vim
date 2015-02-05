@@ -11,7 +11,7 @@ set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
 set guifont=Monaco:h12
-"set term=screen-256color
+set term=screen-256color
 set winheight=3
 set winheight=999
 set columns=120

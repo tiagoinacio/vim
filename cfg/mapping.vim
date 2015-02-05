@@ -42,7 +42,8 @@ noremap <leader>gn :GitGutterNextHunk<cr>
 noremap <leader>gp :GitGutterPrevHunk<cr>
 noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 cnoreabbrev wq w<bar>bd
-
+map <Esc>^[^[[D :bp<CR>
+map <Esc>^[^[[C :bn<CR>
 " Disable arrow keys
 "map <up> <nop>
 "map <down> <nop>
