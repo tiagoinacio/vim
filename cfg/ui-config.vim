@@ -1,7 +1,7 @@
 syntax enable        " enable syntax processing
 set number              " show line numbers
 set showcmd             " show command in bottom barset cursorline
-set cursorline          " highlight current line
+"set cursorline          " highlight current line
 filetype indent on      " load filetype-specific indent files
 set wildmenu            " visual autocomplete for command menu
 set showmatch           " highlight matching [{()}]
@@ -9,7 +9,7 @@ set encoding=utf-8
 set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
-set guifont=Monaco:h18
+set guifont=Monaco:h12
 set term=screen-256color
 set winheight=3
 set winheight=999
