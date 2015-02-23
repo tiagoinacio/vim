@@ -1,2 +1,2 @@
-colorscheme summerfruit256
+colorscheme gotham
 set t_Co=256

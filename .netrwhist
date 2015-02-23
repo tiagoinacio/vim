@@ -1,8 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/tiagoinacio/Work/fabric/deploy/landing-page/lib'
-let g:netrw_dirhist_2='/Users/tiagoinacio'
-let g:netrw_dirhist_3='/Users/tiagoinacio/.tmux'
-let g:netrw_dirhist_4='/Users/tiagoinacio/Work/fabric/deploy/header-component'
-let g:netrw_dirhist_5='/Users/tiagoinacio/Work/bf-edw-static-client'
-let g:netrw_dirhist_6='/Users/tiagoinacio/.vim/cfg/bundle'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/tiagoinacio/.vim/cfg/bundle'
