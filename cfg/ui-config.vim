@@ -9,7 +9,7 @@ set encoding=utf-8
 set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
-set guifont=Monaco:h11
+set guifont=Monaco:h12
 set term=screen-256color
 set winheight=3
 set winheight=999
@@ -19,7 +19,6 @@ set laststatus=2
 filetype off
 filetype plugin on
 set backspace=indent,eol,start
-set nocompatible              " be iMproved, required
 set splitright
 nnoremap gV `[v`] " highlight last inserted text
 set tabstop=4        " number of visual spaces per TAB
@@ -28,5 +27,6 @@ set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
-highlight NonText ctermfg=blue cterm=NONE
+highlight NonText ctermfg=NONE cterm=NONE
 let $JS_CMD='node'
+hi CursorLine term=NONE cterm=NONE guibg=WHITE

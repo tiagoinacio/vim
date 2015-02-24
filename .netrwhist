@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/tiagoinacio/Work/betfair/bf-edw-header'
-let g:netrw_dirhist_2='/Users/tiagoinacio/Work/betfair/bf-edw-header/src'
-let g:netrw_dirhist_3='/Users/tiagoinacio/Work/betfair/bf-edw-header/src/scripts'
-let g:netrw_dirhist_4='/Users/tiagoinacio/Work/betfair/bf-edw-header/src/scripts/controllers'
-let g:netrw_dirhist_5='/Users/tiagoinacio/Work/betfair/bf-edw-header/src/scripts/directives'
-let g:netrw_dirhist_6='/Users/tiagoinacio/Work/betfair/bf-edw-header/src/scripts/providers'
-let g:netrw_dirhist_7='/Users/tiagoinacio/Work/betfair/bf-edw-header/src/scripts/providers/constants'
-let g:netrw_dirhist_8='/Users/tiagoinacio/Work/betfair/bf-edw-header/src/scripts/providers/factories'
+let g:netrw_dirhist_2='/Users/tiagoinacio/Work/betfair/bf-edw-header/tests'
+let g:netrw_dirhist_3='/Users/tiagoinacio/Work/betfair/bf-edw-header/tests/controllers'

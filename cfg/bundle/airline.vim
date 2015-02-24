@@ -15,3 +15,5 @@ let g:airline#extensions#windowswap#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t:.'
 let g:airline_section_c = '%{getcwd()}/%t'
 "let g:airline_theme='gotham'
+"let g:airline_theme='light'
+let g:airline_theme='jellybeans'

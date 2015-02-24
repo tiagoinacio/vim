@@ -1,6 +1,7 @@
 " Searching
 set incsearch           " search as characters are entered
 set nohlsearch
+"set hlsearch
 nnoremap <leader><space> :nohlsearch<CR> " turn off search highlight
 set smartcase
 set smartindent
