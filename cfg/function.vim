@@ -55,5 +55,5 @@ augroup END
 autocmd BufEnter * call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
 
-
-
+autocmd InsertLeave * :set relativenumber
+autocmd InsertEnter * :set relativenumber!

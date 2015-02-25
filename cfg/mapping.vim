@@ -1,6 +1,9 @@
 let mapleader = ","
 noremap <leader><left> :bp<CR>
 noremap <leader><right> :bn<CR>
+map <C-L> :bnext<CR>
+map <C-H> :bprev<CR>
+map <C-W> :bd<CR>
 noremap <leader>cp :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader><TAB> :CtrlPBuffer<CR>
