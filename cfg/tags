@@ -1,0 +1,46 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-H>	mapping.vim	/^map <C-H> :bprev<CR>$/;"	m
+<C-L>	mapping.vim	/^map <C-L> :bnext<CR>$/;"	m
+<C-W>	mapping.vim	/^map <C-W> :bd<CR>$/;"	m
+<Esc>^[^[[C	mapping.vim	/^map <Esc>^[^[[C :bn<CR>$/;"	m
+<Esc>^[^[[D	mapping.vim	/^map <Esc>^[^[[D :bp<CR>$/;"	m
+<Tab>	mapping.vim	/^noremap <Tab> <C-R>=Tab_Or_Complete()<CR>$/;"	m
+<leader>++	mapping.vim	/^noremap <leader>++ :vertical resize +20<cr>$/;"	m
+<leader>--	mapping.vim	/^noremap <leader>-- :vertical resize -20<cr> "resize current buffer by +\/- 5$/;"	m
+<leader><TAB>	mapping.vim	/^noremap <leader><TAB> :CtrlPBuffer<CR>$/;"	m
+<leader><left>	mapping.vim	/^noremap <leader><left> :bp<CR>$/;"	m
+<leader><right>	mapping.vim	/^noremap <leader><right> :bn<CR>$/;"	m
+<leader>cb	mapping.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m
+<leader>cp	mapping.vim	/^noremap <leader>cp :CtrlP<CR>$/;"	m
+<leader>do	mapping.vim	/^noremap <leader>do :JsDoc<CR>$/;"	m
+<leader>g	mapping.vim	/^noremap <leader>g :grep! "\\b<C-R><C-W>\\b"<CR>:cw<CR>$/;"	m
+<leader>gn	mapping.vim	/^noremap <leader>gn :GitGutterNextHunk<cr>$/;"	m
+<leader>gp	mapping.vim	/^noremap <leader>gp :GitGutterPrevHunk<cr>$/;"	m
+<leader>gp	mapping.vim	/^noremap <leader>gp :GitGutterPreviewHunk<cr>$/;"	m
+<leader>gr	mapping.vim	/^noremap <leader>gr :GitGutterRevertHunk<cr>$/;"	m
+<leader>gs	mapping.vim	/^noremap <leader>gs :GitGutterStageHunk<cr>$/;"	m
+<leader>gu	mapping.vim	/^noremap <leader>gu :GundoToggle<CR>$/;"	m
+<leader>h+	mapping.vim	/^noremap <leader>h+ :resize +10<cr>$/;"	m
+<leader>h-	mapping.vim	/^noremap <leader>h- :resize -10<cr>$/;"	m
+<leader>hh	mapping.vim	/^noremap <leader>hh  <C-w>h<CR>$/;"	m
+<leader>hs	mapping.vim	/^noremap <leader>hs :split<CR>$/;"	m
+<leader>jj	mapping.vim	/^noremap <leader>jj  <C-w>j<CR>$/;"	m
+<leader>kk	mapping.vim	/^noremap <leader>kk  <C-w>k<CR>$/;"	m
+<leader>ll	mapping.vim	/^noremap <leader>ll  <C-w>l<CR>$/;"	m
+<leader>ln	mapping.vim	/^noremap <leader>ln :lnext<CR>$/;"	m
+<leader>ls	mapping.vim	/^noremap <leader>ls :ls<CR>$/;"	m
+<leader>ne	mapping.vim	/^noremap <leader>ne :Explore<CR>$/;"	m
+<leader>ne	mapping.vim	/^noremap <leader>ne :NERDTreeToggle<CR>$/;"	m
+<leader>re	mapping.vim	/^noremap <leader>re :TernRename<CR>$/;"	m
+<leader>si	mapping.vim	/^noremap <leader>si :SyntasticInfo<CR>$/;"	m
+<leader>sy	mapping.vim	/^noremap <leader>sy :SyntasticCheck jslint<CR>$/;"	m
+<leader>td	mapping.vim	/^noremap <leader>td :TernDef<CR>$/;"	m
+<leader>tr	mapping.vim	/^noremap <leader>tr :TernRefs<CR>$/;"	m
+<leader>tt	mapping.vim	/^noremap <leader>tt :TernType<CR>$/;"	m
+<leader>v+	mapping.vim	/^noremap <leader>v+ :vertical resize +10<cr>$/;"	m
+<leader>v-	mapping.vim	/^nnoremap <leader>v- :vertical resize -10<cr>$/;"	m
+<leader>vs	mapping.vim	/^noremap <leader>vs :vsplit<CR>$/;"	m
+<leader>w	mapping.vim	/^nmap <leader>w <Plug>(easymotion-w)$/;"	m
+W	mapping.vim	/^nmap W <Plug>(easymotion-w)$/;"	m
+mapleader	mapping.vim	/^let mapleader = ","$/;"	v
+wq	mapping.vim	/^cnoreabbrev wq w<bar>bd$/;"	m

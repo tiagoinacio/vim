@@ -1,37 +1,65 @@
-Bundle 'gmarik/vundle'
-Bundle 'kien/ctrlp.vim'
-Bundle 'FelikZ/ctrlp-py-matcher'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'sjl/gundo.vim'
-Bundle 'heavenshell/vim-jsdoc'
-Bundle 'scrooloose/syntastic'
-Bundle 'marijnh/tern_for_vim'
-Bundle 'bling/vim-airline'
-Bundle 'elzr/vim-json'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'dbakker/vim-projectroot'
-Bundle 'whatyouhide/vim-gotham'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'tmhedberg/matchit'
-Bundle 'vim-scripts/BufOnly.vim'
-Bundle 'claco/jasmine.vim'
-Bundle 'rking/ag.vim'
-Bundle 'mileszs/ack.vim'
-Bundle 'endel/vim-github-colorscheme'
-Bundle 'vim-scripts/CSApprox'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'dahu/vim-fanfingtastic'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'gerw/vim-latex-suite'
-Bundle 'tomasr/molokai'
-Bundle 'sickill/vim-monokai'
-Bundle 'nelstrom/vim-mac-classic-theme'
+" vundle
+Plugin 'gmarik/vundle'
 
-"Bundle 'scrooloose/nerdtree'
-"Bundle 'maksimr/vim-jsbeautify'
-"Bundle 'michalliu/sourcebeautify.vim'
-"Bundle 'mattn/emmet-vim'
-"Bundle 'tpope/vim-fugitive'
-"Bundle 'tpope/vim-surround'
-"Bundle 'majutsushi/tagbar'
+" documentation
+Plugin 'heavenshell/vim-jsdoc'
+
+" error handling
+Plugin 'scrooloose/syntastic'
+
+" auto completition
+Plugin 'marijnh/tern_for_vim'
+Plugin 'Valloric/YouCompleteMe'
+
+" motion
+Plugin 'Lokaltog/vim-easymotion'
+
+" window
+Plugin 'vim-scripts/BufOnly.vim'
+Plugin 'bling/vim-airline'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-scripts/taglist.vim'
+
+" languague support
+Plugin 'claco/jasmine.vim'
+Plugin 'elzr/vim-json'
+Plugin 'othree/javascript-libraries-syntax.vim'
+
+" grep
+Plugin 'rking/ag.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'FelikZ/ctrlp-py-matcher'
+
+" themes
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'vim-scripts/CSApprox'
+Plugin 'endel/vim-github-colorscheme'
+Plugin 'whatyouhide/vim-gotham'
+
+" latex
+Plugin 'gerw/vim-latex-suite'
+
+" helpers
+Plugin 'HTML-AutoCloseTag'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'dahu/vim-fanfingtastic'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'tmhedberg/matchit'
+
+" explorer
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'dbakker/vim-projectroot'
+Plugin 'sjl/gundo.vim'
+
+" tags
+Plugin 'majutsushi/tagbar'
+Plugin 'vim-tagbar-css'
+
+"Plugin 'maksimr/vim-jsbeautify'
+"Plugin 'michalliu/sourcebeautify.vim'
+"Plugin 'mattn/emmet-vim'
+"Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-surround'
