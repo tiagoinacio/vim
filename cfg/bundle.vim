@@ -18,7 +18,7 @@ Plugin 'Lokaltog/vim-easymotion'
 Plugin 'vim-scripts/BufOnly.vim'
 Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/Tagbar'
 
 " languague support
 Plugin 'claco/jasmine.vim'
@@ -53,10 +53,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'dbakker/vim-projectroot'
 Plugin 'sjl/gundo.vim'
-
-" tags
-Plugin 'majutsushi/tagbar'
-Plugin 'vim-tagbar-css'
 
 "Plugin 'maksimr/vim-jsbeautify'
 "Plugin 'michalliu/sourcebeautify.vim'

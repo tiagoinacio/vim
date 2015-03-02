@@ -26,6 +26,8 @@ set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
-highlight NonText ctermfg=NONE cterm=NONE
+hi clear NonText
+hi link NonText Ignore
+au ColorScheme * hi clear NonText | hi link NonText Ignore
 let $JS_CMD='node'
 hi CursorLine term=NONE cterm=NONE guibg=WHITE

@@ -3,9 +3,10 @@
 au BufRead,BufNewFile *.json setf json
 let g:NERDTreeWinPos = "right"
 let g:NERDTreeMapOpenInTabSilent = '<2-LeftMouse>'
+let g:NERDTreeWinSize = 30
 "set autochdir
 "autocmd BufEnter * lcd %:p:h " auto-change directory to current buffer
 nnoremap <silent> <leader>dt :ProjectRootExe NERDTreeFind<cr>
 
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * NERDTree
+"autocmd VimEnter * wincmd p
