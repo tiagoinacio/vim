@@ -40,6 +40,7 @@ noremap <leader>gn :GitGutterNextHunk<cr>
 noremap <leader>gp :GitGutterPrevHunk<cr>
 noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 nmap <leader>w <Plug>(easymotion-w)
+nmap e <Plug>(easymotion-b)
 nmap W <Plug>(easymotion-w)
 cnoreabbrev wq w<bar>bd
 map <Esc>^[^[[D :bp<CR>
