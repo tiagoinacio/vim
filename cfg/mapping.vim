@@ -4,7 +4,7 @@ noremap <leader><right> :bn<CR>
 map <C-L> :bnext<CR>
 map <C-H> :bprev<CR>
 map <C-W> :bd<CR>
-noremap <leader>cp :CtrlP<CR>
+noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader>ct :CtrlPBufTagAll<CR>
@@ -42,7 +42,6 @@ noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 nmap <leader>w <Plug>(easymotion-w)
 nmap e <Plug>(easymotion-b)
 nmap W <Plug>(easymotion-w)
-cnoreabbrev wq w<bar>bd
 map <Esc>^[^[[D :bp<CR>
 map <Esc>^[^[[C :bn<CR>
 " Disable arrow keys

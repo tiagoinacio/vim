@@ -14,6 +14,8 @@ $JS_CMD	ui-config.vim	/^let $JS_CMD='node'$/;"	v
 <leader><right>	mapping.vim	/^noremap <leader><right> :bn<CR>$/;"	m
 <leader>cb	mapping.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m
 <leader>cp	mapping.vim	/^noremap <leader>cp :CtrlP<CR>$/;"	m
+<leader>cp	mapping.vim	/^noremap <leader>cp :CtrlPCurWD<CR>$/;"	m
+<leader>cp	mapping.vim	/^noremap <leader>cp :CtrlPDir<CR>$/;"	m
 <leader>ct	mapping.vim	/^noremap <leader>ct :CtrlPBufTagAll<CR>$/;"	m
 <leader>ct	mapping.vim	/^noremap <leader>ct :CtrlPBufferTag<CR>$/;"	m
 <leader>ct	mapping.vim	/^noremap <leader>ct :CtrlPBufferTagAll<CR>$/;"	m
