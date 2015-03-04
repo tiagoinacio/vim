@@ -12,6 +12,7 @@ $JS_CMD	ui-config.vim	/^let $JS_CMD='node'$/;"	v
 <leader><TAB>	mapping.vim	/^noremap <leader><TAB> :CtrlPBuffer<CR>$/;"	m
 <leader><left>	mapping.vim	/^noremap <leader><left> :bp<CR>$/;"	m
 <leader><right>	mapping.vim	/^noremap <leader><right> :bn<CR>$/;"	m
+<leader><space>	search-folding-movement.vim	/^nnoremap <leader><space> :nohlsearch<CR> " turn off search highlight$/;"	m
 <leader>cb	mapping.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m
 <leader>cp	mapping.vim	/^noremap <leader>cp :CtrlP<CR>$/;"	m
 <leader>cp	mapping.vim	/^noremap <leader>cp :CtrlPCurWD<CR>$/;"	m
@@ -53,8 +54,12 @@ $JS_CMD	ui-config.vim	/^let $JS_CMD='node'$/;"	v
 <leader>v-	mapping.vim	/^nnoremap <leader>v- :vertical resize -10<cr>$/;"	m
 <leader>vs	mapping.vim	/^noremap <leader>vs :vsplit<CR>$/;"	m
 <leader>w	mapping.vim	/^nmap <leader>w <Plug>(easymotion-w)$/;"	m
+<space>	search-folding-movement.vim	/^nnoremap <space> za     " space open\/closes folds$/;"	m
+B	mapping.vim	/^nmap B <Plug>(easymotion-b)$/;"	m
+E	search-folding-movement.vim	/^nnoremap E \$$/;"	m
 W	mapping.vim	/^nmap W <Plug>(easymotion-w)$/;"	m
 e	mapping.vim	/^nmap e <Plug>(easymotion-b)$/;"	m
+e	search-folding-movement.vim	/^nnoremap e ^$/;"	m
 gV	ui-config.vim	/^nnoremap gV `[v`] " highlight last inserted text$/;"	m
 mapleader	mapping.vim	/^let mapleader = ","$/;"	v
 wq	mapping.vim	/^cnoreabbrev wq w<bar>bd$/;"	m
