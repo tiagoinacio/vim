@@ -31,3 +31,6 @@ hi link NonText Ignore
 au ColorScheme * hi clear NonText | hi link NonText Ignore
 let $JS_CMD='node'
 hi CursorLine term=NONE cterm=NONE guibg=WHITE
+
+" center cursor on the screen
+set so=999

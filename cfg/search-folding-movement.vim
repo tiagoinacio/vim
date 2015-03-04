@@ -1,6 +1,8 @@
 " Searching
 set incsearch           " search as characters are entered
 set nohlsearch
+
+
 "set hlsearch
 nnoremap <leader><space> :nohlsearch<CR> " turn off search highlight
 set smartcase
@@ -19,7 +21,6 @@ set modelines=1
 set number "This will be folded
 
 " Movement
-nnoremap e ^
 nnoremap E $
 
 " copy to clipboard

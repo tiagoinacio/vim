@@ -62,4 +62,6 @@ e	mapping.vim	/^nmap e <Plug>(easymotion-b)$/;"	m
 e	search-folding-movement.vim	/^nnoremap e ^$/;"	m
 gV	ui-config.vim	/^nnoremap gV `[v`] " highlight last inserted text$/;"	m
 mapleader	mapping.vim	/^let mapleader = ","$/;"	v
+w	mapping.vim	/^nmap w e$/;"	m
+w	mapping.vim	/^nnoremap w e$/;"	m
 wq	mapping.vim	/^cnoreabbrev wq w<bar>bd$/;"	m
