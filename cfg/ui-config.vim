@@ -26,11 +26,11 @@ set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
-hi clear NonText
-hi link NonText Ignore
-au ColorScheme * hi clear NonText | hi link NonText Ignore
+"hi clear NonText
+"hi link NonText Ignore
+"au ColorScheme * hi clear NonText | hi link NonText Ignore
 let $JS_CMD='node'
-hi CursorLine term=NONE cterm=NONE guibg=WHITE
+"hi CursorLine term=NONE cterm=NONE guibg=NONE
 
 " center cursor on the screen
 set so=999

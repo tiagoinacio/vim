@@ -10,9 +10,9 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=0
 
-highlight SpellBad ctermbg=NONE
-highlight SpellBad ctermfg=NONE
-highlight SpellBad ctermfg=NONE
-highlight SpellBad ctermbg=NONE
-highlight SpellBad cterm=underline
+"highlight SpellBad ctermbg=NONE
+"highlight SpellBad ctermfg=NONE
+"highlight SpellBad ctermfg=NONE
+"highlight SpellBad ctermbg=NONE
+"highlight SpellBad cterm=underline
 

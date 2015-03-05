@@ -33,8 +33,9 @@ Plugin 'FelikZ/ctrlp-py-matcher'
 
 " themes
 Plugin 'nanotech/jellybeans.vim'
-Plugin 'vim-scripts/CSApprox'
+"Plugin 'vim-scripts/CSApprox'
 Plugin 'endel/vim-github-colorscheme'
+Plugin 'chriskempson/base16-vim'
 Plugin 'whatyouhide/vim-gotham'
 
 " latex

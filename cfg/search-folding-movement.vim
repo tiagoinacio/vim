@@ -21,6 +21,7 @@ set modelines=1
 set number "This will be folded
 
 " Movement
+nnoremap e ^
 nnoremap E $
 
 " copy to clipboard

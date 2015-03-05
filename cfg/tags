@@ -58,6 +58,7 @@ $JS_CMD	ui-config.vim	/^let $JS_CMD='node'$/;"	v
 B	mapping.vim	/^nmap B <Plug>(easymotion-b)$/;"	m
 E	search-folding-movement.vim	/^nnoremap E \$$/;"	m
 W	mapping.vim	/^nmap W <Plug>(easymotion-w)$/;"	m
+base16colorspace	theme.vim	/^let base16colorspace=256$/;"	v
 e	mapping.vim	/^nmap e <Plug>(easymotion-b)$/;"	m
 e	search-folding-movement.vim	/^nnoremap e ^$/;"	m
 gV	ui-config.vim	/^nnoremap gV `[v`] " highlight last inserted text$/;"	m
