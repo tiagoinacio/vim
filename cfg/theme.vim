@@ -17,4 +17,4 @@ highlight Pmenu        ctermbg=240 ctermfg=12
 highlight PmenuSel     ctermbg=3   ctermfg=1
 highlight SpellBad     ctermbg=0   ctermfg=1
 
-colorscheme base16-railscasts "jellybeans
+colorscheme base16-railscasts

@@ -6,6 +6,10 @@ $JS_CMD	ui-config.vim	/^let $JS_CMD='node'$/;"	v
 <Esc>^[^[[C	mapping.vim	/^map <Esc>^[^[[C :bn<CR>$/;"	m
 <Esc>^[^[[D	mapping.vim	/^map <Esc>^[^[[D :bp<CR>$/;"	m
 <Tab>	mapping.vim	/^noremap <Tab> <C-R>=Tab_Or_Complete()<CR>$/;"	m
+<c-h>	mapping.vim	/^nnoremap <c-h> <c-w>h$/;"	m
+<c-j>	mapping.vim	/^nnoremap <c-j> <c-w>j$/;"	m
+<c-k>	mapping.vim	/^nnoremap <c-k> <c-w>k$/;"	m
+<c-l>	mapping.vim	/^nnoremap <c-l> <c-w>l$/;"	m
 <leader>++	mapping.vim	/^noremap <leader>++ :vertical resize +20<cr>$/;"	m
 <leader>--	mapping.vim	/^noremap <leader>-- :vertical resize -20<cr> "resize current buffer by +\/- 5$/;"	m
 <leader><TAB>	mapping.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m

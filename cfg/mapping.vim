@@ -4,6 +4,10 @@ noremap <leader><right> :bn<CR>
 map <C-L> :bnext<CR>
 map <C-H> :bprev<CR>
 map <C-W> :bd<CR>
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
 noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
