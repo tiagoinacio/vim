@@ -36,7 +36,7 @@ Plugin 'nanotech/jellybeans.vim'
 "Plugin 'vim-scripts/CSApprox'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'chriskempson/base16-vim'
-Plugin 'whatyouhide/vim-gotham'
+"Plugin 'whatyouhide/vim-gotham'
 
 " latex
 Plugin 'gerw/vim-latex-suite'

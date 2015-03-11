@@ -4,6 +4,7 @@ noremap <leader><right> :bn<CR>
 map <C-L> :bnext<CR>
 map <C-H> :bprev<CR>
 map <C-W> :bd<CR>
+map <leader>gf <C-]><CR>
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
@@ -12,6 +13,7 @@ noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader>ct :CtrlPBufTagAll<CR>
+noremap <leader>ca :CtrlPTag<CR>
 noremap <leader>ta :TagbarToggle<CR>
 noremap <leader>do :JsDoc<CR>
 noremap <leader>ne :NERDTreeToggle<CR>
