@@ -9,3 +9,9 @@ set undolevels=1000
 set mouse=a
 set title
 set pastetoggle=<F2>
+set autowrite       "Save buffer automatically when changing files
+set updatecount=10                  "Save buffer every 10 chars typed
+
+set scrolloff=2                     "Scroll when 2 lines from top/bottom
+
+set ruler                           "Show cursor location info on status line

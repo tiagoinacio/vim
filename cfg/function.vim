@@ -37,16 +37,16 @@ function! <SID>AutoProjectRootCD()
     endtry
 endfunction
 
-function! AutoUpdateCTags()
-    if filewritable("tags")==1
-        if &ch>1
-            echo "Updating tags..."
-        endif
-        let filename = expand('%')
-        let filename = substitute(filename, '^./',     '', '')
-        silent exec '!ctags -a ' . shellescape(filename) . ' 2> >(grep -v "^ctags: Warning: ignoring null tag")'
-    endif
-endfunction
+"function! AutoUpdateCTags()
+"    if filewritable("tags")==1
+"        if &ch>1
+"            echo "Updating tags..."
+"        endif
+"        let filename = expand('%')
+"        let filename = substitute(filename, '^./',     '', '')
+"        silent exec '!ctags -a ' . shellescape(filename) . ' 2> >(grep -v "^ctags: Warning: ignoring null tag")'
+"    endif
+"endfunction
 
 function! RenameFile()
     let old_name = expand('%')
@@ -58,10 +58,37 @@ function! RenameFile()
     endif
 endfunction
 
-augroup AutoUpdateCTags
+function! ShiftLine()
+    set nosmartindent
+    normal! >>
+    set smartindent
+endfunction
+
+highlight ColorColumn ctermbg=grey
+
+function! MarkMargin (on)
+    if exists('b:MarkMargin')
+        try
+            call matchdelete(b:MarkMargin)
+        catch /./
+        endtry
+        unlet b:MarkMargin
+    endif
+    if a:on
+        let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
+    endif
+endfunction
+
+augroup MarkMargin
     autocmd!
-    autocmd BufWritePost,FileWritePost *.* call AutoUpdateCTags()
+    autocmd  BufEnter  *       :call MarkMargin(1)
+    autocmd  BufEnter  *.vp*   :call MarkMargin(0)
 augroup END
+
+"augroup AutoUpdateCTags
+"    autocmd!
+"    autocmd BufWritePost,FileWritePost *.* call AutoUpdateCTags()
+"augroup END
 
 autocmd BufEnter * call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
