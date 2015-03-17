@@ -10,9 +10,12 @@ Plugin 'scrooloose/syntastic'
 " auto completition
 Plugin 'marijnh/tern_for_vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'msanders/snipmate.vim'
+Plugin 'YankRing.vim'
 
 " motion
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'terryma/vim-expand-region'
 
 " window
 Plugin 'vim-scripts/BufOnly.vim'
@@ -38,10 +41,10 @@ Plugin 'FelikZ/ctrlp-py-matcher'
 
 " themes
 Plugin 'nanotech/jellybeans.vim'
-"Plugin 'vim-scripts/CSApprox'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'chriskempson/base16-vim'
-"Plugin 'whatyouhide/vim-gotham'
+Plugin 'whatyouhide/vim-gotham'
+"Plugin 'vim-scripts/CSApprox'
 
 " latex
 Plugin 'gerw/vim-latex-suite'
@@ -60,8 +63,8 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'dbakker/vim-projectroot'
 Plugin 'sjl/gundo.vim'
 
-" not so useful plugins
-Plugin 'shinokada/SWTC.vim'
+" names
+Plugin 'danro/rename.vim'
 
 "Plugin 'maksimr/vim-jsbeautify'
 "Plugin 'michalliu/sourcebeautify.vim'

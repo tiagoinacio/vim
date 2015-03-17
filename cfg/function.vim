@@ -80,6 +80,13 @@ function! MarkMargin (on)
 endfunction
 
 augroup MarkMargin
+" highlight the status bar when in insert mode
+if version >= 700
+  au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
+  au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
+endif
+
+augroup AutoUpdateCTags
     autocmd!
     autocmd  BufEnter  *       :call MarkMargin(1)
     autocmd  BufEnter  *.vp*   :call MarkMargin(0)

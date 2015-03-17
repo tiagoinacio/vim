@@ -1,10 +1,10 @@
 set t_Co=256
 set background=dark
 let base16colorspace=256
-
+" set up some custom colors
 highlight clear SignColumn
 highlight VertSplit    ctermbg=236
-highlight ColorColumn  ctermbg=NONE
+highlight ColorColumn  ctermbg=237
 highlight LineNr       ctermbg=236 ctermfg=240
 highlight CursorLineNr ctermbg=236 ctermfg=240
 highlight CursorLine   ctermbg=236
