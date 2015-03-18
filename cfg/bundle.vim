@@ -1,3 +1,6 @@
+" personal plugins
+Plugin('https://bitbucket.org/tiagojoao/vim-bf-b2b.git')
+
 " vundle
 Plugin 'gmarik/vundle'
 
@@ -10,12 +13,16 @@ Plugin 'scrooloose/syntastic'
 " auto completition
 Plugin 'marijnh/tern_for_vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'msanders/snipmate.vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 Plugin 'YankRing.vim'
 
 " motion
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'terryma/vim-expand-region'
+Plugin 'vim-scripts/repmo.vim'
 
 " window
 Plugin 'vim-scripts/BufOnly.vim'

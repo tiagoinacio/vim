@@ -2,14 +2,22 @@ let mapleader = ","
 nmap S :%s///g<LEFT><LEFT><LEFT>
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 nmap ; :
+
 vmap ; :B<SPACE>
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
+map - dd
+map _ ddO<Esc>0
+nnoremap J 3j<CR>
+nnoremap K 3k<CR>
+
+imap ¯ <Esc>ja
+imap „ <Esc>ka
+imap ˇ <Esc>ha
+imap ‘ <Esc>la
 
 noremap <leader><left> :bp<CR>
 noremap <leader><right> :bn<CR>
-nmap <c-j> <c-d>
-nmap <c-k> <c-u>
 map <C-L> :bnext<CR>
 map <C-H> :bprev<CR>
 map <C-W> :bd<CR>

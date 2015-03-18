@@ -1,2 +1,34 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<leader>bdb	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bdb :B2BDiff()<CR>$/;"	m	language:Vim
+<leader>bdb	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bdb :B2BDiffBase()<CR>$/;"	m	language:Vim
+<leader>bdf	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bdf :B2BDiffFlavour()<CR>$/;"	m	language:Vim
+<leader>bsb	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bsb :B2BSwap2Base()<CR>$/;"	m	language:Vim
+<leader>bsf	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bsf :B2BSwap()<CR>$/;"	m	language:Vim
+<leader>bsf	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bsf :B2BSwap2Flavour()<CR>$/;"	m	language:Vim
+<leader>bst	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bst :B2BUnitTest()<CR>$/;"	m	language:Vim
+<leader>bst	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bst :B2BSwapUnitTest()<CR>$/;"	m	language:Vim
+B2BDiff	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BDiff call B2BDiff()$/;"	c	language:Vim
+B2BDiffBase	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BDiffBase()$/;"	f	language:Vim
+B2BDiffBase	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BDiffBase call B2BDiffBase()$/;"	c	language:Vim
+B2BDiffBase	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BDiffBase()$/;"	f	language:Vim
+B2BDiffFlavour	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BDiffFlavour()$/;"	f	language:Vim
+B2BDiffFlavour	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BDiffFlavour call B2BDiffFlavour()$/;"	c	language:Vim
+B2BDiffFlavour	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BDiffFlavour()$/;"	f	language:Vim
+B2BSwap	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BSwap call B2BSwap()$/;"	c	language:Vim
+B2BSwap	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BSwap()$/;"	f	language:Vim
+B2BSwap	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BSwap call B2BSwap()$/;"	c	language:Vim
+B2BSwap	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BSwap()$/;"	f	language:Vim
+B2BSwap2Flavour	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BSwap2Flavour()$/;"	f	language:Vim
+B2BSwapUnitTest	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BSwapUnitTest call B2BSwapUnitTest()$/;"	c	language:Vim
+B2BSwapUnitTest	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BSwapUnitTest()$/;"	f	language:Vim
+B2BUnitTest	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BUnitTest call B2BUnitTest()$/;"	c	language:Vim
+B2BUnitTest	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BUnitTest()$/;"	f	language:Vim
+g:bf_b2b_loaded	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_b2b_loaded = 1$/;"	v	language:Vim
+g:bf_b2b_loaded	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_b2b_loaded = 1$/;"	v	language:Vim
+g:bf_b2b_map_keys	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    let g:bf_b2b_map_keys = 1$/;"	v	language:Vim
+g:bf_b2b_map_keys	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^    let g:bf_b2b_map_keys = 1$/;"	v	language:Vim
+g:bf_base_path	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_base_path = ''$/;"	v	language:Vim
+g:bf_base_path	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_base_path = ''$/;"	v	language:Vim
+g:bf_flavour_path	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_flavour_path = ''$/;"	v	language:Vim
+g:bf_flavour_path	/Users/tiagoinacio/Work/vim/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_flavour_path = ''$/;"	v	language:Vim
 module.exports	/Users/tiagoinacio/Work/betfair/bf-edw-static-client-nj/Gruntfile.js	/^module.exports = function (grunt) {$/;"	f	language:JavaScript

@@ -1,11 +1,10 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+-	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^map - dd$/;"	m	language:Vim
 ;	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap ; :$/;"	m	language:Vim
 ;	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^vmap ; :B<SPACE>$/;"	m	language:Vim
 <BS>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^vmap <BS> x$/;"	m	language:Vim
 <C-H>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^map <C-H> :bprev<CR>$/;"	m	language:Vim
 <c-h>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap <c-h> <c-w>h$/;"	m	language:Vim
-<c-j>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <c-j> <c-d>$/;"	m	language:Vim
-<c-k>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <c-k> <c-u>$/;"	m	language:Vim
 <C-L>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^map <C-L> :bnext<CR>$/;"	m	language:Vim
 <c-l>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap <c-l> <c-w>l$/;"	m	language:Vim
 <C-W>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^map <C-W> :bd<CR>$/;"	m	language:Vim
@@ -55,16 +54,26 @@
 <Tab>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <Tab> <C-R>=Tab_Or_Complete()<CR>$/;"	m	language:Vim
 >>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments$/;"	m	language:Vim
 AutoProjectRootCD	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! <SID>AutoProjectRootCD()$/;"	f	language:Vim
+AutoUpdateCTags	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup AutoUpdateCTags$/;"	a	language:Vim
 B	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap B <Plug>(easymotion-b)$/;"	m	language:Vim
 E	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap E \$$/;"	m	language:Vim
 e	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap e ^$/;"	m	language:Vim
+g:BASH_Ctrl_j	/Users/tiagoinacio/.vim/cfg/general.vim	/^let g:BASH_Ctrl_j = 'off'$/;"	v	language:Vim
+J	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap J 3j<CR>$/;"	m	language:Vim
+K	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap K 3k<CR>$/;"	m	language:Vim
 mapleader	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^let mapleader = ","$/;"	v	language:Vim
 MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup MarkMargin$/;"	a	language:Vim
 MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! MarkMargin (on)$/;"	f	language:Vim
 RenameFile	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! RenameFile()$/;"	f	language:Vim
 S	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap S :%s\/\/\/g<LEFT><LEFT><LEFT>$/;"	m	language:Vim
 ShiftLine	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! ShiftLine()$/;"	f	language:Vim
+Start	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! Start()$/;"	f	language:Vim
 StripTrailingWhitespaces	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! <SID>StripTrailingWhitespaces()$/;"	f	language:Vim
 Tab_Or_Complete	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! Tab_Or_Complete()$/;"	f	language:Vim
 ToggleNumber	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! ToggleNumber() " toggle between number and relativenumber$/;"	f	language:Vim
 W	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap W <Plug>(easymotion-w)$/;"	m	language:Vim
+_	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^map _ ddO<Esc>0$/;"	m	language:Vim
+¯	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap ¯ <Esc>ja$/;"	m	language:Vim
+ˇ	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap ˇ <Esc>ha$/;"	m	language:Vim
+‘	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap ‘ <Esc>la$/;"	m	language:Vim
+„	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap „ <Esc>ka$/;"	m	language:Vim

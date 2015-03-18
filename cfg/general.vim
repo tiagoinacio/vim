@@ -1,3 +1,4 @@
+let g:BASH_Ctrl_j = 'off'
 set guioptions-=Be
 set completeopt-=preview
 set guioptions=aAc#

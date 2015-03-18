@@ -12,3 +12,7 @@ g:easytags_dynamic_files	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let 
 g:easytags_events	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_events = ['BufWritePost']$/;"	v	language:Vim
 g:easytags_file	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_file = '~\/.vim\/tags'$/;"	v	language:Vim
 g:tagbar_compact	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_compact = 1$/;"	v	language:Vim
+repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ","$/;"	v	language:Vim
+repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ","$/;"	v	language:Vim
+§	/Users/tiagoinacio/.vim/cfg/bundle/snipmate.vim	/^imap § <Plug>snipMateNextOrTrigger$/;"	m	language:Vim
+±	/Users/tiagoinacio/.vim/cfg/bundle/snipmate.vim	/^imap ± <Plug>snipMateNextOrTrigger$/;"	m	language:Vim

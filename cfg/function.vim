@@ -66,6 +66,10 @@ endfunction
 
 highlight ColorColumn ctermbg=grey
 
+function! Start()
+    echo 'Code wisely'
+endfunction
+
 function! MarkMargin (on)
     if exists('b:MarkMargin')
         try
@@ -102,3 +106,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!
+
+call Start()
+
+
