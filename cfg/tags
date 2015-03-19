@@ -1,5 +1,8 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
 -	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^map - dd$/;"	m	language:Vim
+0	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap 0 \$$/;"	m	language:Vim
+1	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap 1 0$/;"	m	language:Vim
+2	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap 2 ^$/;"	m	language:Vim
 ;	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap ; :$/;"	m	language:Vim
 ;	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^vmap ; :B<SPACE>$/;"	m	language:Vim
 <BS>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^vmap <BS> x$/;"	m	language:Vim
@@ -18,6 +21,7 @@
 <leader><TAB>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m	language:Vim
 <leader>ca	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>ca :CtrlPTag<CR>$/;"	m	language:Vim
 <leader>cb	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
+<leader>cc	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cc :CtrlPBufTag<CR>$/;"	m	language:Vim
 <leader>cp	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cp :CtrlPCurWD<CR>$/;"	m	language:Vim
 <leader>ct	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>ct :CtrlPBufTagAll<CR>$/;"	m	language:Vim
 <leader>do	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>do :JsDoc<CR>$/;"	m	language:Vim
@@ -56,11 +60,9 @@
 AutoProjectRootCD	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! <SID>AutoProjectRootCD()$/;"	f	language:Vim
 AutoUpdateCTags	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup AutoUpdateCTags$/;"	a	language:Vim
 B	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap B <Plug>(easymotion-b)$/;"	m	language:Vim
-E	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap E \$$/;"	m	language:Vim
-e	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap e ^$/;"	m	language:Vim
 g:BASH_Ctrl_j	/Users/tiagoinacio/.vim/cfg/general.vim	/^let g:BASH_Ctrl_j = 'off'$/;"	v	language:Vim
 J	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap J 3j<CR>$/;"	m	language:Vim
-K	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap K 3k<CR>$/;"	m	language:Vim
+K	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap K 5k<CR>$/;"	m	language:Vim
 mapleader	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^let mapleader = ","$/;"	v	language:Vim
 MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup MarkMargin$/;"	a	language:Vim
 MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! MarkMargin (on)$/;"	f	language:Vim

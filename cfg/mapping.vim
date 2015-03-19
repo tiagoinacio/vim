@@ -9,7 +9,7 @@ vmap <BS> x
 map - dd
 map _ ddO<Esc>0
 nnoremap J 3j<CR>
-nnoremap K 3k<CR>
+nnoremap K 5k<CR>
 
 imap ¯ <Esc>ja
 imap „ <Esc>ka
@@ -27,6 +27,7 @@ nnoremap <c-l> <c-w>l
 noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
+noremap <leader>cc :CtrlPBufTag<CR>
 noremap <leader>ct :CtrlPBufTagAll<CR>
 noremap <leader>ca :CtrlPTag<CR>
 noremap <leader>ta :TagbarToggle<CR>
