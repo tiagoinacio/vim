@@ -3,6 +3,10 @@ nmap S :%s///g<LEFT><LEFT><LEFT>
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 nmap ; :
 
+imap jj <Esc>
+imap kk <Esc>:
+nmap <TAB> :
+
 vmap ; :B<SPACE>
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
@@ -60,7 +64,7 @@ noremap <leader>gs :GitGutterStageHunk<cr>
 noremap <leader>gr :GitGutterRevertHunk<cr>
 noremap <leader>gn :GitGutterNextHunk<cr>
 noremap <leader>gp :GitGutterPrevHunk<cr>
-noremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 nmap <leader>w <Plug>(easymotion-w)
 nmap B <Plug>(easymotion-b)
 nmap W <Plug>(easymotion-w)

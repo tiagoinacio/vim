@@ -55,14 +55,17 @@
 <leader>vs	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>vs :vsplit<CR>$/;"	m	language:Vim
 <leader>w	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <leader>w <Plug>(easymotion-w)$/;"	m	language:Vim
 <space>	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap <space> za     " space open\/closes folds$/;"	m	language:Vim
-<Tab>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <Tab> <C-R>=Tab_Or_Complete()<CR>$/;"	m	language:Vim
+<Tab>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap <Tab> <C-R>=Tab_Or_Complete()<CR>$/;"	m	language:Vim
+<TAB>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <TAB> :$/;"	m	language:Vim
 >>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments$/;"	m	language:Vim
 AutoProjectRootCD	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! <SID>AutoProjectRootCD()$/;"	f	language:Vim
 AutoUpdateCTags	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup AutoUpdateCTags$/;"	a	language:Vim
 B	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap B <Plug>(easymotion-b)$/;"	m	language:Vim
 g:BASH_Ctrl_j	/Users/tiagoinacio/.vim/cfg/general.vim	/^let g:BASH_Ctrl_j = 'off'$/;"	v	language:Vim
 J	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap J 3j<CR>$/;"	m	language:Vim
+jj	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap jj <Esc>$/;"	m	language:Vim
 K	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap K 5k<CR>$/;"	m	language:Vim
+kk	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap kk <Esc>:$/;"	m	language:Vim
 mapleader	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^let mapleader = ","$/;"	v	language:Vim
 MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup MarkMargin$/;"	a	language:Vim
 MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! MarkMargin (on)$/;"	f	language:Vim
