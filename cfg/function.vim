@@ -67,7 +67,7 @@ endfunction
 highlight ColorColumn ctermbg=grey
 
 function! Start()
-    echo 'Code wisely'
+    "echo 'Code wisely'
 endfunction
 
 function! MarkMargin (on)

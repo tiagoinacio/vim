@@ -1,6 +1,5 @@
 " ----- xolox/vim-easytags settings -----
 " Where to look for tags files
-set tags=./tags;,~/.vimtags
 " Sensible defaults
 "let g:tagbar_left = 1
 let g:tagbar_compact = 1
