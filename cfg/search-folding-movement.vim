@@ -20,11 +20,6 @@ nnoremap <space> za     " space open/closes folds
 set modelines=1
 set number "This will be folded
 
-" Movement
-nnoremap 1 0
-nnoremap 0 $
-nnoremap 2 ^
-
 " copy to clipboard
 set clipboard=unnamed
 "           +--Disable hlsearch while loading viminfo

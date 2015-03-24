@@ -12,8 +12,8 @@ vmap ; :B<SPACE>
 vmap <BS> x
 map - dd
 map _ ddO<Esc>0
-nnoremap J 3j<CR>
-nnoremap K 5k<CR>
+nnoremap J 1j<CR>
+nnoremap K 3k<CR>
 
 imap ¯ <Esc>ja
 imap „ <Esc>ka
@@ -24,7 +24,6 @@ noremap <leader><left> :bp<CR>
 noremap <leader><right> :bn<CR>
 map <C-L> :bnext<CR>
 map <C-H> :bprev<CR>
-map <C-W> :bd<CR>
 map <leader>gf <C-]><CR>
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
@@ -66,7 +65,7 @@ noremap <leader>gn :GitGutterNextHunk<cr>
 noremap <leader>gp :GitGutterPrevHunk<cr>
 imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 nmap <leader>w <Plug>(easymotion-w)
-nmap B <Plug>(easymotion-b)
+nmap Q <Plug>(easymotion-b)
 nmap W <Plug>(easymotion-w)
 map <Esc>^[^[[D :bp<CR>
 map <Esc>^[^[[C :bn<CR>
