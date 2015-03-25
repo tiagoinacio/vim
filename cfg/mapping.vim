@@ -1,7 +1,8 @@
 let mapleader = ","
-nmap S :%s///g<LEFT><LEFT><LEFT>
+nmap S :s///g<LEFT><LEFT><LEFT>
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 nmap ; :
+nmap W w
 
 imap jj <Esc>
 imap kk <Esc>:
@@ -20,6 +21,9 @@ imap „ <Esc>ka
 imap ˇ <Esc>ha
 imap ‘ <Esc>la
 
+noremap <leader>tp tabp<CR>
+noremap <leader>tn tabn<CR>
+
 noremap <leader><left> :bp<CR>
 noremap <leader><right> :bn<CR>
 map <C-L> :bnext<CR>
@@ -28,12 +32,15 @@ map <leader>gf <C-]><CR>
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 noremap <leader>cp :CtrlPCurWD<CR>
+noremap <leader>bo :CtrlPBookmarkDir<CR>
 noremap <leader><TAB> :CtrlP<CR>
+noremap <leader>ba :CtrlPTag<CR>
+noremap <leader>bb :CtrlPBufTagAll<CR>
+noremap <leader>bc :CtrlPBufTag<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
-noremap <leader>cc :CtrlPBufTag<CR>
-noremap <leader>ct :CtrlPBufTagAll<CR>
-noremap <leader>ca :CtrlPTag<CR>
-noremap <leader>ta :TagbarToggle<CR>
+noremap <leader>ct :CtrlPSmartTabs<CR>
+noremap <leader>ss :CtrlSpace<CR>
+noremap <leader>sn :CtrlSpaceTabLabel<CR>
 noremap <leader>do :JsDoc<CR>
 noremap <leader>ne :NERDTreeToggle<CR>
 noremap <leader>kk  <C-w>k<CR>
@@ -69,8 +76,14 @@ nmap Q <Plug>(easymotion-b)
 nmap W <Plug>(easymotion-w)
 map <Esc>^[^[[D :bp<CR>
 map <Esc>^[^[[C :bn<CR>
-" Disable arrow keys
-"map <up> <nop>
+
+" provide hjkl movements in Insert mode via the <Alt> modifier key
+inoremap <A-h> <C-o>h
+inoremap <A-j> <C-o>j
+inoremap <A-k> <C-o>k
+inoremap <A-l> <C-o>l" Disable arrow keys
+
+""map <up> <nop>
 "map <down> <nop>
 "map <left> <nop>
 "map <right> <nop>

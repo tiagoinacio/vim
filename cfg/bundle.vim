@@ -25,6 +25,7 @@ Plugin 'terryma/vim-expand-region'
 Plugin 'vim-scripts/repmo.vim'
 
 " window
+Plugin 'vim-scripts/Tab-Name'
 Plugin 'vim-scripts/BufOnly.vim'
 Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
@@ -45,7 +46,8 @@ Plugin 'rking/ag.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'FelikZ/ctrlp-py-matcher'
-
+Plugin 'DavidEGx/ctrlp-smarttabs'
+Plugin 'szw/vim-ctrlspace'
 " themes
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'endel/vim-github-colorscheme'

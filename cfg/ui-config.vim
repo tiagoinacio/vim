@@ -9,7 +9,7 @@ set encoding=utf-8
 set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
-set guifont=Monaco:h12
+set guifont=Monaco:h12.2
 set winheight=3
 set winheight=999
 set columns=120
@@ -23,7 +23,7 @@ nnoremap gV `[v`] " highlight last inserted text
 set tabstop=4        " number of visual spaces per TAB
 set softtabstop=4    " number of spaces in tab when editing
 set expandtab        " tabs are spaces
-set linespace=2.2
+set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
 "hi clear NonText

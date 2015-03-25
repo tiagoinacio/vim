@@ -106,7 +106,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!
-
+autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 call Start()
 
 
