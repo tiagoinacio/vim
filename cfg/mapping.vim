@@ -1,12 +1,26 @@
-let mapleader = ","
+map <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
-nmap ; :
+nmap , :
 nmap W w
 
 imap jj <Esc>
 imap kk <Esc>:
+map :Q :q
 nmap <TAB> :
+nmap <leader>tn :tabnew<CR>
+nmap <leader>bn gt
+nmap <leader>bp gT
+nmap <leader>b1 1gt
+nmap <leader>b2 2gt
+nmap <leader>b3 3gt
+nmap <leader>b4 4gt
+nmap <leader>b5 5gt
+nmap <leader>b6 6gt
+nmap <leader>b7 7gt
+nmap <leader>b8 8gt
+nmap <leader>b9 9gt
+
 
 vmap ; :B<SPACE>
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
@@ -15,19 +29,14 @@ map - dd
 map _ ddO<Esc>0
 nnoremap J 1j<CR>
 nnoremap K 3k<CR>
+nnoremap H gT
+nnoremap L gt
 
 imap ¯ <Esc>ja
 imap „ <Esc>ka
 imap ˇ <Esc>ha
 imap ‘ <Esc>la
 
-noremap <leader>tp tabp<CR>
-noremap <leader>tn tabn<CR>
-
-noremap <leader><left> :bp<CR>
-noremap <leader><right> :bn<CR>
-map <C-L> :bnext<CR>
-map <C-H> :bprev<CR>
 map <leader>gf <C-]><CR>
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
@@ -39,10 +48,11 @@ noremap <leader>bb :CtrlPBufTagAll<CR>
 noremap <leader>bc :CtrlPBufTag<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader>ct :CtrlPSmartTabs<CR>
-noremap <leader>ss :CtrlSpace<CR>
+noremap <leader>sb :CtrlSpace<CR>
+noremap <leader>st :CtrlSpace l<CR>
 noremap <leader>sn :CtrlSpaceTabLabel<CR>
 noremap <leader>do :JsDoc<CR>
-noremap <leader>ne :NERDTreeToggle<CR>
+noremap <leader>ne :NERDTreeTabsToggle<CR>
 noremap <leader>kk  <C-w>k<CR>
 noremap <leader>g :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 noremap <leader>gu :GundoToggle<CR>
@@ -74,8 +84,6 @@ imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 nmap <leader>w <Plug>(easymotion-w)
 nmap Q <Plug>(easymotion-b)
 nmap W <Plug>(easymotion-w)
-map <Esc>^[^[[D :bp<CR>
-map <Esc>^[^[[C :bn<CR>
 
 " provide hjkl movements in Insert mode via the <Alt> modifier key
 inoremap <A-h> <C-o>h

@@ -15,6 +15,9 @@
 <leader><right>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader><right> :bn<CR>$/;"	m	language:Vim
 <leader><space>	/Users/tiagoinacio/.vim/cfg/search-folding-movement.vim	/^nnoremap <leader><space> :nohlsearch<CR> " turn off search highlight$/;"	m	language:Vim
 <leader><TAB>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m	language:Vim
+<leader>bdb	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bdb :B2BDiff()<CR>$/;"	m	language:Vim
+<leader>bsf	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bsf :B2BSwap()<CR>$/;"	m	language:Vim
+<leader>bst	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bst :B2BUnitTest()<CR>$/;"	m	language:Vim
 <leader>ca	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>ca :CtrlPTag<CR>$/;"	m	language:Vim
 <leader>cb	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
 <leader>cc	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cc :CtrlPBufTag<CR>$/;"	m	language:Vim
@@ -54,6 +57,20 @@
 <Tab>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap <Tab> <C-R>=Tab_Or_Complete()<CR>$/;"	m	language:Vim
 <TAB>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <TAB> :$/;"	m	language:Vim
 >>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments$/;"	m	language:Vim
+B2BDiff	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BDiff call B2BDiff()$/;"	c	language:Vim
+B2BDiff	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BDiff()$/;"	f	language:Vim
+B2BSwap	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BSwap call B2BSwap()$/;"	c	language:Vim
+B2BSwap	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BSwap()$/;"	f	language:Vim
+B2BTabsFunctional	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BTabsFunctional call B2BTabsFunctional()$/;"	c	language:Vim
+B2BTabsFunctional	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BTabsFunctional()$/;"	f	language:Vim
+B2BTabsSetup	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BTabsSetup call B2BTabsStatic()$/;"	c	language:Vim
+B2BTabsStatic	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BTabsStatic()$/;"	f	language:Vim
+B2BUnitTest	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BUnitTest call B2BUnitTest()$/;"	c	language:Vim
+B2BUnitTest	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BUnitTest()$/;"	f	language:Vim
+g:bf_b2b_loaded	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_b2b_loaded = 1$/;"	v	language:Vim
+g:bf_b2b_map_keys	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    let g:bf_b2b_map_keys = 1$/;"	v	language:Vim
+g:bf_base_path	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_base_path = ''$/;"	v	language:Vim
+g:bf_flavour_path	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_flavour_path = ''$/;"	v	language:Vim
 J	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap J 1j<CR>$/;"	m	language:Vim
 jj	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^imap jj <Esc>$/;"	m	language:Vim
 K	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap K 3k<CR>$/;"	m	language:Vim

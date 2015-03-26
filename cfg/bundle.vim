@@ -1,5 +1,5 @@
 " personal plugins
-Plugin 'https://bitbucket.org/tiagojoao/vim-bf-b2b.git'
+Plugin 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
 
 " vundle
 Plugin 'gmarik/vundle'

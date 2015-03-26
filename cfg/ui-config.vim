@@ -1,4 +1,5 @@
 syntax enable        " enable syntax processing
+set showtabline=2
 set relativenumber
 set showcmd             " show command in bottom barset cursorline
 set cursorline          " highlight current line

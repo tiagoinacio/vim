@@ -67,7 +67,6 @@ endfunction
 highlight ColorColumn ctermbg=grey
 
 function! Start()
-    "echo 'Code wisely'
 endfunction
 
 function! MarkMargin (on)
@@ -108,5 +107,3 @@ autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!
 autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 call Start()
-
-
