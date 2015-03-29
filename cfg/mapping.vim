@@ -4,13 +4,15 @@ nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on
 nmap , :
 nmap W w
 
-imap jj <Esc>
+imap ,, <Esc>
 imap kk <Esc>:
 map :Q :q
 nmap <TAB> :
 nmap <leader>tn :tabnew<CR>
+nmap <leader>bd :bd<CR>
 nmap <leader>bn gt
-nmap <leader>bp gT
+nmap <leader>gt gt
+nmap <leader>gT gT
 nmap <leader>b1 1gt
 nmap <leader>b2 2gt
 nmap <leader>b3 3gt
@@ -21,7 +23,7 @@ nmap <leader>b7 7gt
 nmap <leader>b8 8gt
 nmap <leader>b9 9gt
 
-
+nmap <leader>ss :CtrlSpace<CR>
 vmap ; :B<SPACE>
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
@@ -43,9 +45,9 @@ nnoremap <c-l> <c-w>l
 noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader>bo :CtrlPBookmarkDir<CR>
 noremap <leader><TAB> :CtrlP<CR>
-noremap <leader>ba :CtrlPTag<CR>
-noremap <leader>bb :CtrlPBufTagAll<CR>
-noremap <leader>bc :CtrlPBufTag<CR>
+noremap <leader>ta :CtrlPTag<CR>
+noremap <leader>tb :CtrlPBufTagAll<CR>
+noremap <leader>tc :CtrlPBufTag<CR>
 noremap <leader>cb :CtrlPBuffer<CR>
 noremap <leader>ct :CtrlPSmartTabs<CR>
 noremap <leader>sb :CtrlSpace<CR>

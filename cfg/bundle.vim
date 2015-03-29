@@ -25,6 +25,7 @@ Plugin 'terryma/vim-expand-region'
 Plugin 'vim-scripts/repmo.vim'
 
 " window
+Plugin 'vim-scripts/vimuiex'
 Plugin 'vim-scripts/Tab-Name'
 Plugin 'vim-scripts/BufOnly.vim'
 Plugin 'bling/vim-airline'

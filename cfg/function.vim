@@ -64,7 +64,7 @@ function! ShiftLine()
     set smartindent
 endfunction
 
-highlight ColorColumn ctermbg=grey
+"highlight ColorColumn ctermbg=grey
 
 function! Start()
 endfunction
@@ -82,7 +82,6 @@ function! MarkMargin (on)
     endif
 endfunction
 
-augroup MarkMargin
 " highlight the status bar when in insert mode
 if version >= 700
   au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2

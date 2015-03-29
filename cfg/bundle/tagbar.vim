@@ -7,7 +7,7 @@ let g:tagbar_compact = 1
 
 " ----- majutsushi/tagbar settings -----
 " Open/close tagbar with \b
-nmap <leader>ta :TagbarToggle<CR>
+nmap <leader>tg :TagbarToggle<CR>
 " Uncomment to open tagbar automatically whenever possible
 "autocmd BufEnter * nested :call tagbar#autoopen(0)
 "
