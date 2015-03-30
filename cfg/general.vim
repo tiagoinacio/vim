@@ -16,3 +16,6 @@ set updatecount=10                  "Save buffer every 10 chars typed
 set scrolloff=2                     "Scroll when 2 lines from top/bottom
 
 set ruler                           "Show cursor location info on status line
+let g:tlist_javascript_settings = 'javascript;r:var;s:string;a:array;o:object;u:function'
+
+

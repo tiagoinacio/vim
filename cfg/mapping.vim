@@ -1,7 +1,7 @@
-map <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
-nmap , :
+nmap <space> <leader>
+map , :
 nmap W w
 
 imap ,, <Esc>
@@ -10,18 +10,19 @@ map :Q :q
 nmap <TAB> :
 nmap <leader>tn :tabnew<CR>
 nmap <leader>bd :bd<CR>
-nmap <leader>bn gt
+nmap <leader>bn :bn<CR>
+nmap <leader>bp :bp<CR>
 nmap <leader>gt gt
 nmap <leader>gT gT
-nmap <leader>b1 1gt
-nmap <leader>b2 2gt
-nmap <leader>b3 3gt
-nmap <leader>b4 4gt
-nmap <leader>b5 5gt
-nmap <leader>b6 6gt
-nmap <leader>b7 7gt
-nmap <leader>b8 8gt
-nmap <leader>b9 9gt
+nmap <leader>b1 b2
+nmap <leader>b2 b2
+nmap <leader>b3 b3
+nmap <leader>b4 b4
+nmap <leader>b5 b5
+nmap <leader>b6 b6
+nmap <leader>b7 b7
+nmap <leader>b8 b8
+nmap <leader>b9 b9
 
 nmap <leader>ss :CtrlSpace<CR>
 vmap ; :B<SPACE>

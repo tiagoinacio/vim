@@ -100,6 +100,8 @@ augroup END
 "augroup END
 
 autocmd BufEnter * call <SID>AutoProjectRootCD()
+nmap <leader>cd :ProjectRootCD<CR>
+
 autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd InsertLeave * :set relativenumber
