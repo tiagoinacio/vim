@@ -1,7 +1,7 @@
 nmap S :s///g<LEFT><LEFT><LEFT>
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 nmap <space> <leader>
-map , :
+nnoremap , :
 nmap W w
 
 imap ,, <Esc>

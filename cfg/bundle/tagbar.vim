@@ -3,6 +3,7 @@
 " Sensible defaults
 "let g:tagbar_left = 1
 let g:tagbar_compact = 1
+let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 "autocmd VimEnter * nested :TagbarOpen
 
 " ----- majutsushi/tagbar settings -----
