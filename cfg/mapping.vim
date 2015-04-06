@@ -1,14 +1,14 @@
-nmap S :s///g<LEFT><LEFT><LEFT>
-nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
-nmap <space> <leader>
-nnoremap , :
-nmap :W :w
 
-imap ,, <Esc>
-imap kk <Esc>:
+
+" normal mode
+nmap <space> <leader>
+nmap S :s///g<LEFT><LEFT><LEFT>
+nmap , :
+nmap :W :w
+nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 map :Q :q
 nmap <TAB> :GitGutterNextHunk<CR>
-nmap <TAB><TAB> :GitGutterPrevHunk<CR>
+nmap <S-TAB> :GitGutterPrevHunk<CR>
 nmap <leader>tn :tabnew<CR>
 nmap <leader>bd :bd<CR>
 nmap <leader>bn :bn<CR>
@@ -22,11 +22,6 @@ nmap <leader>b6 :b6
 nmap <leader>b7 :b7
 nmap <leader>b8 :b8
 nmap <leader>b9 :b9
-
-nmap <leader>ss :CtrlSpace<CR>
-vmap ; :B<SPACE>
-" Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
-vmap <BS> x
 nmap - dd
 nmap _ ddO
 nnoremap J 2j
@@ -34,12 +29,21 @@ nnoremap K 2k
 nnoremap L :bn<CR>
 nnoremap H :bp<CR>
 
+" plugins
+
+nmap <leader>ss :CtrlSpace<CR>
+
+" visual mode
+imap jj <Esc>
+imap kk <Esc>:
+" Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
+vmap <BS> x
+vmap ; :B<SPACE>
 imap ¯ <Esc>ja
 imap „ <Esc>ka
 imap ˇ <Esc>ha
 imap ‘ <Esc>la
 
-map <leader>gf <C-]><CR>
 noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader>bo :CtrlPBookmarkDir<CR>
 noremap <leader><TAB> :CtrlP<CR>
