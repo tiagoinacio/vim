@@ -1,3 +1,25 @@
+fu! SaveSess()
+  execute 'mksession! ' . getcwd() . '/.session.vim'
+endfunction
+
+fu! RestoreSess()
+  if filereadable(getcwd() . '/.session.vim')
+    execute 'so ' . getcwd() . '/.session.vim'
+    if bufexists(1)
+      for l in range(1, bufnr('$'))
+        if bufwinnr(l) == -1
+          exec 'sbuffer ' . l
+        endif
+      endfor
+    endif
+  endif
+endfunction
+
+autocmd VimLeave * call SaveSess()
+autocmd VimEnter * nested call RestoreSess()
+
+set sessionoptions-=options  " Don't save options
+
 function! ToggleNumber() " toggle between number and relativenumber
     if(&relativenumber == 1)
         set norelativenumber
@@ -82,24 +104,35 @@ function! MarkMargin (on)
     endif
 endfunction
 
+
+function s:MkNonExDir(file, buf)
+    if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
+        let dir=fnamemodify(a:file, ':h')
+        if !isdirectory(dir)
+            call mkdir(dir, 'p')
+        endif
+    endif
+endfunction
+
+augroup BWCCreateDir
+    autocmd!
+    autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
+augroup END
+
 " highlight the status bar when in insert mode
 if version >= 700
   au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
   au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
 endif
 
-augroup AutoUpdateCTags
-    autocmd!
-    autocmd  BufEnter  *       :call MarkMargin(1)
-    autocmd  BufEnter  *.vp*   :call MarkMargin(0)
-augroup END
 
 "augroup AutoUpdateCTags
 "    autocmd!
 "    autocmd BufWritePost,FileWritePost *.* call AutoUpdateCTags()
 "augroup END
 
-autocmd BufEnter * call <SID>AutoProjectRootCD()
+autocmd BufEnter * :call <SID>AutoProjectRootCD()
+autocmd BufEnter * :call MarkMargin(1)
 nmap <leader>cd :ProjectRootCD<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e

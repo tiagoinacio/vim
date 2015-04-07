@@ -3,7 +3,7 @@
 " normal mode
 nmap <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
-nmap , :
+nnoremap , :
 nmap :W :w
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 map :Q :q
@@ -77,8 +77,6 @@ noremap <leader>h- :resize -10<cr>
 noremap <leader>gp :GitGutterPreviewHunk<cr>
 noremap <leader>gs :GitGutterStageHunk<cr>
 noremap <leader>gr :GitGutterRevertHunk<cr>
-noremap <leader>gn :GitGutterNextHunk<cr>
-noremap <leader>gp :GitGutterPrevHunk<cr>
 imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 nmap <leader>w <Plug>(easymotion-w)
 nmap <leader>b <Plug>(easymotion-b)
