@@ -17,6 +17,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'vim-scripts/YankRing.vim'
 
 " motion
+Plugin 'terryma/vim-multiple-cursors'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'terryma/vim-expand-region'
 Plugin 'vim-scripts/repmo.vim'
@@ -33,6 +34,7 @@ Plugin 'xolox/vim-easytags'
 Plugin 'vim-scripts/Tagbar'
 
 " languague support
+Plugin 'vim-scripts/MatlabFilesEdition'
 Plugin 'claco/jasmine.vim'
 Plugin 'elzr/vim-json'
 Plugin 'othree/javascript-libraries-syntax.vim'
@@ -71,6 +73,10 @@ Plugin 'sjl/gundo.vim'
 Plugin 'danro/rename.vim'
 
 "Plugin 'jistr/vim-nerdtree-tabs'
+" others
+Plugin 'aquach/vim-http-client'
+Plugin 'dbeniamine/todo.txt-vim'
+
 "Plugin 'maksimr/vim-jsbeautify'
 "Plugin 'michalliu/sourcebeautify.vim'
 "Plugin 'mattn/emmet-vim'
