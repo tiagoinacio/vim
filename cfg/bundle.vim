@@ -38,6 +38,7 @@ Plugin 'vim-scripts/MatlabFilesEdition'
 Plugin 'claco/jasmine.vim'
 Plugin 'elzr/vim-json'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'groenewege/vim-less'
 
 " grep
 Plugin 'rking/ag.vim'

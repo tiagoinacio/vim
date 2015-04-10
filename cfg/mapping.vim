@@ -44,6 +44,9 @@ imap „ <Esc>ka
 imap ˇ <Esc>ha
 imap ‘ <Esc>la
 
+noremap <leader>sh :shell<CR>
+
+nnoremap <leader>yr :YRShow<CR>
 noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader>bo :CtrlPBookmarkDir<CR>
 noremap <leader><TAB> :CtrlP<CR>
