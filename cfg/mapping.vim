@@ -1,8 +1,10 @@
-
-
 " normal mode
 nmap <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
+nmap <leader>7 :s/^/\/\//g<CR>
+nmap <leader>6 :s/\/\/g<CR>
+vmap 7 :s/^/\/\//g<CR>
+vmap 6 :s/\/\///g<CR>
 nnoremap , :
 nmap :W :w
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
