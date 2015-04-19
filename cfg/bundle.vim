@@ -40,6 +40,7 @@ Plugin 'claco/jasmine.vim'
 Plugin 'elzr/vim-json'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'groenewege/vim-less'
+Plugin 'vim-scripts/Txtfmt-The-Vim-Highlighter'
 
 " grep
 Plugin 'rking/ag.vim'

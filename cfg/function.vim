@@ -140,6 +140,7 @@ autocmd BufEnter * :call MarkMargin(1)
 nmap <leader>cd :ProjectRootCD<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufRead,BufNewFile *.txt :set ft=txtfmt
 
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!
