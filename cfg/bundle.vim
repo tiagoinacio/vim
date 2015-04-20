@@ -66,9 +66,11 @@ Plugin 'dahu/vim-fanfingtastic'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tmhedberg/matchit'
+Plugin 'tommcdo/vim-exchange'
 
 " explorer
 Plugin 'scrooloose/nerdtree'
+""Plugin 'tpope/vim-vinegar'
 Plugin 'dbakker/vim-projectroot'
 Plugin 'sjl/gundo.vim'
 
