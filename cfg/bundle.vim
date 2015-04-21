@@ -50,10 +50,11 @@ Plugin 'FelikZ/ctrlp-py-matcher'
 "Plugin 'DavidEGx/ctrlp-smarttabs'
 "Plugin 'szw/vim-ctrlspace'
 
-" themes
+" theme
 "Plugin 'nanotech/jellybeans.vim'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'chriskempson/base16-vim'
+Plugin 'zefei/vim-colortuner'
 "Plugin 'whatyouhide/vim-gotham'
 
 " latex
