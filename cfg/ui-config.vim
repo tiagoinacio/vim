@@ -11,8 +11,8 @@ set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
 set guifont=Monaco:h12.2
-set winheight=3
-set winheight=999
+"set winheight=3
+"set winheight=999
 set columns=120
 set winwidth=84
 set laststatus=2
@@ -20,7 +20,6 @@ filetype off
 filetype plugin on
 set backspace=indent,eol,start
 set splitright
-nnoremap gV `[v`] " highlight last inserted text
 set tabstop=4        " number of visual spaces per TAB
 set softtabstop=4    " number of spaces in tab when editing
 set expandtab        " tabs are spaces
