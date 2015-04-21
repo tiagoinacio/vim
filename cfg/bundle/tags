@@ -33,8 +33,6 @@ g:EasyMotion_do_mapping	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^let 
 g:EasyMotion_smartcase	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^let g:EasyMotion_smartcase = 1$/;"	v	language:Vim
 g:tagbar_compact	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_compact = 1$/;"	v	language:Vim
 g:tagbar_ctags_bin	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_ctags_bin = '\/usr\/local\/bin\/ctags'$/;"	v	language:Vim
-m	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map  m <Plug>(easymotion-next)$/;"	m	language:Vim
-M	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map  M <Plug>(easymotion-prev)$/;"	m	language:Vim
 macvim_hig_shift_movement	/Users/tiagoinacio/.vim/cfg/bundle/macvim.vim	/^    let macvim_hig_shift_movement = 1$/;"	v	language:Vim
 NERDTreeIgnore	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^let NERDTreeIgnore = ['tags']$/;"	v	language:Vim
 s	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map  s <Plug>(easymotion-sn)$/;"	m	language:Vim
