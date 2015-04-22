@@ -34,7 +34,10 @@ Plugin 'xolox/vim-easytags'
 Plugin 'vim-scripts/Tagbar'
 
 " languague support
+<<<<<<< Updated upstream
 Plugin 'embear/vim-localvimrc'
+=======
+>>>>>>> Stashed changes
 Plugin 'vim-scripts/MatlabFilesEdition'
 Plugin 'claco/jasmine.vim'
 Plugin 'elzr/vim-json'
