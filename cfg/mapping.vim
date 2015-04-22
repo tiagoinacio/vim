@@ -1,8 +1,8 @@
 " normal mode
 nmap <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
-nnoremap / /\v
-vnoremap / /\v
+nnoremap s /\v
+vnoremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\/g<CR>
 vmap 7 :s/^/\/\//g<CR>
