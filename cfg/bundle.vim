@@ -1,93 +1,97 @@
+call plug#begin('~/.vim/plugged')
+
 " personal plugins
-Plugin 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
+" Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
 
 " vundle
-Plugin 'gmarik/vundle'
+Plug 'gmarik/vundle'
 
 " documentation
-Plugin 'heavenshell/vim-jsdoc'
+Plug 'heavenshell/vim-jsdoc'
 
 " error handling
-Plugin 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 
 " auto completition
-" Plugin 'marijnh/tern_for_vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'vim-scripts/YankRing.vim'
+" Plug 'marijnh/tern_for_vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'vim-scripts/YankRing.vim'
 
 " motion
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'terryma/vim-expand-region'
-Plugin 'vim-scripts/repmo.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'terryma/vim-expand-region'
+Plug 'vim-scripts/repmo.vim'
 
 " window
-Plugin 'vim-scripts/BufOnly.vim'
-Plugin 'bling/vim-airline'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'shinokada/dragvisuals.vim'
+Plug 'vim-scripts/BufOnly.vim'
+Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'shinokada/dragvisuals.vim'
 
 " tags
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
-Plugin 'vim-scripts/Tagbar'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
+Plug 'vim-scripts/Tagbar'
 
 " languague support
-Plugin 'embear/vim-localvimrc'
-Plugin 'vim-scripts/MatlabFilesEdition'
-Plugin 'claco/jasmine.vim'
-Plugin 'elzr/vim-json'
-Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'groenewege/vim-less'
-" Plugin 'vim-scripts/Txtfmt-The-Vim-Highlighter'
+Plug 'embear/vim-localvimrc'
+Plug 'vim-scripts/MatlabFilesEdition'
+Plug 'claco/jasmine.vim'
+Plug 'elzr/vim-json'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'groenewege/vim-less'
 
 " grep
-Plugin 'rking/ag.vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'FelikZ/ctrlp-py-matcher'
-"Plugin 'DavidEGx/ctrlp-smarttabs'
-"Plugin 'szw/vim-ctrlspace'
+Plug 'rking/ag.vim'
+Plug 'mileszs/ack.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'FelikZ/ctrlp-py-matcher'
+"Plug 'DavidEGx/ctrlp-smarttabs'
+"Plug 'szw/vim-ctrlspace'
 
 " theme
-"Plugin 'nanotech/jellybeans.vim'
-Plugin 'endel/vim-github-colorscheme'
-Plugin 'chriskempson/base16-vim'
-"Plugin 'whatyouhide/vim-gotham'
+"Plug 'nanotech/jellybeans.vim'
+Plug 'endel/vim-github-colorscheme'
+Plug 'chriskempson/base16-vim'
+"Plug 'whatyouhide/vim-gotham'
 
 " latex
-Plugin 'gerw/vim-latex-suite'
+Plug 'gerw/vim-latex-suite'
 
 " helpers
-Plugin 'HTML-AutoCloseTag'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'dahu/vim-fanfingtastic'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
-Plugin 'tmhedberg/matchit'
-Plugin 'tommcdo/vim-exchange'
+Plug 'HTML-AutoCloseTag'
+Plug 'jiangmiao/auto-pairs'
+Plug 'dahu/vim-fanfingtastic'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tmhedberg/matchit'
+Plug 'tommcdo/vim-exchange'
 
 " explorer
-Plugin 'scrooloose/nerdtree'
-""Plugin 'tpope/vim-vinegar'
-Plugin 'dbakker/vim-projectroot'
-Plugin 'sjl/gundo.vim'
+Plug 'scrooloose/nerdtree'
+""Plug 'tpope/vim-vinegar'
+Plug 'dbakker/vim-projectroot'
+Plug 'sjl/gundo.vim'
 
 " names
-Plugin 'danro/rename.vim'
+Plug 'danro/rename.vim'
 
-"Plugin 'jistr/vim-nerdtree-tabs'
+"Plug 'jistr/vim-nerdtree-tabs'
 " others
-Plugin 'aquach/vim-http-client'
-Plugin 'dbeniamine/todo.txt-vim'
+Plug 'aquach/vim-http-client'
+Plug 'dbeniamine/todo.txt-vim'
+Plug 'chrisbra/vim-diff-enhanced'
 
-"Plugin 'maksimr/vim-jsbeautify'
-"Plugin 'michalliu/sourcebeautify.vim'
-"Plugin 'mattn/emmet-vim'
-"Plugin 'tpope/vim-fugitive'
-"Plugin 'tpope/vim-surround'
-"Plugin 'vim-scripts/CSApprox'
-"Plugin 'tomtom/tlib_vim'
-"Plugin 'garbas/vim-snipmate'
-"Plugin 'honza/vim-snippets'
+"Plug 'maksimr/vim-jsbeautify'
+"Plug 'michalliu/sourcebeautify.vim'
+"Plug 'mattn/emmet-vim'
+"Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-surround'
+"Plug 'vim-scripts/CSApprox'
+"Plug 'tomtom/tlib_vim'
+"Plug 'garbas/vim-snipmate'
+"Plug 'honza/vim-snippets'
+
+call plug#end()

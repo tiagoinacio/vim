@@ -7,6 +7,7 @@ nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\/g<CR>
 vmap 7 :s/^/\/\//g<CR>
 vmap 6 :s/\/\///g<CR>
+vmap y y`]
 nnoremap , :
 nmap :W :w
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
@@ -49,7 +50,7 @@ imap „ <Esc>ka
 imap ˇ <Esc>ha
 imap ‘ <Esc>la
 
-noremap <leader>sh :shell<CR>
+noremap <leader>sh :term<CR>
 
 nnoremap <leader>yr :YRShow<CR>
 noremap <leader>cp :CtrlPCurWD<CR>
