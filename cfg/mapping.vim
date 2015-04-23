@@ -49,7 +49,7 @@ imap „ <Esc>ka
 imap ˇ <Esc>ha
 imap ‘ <Esc>la
 
-noremap <leader>sh :shell<CR>
+noremap <leader>sh :term<CR>
 
 nnoremap <leader>yr :YRShow<CR>
 noremap <leader>cp :CtrlPCurWD<CR>

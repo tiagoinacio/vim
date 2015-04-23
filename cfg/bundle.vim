@@ -84,6 +84,7 @@ Plug 'danro/rename.vim'
 " others
 Plug 'aquach/vim-http-client'
 Plug 'dbeniamine/todo.txt-vim'
+Plug 'chrisbra/vim-diff-enhanced'
 
 "Plug 'maksimr/vim-jsbeautify'
 "Plug 'michalliu/sourcebeautify.vim'
