@@ -11,7 +11,7 @@ Plugin 'heavenshell/vim-jsdoc'
 Plugin 'scrooloose/syntastic'
 
 " auto completition
-Plugin 'marijnh/tern_for_vim'
+" Plugin 'marijnh/tern_for_vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'vim-scripts/YankRing.vim'
@@ -34,10 +34,7 @@ Plugin 'xolox/vim-easytags'
 Plugin 'vim-scripts/Tagbar'
 
 " languague support
-<<<<<<< Updated upstream
 Plugin 'embear/vim-localvimrc'
-=======
->>>>>>> Stashed changes
 Plugin 'vim-scripts/MatlabFilesEdition'
 Plugin 'claco/jasmine.vim'
 Plugin 'elzr/vim-json'
@@ -57,7 +54,6 @@ Plugin 'FelikZ/ctrlp-py-matcher'
 "Plugin 'nanotech/jellybeans.vim'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'chriskempson/base16-vim'
-Plugin 'zefei/vim-colortuner'
 "Plugin 'whatyouhide/vim-gotham'
 
 " latex
