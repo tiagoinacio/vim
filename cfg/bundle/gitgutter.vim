@@ -1,3 +1,9 @@
+nmap <TAB> :GitGutterNextHunk<CR>
+nmap <S-TAB> :GitGutterPrevHunk<CR>
+noremap <leader>gp :GitGutterPreviewHunk<cr>
+noremap <leader>gs :GitGutterStageHunk<cr>
+noremap <leader>gr :GitGutterRevertHunk<cr>
+
 let g:gitgutter_realtime = 1
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_signs = 1

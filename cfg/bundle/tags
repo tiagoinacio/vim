@@ -3,12 +3,36 @@
 /	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^omap \/ <Plug>(easymotion-tn)$/;"	m	language:Vim
 <C-D>	/Users/tiagoinacio/.vim/cfg/bundle/dragvisuals.vim	/^vmap  <expr>  <C-D>    DVB_Duplicate()$/;"	m	language:Vim
 <DOWN>	/Users/tiagoinacio/.vim/cfg/bundle/dragvisuals.vim	/^vmap  <expr>  <DOWN>   DVB_Drag('down')$/;"	m	language:Vim
+<leader><TAB>	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m	language:Vim
+<leader>b	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <leader>b <Plug>(easymotion-b)$/;"	m	language:Vim
+<leader>bo	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>bo :CtrlPBookmarkDir<CR>$/;"	m	language:Vim
+<leader>cb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
+<leader>cp	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>cp :CtrlPCurWD<CR>$/;"	m	language:Vim
+<leader>ct	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ct :CtrlPSmartTabs<CR>$/;"	m	language:Vim
+<leader>do	/Users/tiagoinacio/.vim/cfg/bundle/jsdoc.vim	/^noremap <leader>do :JsDoc<CR>$/;"	m	language:Vim
 <leader>dt	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^nnoremap <silent> <leader>dt :ProjectRootExe NERDTreeFind<cr>$/;"	m	language:Vim
+<leader>gp	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gp :GitGutterPreviewHunk<cr>$/;"	m	language:Vim
+<leader>gr	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gr :GitGutterRevertHunk<cr>$/;"	m	language:Vim
+<leader>gs	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gs :GitGutterStageHunk<cr>$/;"	m	language:Vim
 <Leader>j	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map <Leader>j <Plug>(easymotion-j)$/;"	m	language:Vim
 <Leader>k	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map <Leader>k <Plug>(easymotion-k)$/;"	m	language:Vim
+<leader>ne	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^noremap <leader>ne :NERDTreeToggle<CR>$/;"	m	language:Vim
+<leader>re	/Users/tiagoinacio/.vim/cfg/bundle/tern.vim	/^noremap <leader>re :TernRename<CR>$/;"	m	language:Vim
+<leader>si	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>si :SyntasticInfo<CR>$/;"	m	language:Vim
+<leader>sy	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>sy :SyntasticCheck jslint<CR>$/;"	m	language:Vim
+<leader>ta	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ta :CtrlPTag<CR>$/;"	m	language:Vim
 <leader>ta	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^nmap <leader>ta :TagbarToggle<CR>$/;"	m	language:Vim
+<leader>tb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tb :CtrlPBufTagAll<CR>$/;"	m	language:Vim
+<leader>tc	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tc :CtrlPBufTag<CR>$/;"	m	language:Vim
+<leader>td	/Users/tiagoinacio/.vim/cfg/bundle/tern.vim	/^noremap <leader>td :TernDef<CR>$/;"	m	language:Vim
+<leader>tr	/Users/tiagoinacio/.vim/cfg/bundle/tern.vim	/^noremap <leader>tr :TernRefs<CR>$/;"	m	language:Vim
+<leader>tt	/Users/tiagoinacio/.vim/cfg/bundle/tern.vim	/^noremap <leader>tt :TernType<CR>$/;"	m	language:Vim
+<leader>w	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <leader>w <Plug>(easymotion-w)$/;"	m	language:Vim
+<leader>yr	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^nnoremap <leader>yr :YRShow<CR>$/;"	m	language:Vim
 <LEFT>	/Users/tiagoinacio/.vim/cfg/bundle/dragvisuals.vim	/^vmap  <expr>  <LEFT>   DVB_Drag('left')$/;"	m	language:Vim
 <RIGHT>	/Users/tiagoinacio/.vim/cfg/bundle/dragvisuals.vim	/^vmap  <expr>  <RIGHT>  DVB_Drag('right')$/;"	m	language:Vim
+<S-TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <S-TAB> :GitGutterPrevHunk<CR>$/;"	m	language:Vim
+<TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <TAB> :GitGutterNextHunk<CR>$/;"	m	language:Vim
 <UP>	/Users/tiagoinacio/.vim/cfg/bundle/dragvisuals.vim	/^vmap  <expr>  <UP>     DVB_Drag('up')$/;"	m	language:Vim
 D	/Users/tiagoinacio/.vim/cfg/bundle/dragvisuals.vim	/^vmap  <expr>  D        DVB_Duplicate()$/;"	m	language:Vim
 g:airline#extensions#branch#displayed_head_limit	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#displayed_head_limit = 10$/;"	v	language:Vim
@@ -37,10 +61,26 @@ g:easytags_async	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easyta
 g:easytags_dynamic_files	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_dynamic_files = 1$/;"	v	language:Vim
 g:easytags_events	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_events = ['BufWritePost']$/;"	v	language:Vim
 g:easytags_file	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_file = '.\/tags'$/;"	v	language:Vim
+g:gitgutter_escape_grep	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_escape_grep = 1$/;"	v	language:Vim
+g:gitgutter_highlight_lines	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_highlight_lines = 0$/;"	v	language:Vim
+g:gitgutter_highlight_lines	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_highlight_lines = 1$/;"	v	language:Vim
+g:gitgutter_map_keys	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_map_keys = 0$/;"	v	language:Vim
+g:gitgutter_max_signs	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_max_signs = 500  " default value$/;"	v	language:Vim
+g:gitgutter_realtime	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_realtime = 1$/;"	v	language:Vim
+g:gitgutter_signs	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_signs = 1$/;"	v	language:Vim
+g:gitgutter_sign_column_always	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_sign_column_always = 1$/;"	v	language:Vim
+g:jsdoc_default_mapping	/Users/tiagoinacio/.vim/cfg/bundle/jsdoc.vim	/^let g:jsdoc_default_mapping=0$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_auto_loc_list = 2$/;"	v	language:Vim
+g:syntastic_enable_signs	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_enable_signs=0$/;"	v	language:Vim
 g:syntastic_html_tidy_ignore_errors	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \\"ng-"]$/;"	v	language:Vim
+g:syntastic_javascript_checkers	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_javascript_checkers = ['jshint']$/;"	v	language:Vim
+g:syntastic_loc_list_height	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_loc_list_height = 5$/;"	v	language:Vim
 g:tagbar_compact	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_compact = 1$/;"	v	language:Vim
 g:ycm_add_preview_to_completeopt	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_add_preview_to_completeopt=0$/;"	v	language:Vim
 g:ycm_confirm_extra_conf	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_confirm_extra_conf=0$/;"	v	language:Vim
+jshint2_height	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_height = 3$/;"	v	language:Vim
+jshint2_read	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_read = 1$/;"	v	language:Vim
+jshint2_save	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_save = 1$/;"	v	language:Vim
 NERDTreeIgnore	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim']$/;"	v	language:Vim
 repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ";"$/;"	v	language:Vim
 repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ":"$/;"	v	language:Vim

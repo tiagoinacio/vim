@@ -1,3 +1,6 @@
+noremap <leader>si :SyntasticInfo<CR>
+noremap <leader>sy :SyntasticCheck jslint<CR>
+
 let jshint2_read = 1
 let jshint2_save = 1
 let jshint2_height = 3
