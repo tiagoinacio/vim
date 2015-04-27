@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " personal plugins
-" Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
+Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
 
 " vundle
 Plug 'gmarik/vundle'

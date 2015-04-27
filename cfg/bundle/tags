@@ -24,7 +24,7 @@ g:airline#extensions#windowswap#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airli
 g:airline_section_c	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_section_c = '' "'%{getcwd()}\/%t'$/;"	v	language:Vim
 g:airline_section_warning	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_section_warning = 1$/;"	v	language:Vim
 g:airline_theme	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_theme='base16'$/;"	v	language:Vim
-g:ctrlp_custom_ignore	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_custom_ignore = '\\v[\\\/]\\.(git|hg|svn)$'$/;"	v	language:Vim
+g:ctrlp_custom_ignore	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_custom_ignore = {$/;"	v	language:Vim
 g:ctrlp_match_window	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_match_window = 'bottom,order:ttb'$/;"	v	language:Vim
 g:ctrlp_switch_buffer	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_switch_buffer = 0$/;"	v	language:Vim
 g:ctrlp_user_command	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'$/;"	v	language:Vim
