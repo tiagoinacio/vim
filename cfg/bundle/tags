@@ -42,5 +42,5 @@ g:tagbar_compact	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_co
 g:ycm_add_preview_to_completeopt	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_add_preview_to_completeopt=0$/;"	v	language:Vim
 g:ycm_confirm_extra_conf	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_confirm_extra_conf=0$/;"	v	language:Vim
 NERDTreeIgnore	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim']$/;"	v	language:Vim
-repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ","$/;"	v	language:Vim
-repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ","$/;"	v	language:Vim
+repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ";"$/;"	v	language:Vim
+repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ":"$/;"	v	language:Vim
