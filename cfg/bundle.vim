@@ -41,6 +41,7 @@ Plug 'vim-scripts/MatlabFilesEdition'
 Plug 'claco/jasmine.vim'
 Plug 'elzr/vim-json'
 Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/yajs.vim'
 Plug 'groenewege/vim-less'
 
 " grep
