@@ -4,6 +4,8 @@ nmap S :s///g<LEFT><LEFT><LEFT>
 nnoremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\/g<CR>
+"nmap <leader>bi :set scrollbind<CR> <C-W>l :set scrollbind<CR>
+nmap <leader>bi :set scrollbind<CR>
 
 " Visual
 vnoremap s /\v

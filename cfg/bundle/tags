@@ -71,6 +71,7 @@ g:ycm_confirm_extra_conf	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_
 jshint2_height	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_height = 3$/;"	v	language:Vim
 jshint2_read	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_read = 1$/;"	v	language:Vim
 jshint2_save	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_save = 1$/;"	v	language:Vim
+macvim_hig_shift_movement	/Users/tiagoinacio/.vim/cfg/bundle/macvim.vim	/^    let macvim_hig_shift_movement = 1$/;"	v	language:Vim
 NERDTreeIgnore	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim']$/;"	v	language:Vim
 repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ";"$/;"	v	language:Vim
 repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ":"$/;"	v	language:Vim

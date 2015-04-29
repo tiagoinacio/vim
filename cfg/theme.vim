@@ -1,7 +1,7 @@
 set t_Co=256
 set background=dark
 let base16colorspace=256
-colorscheme base16-flat
+colorscheme base16-default
 highlight clear SignColumn
 hi CursorLine guibg=#232c31
 hi LineNr guibg=#232c31
