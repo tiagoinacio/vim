@@ -1,12 +1,19 @@
-noremap <leader>si :SyntasticInfo<CR>
+noremap <leader>si :SyntasticCheck<CR>
 noremap <leader>sy :SyntasticCheck jslint<CR>
+nnoremap § :call <SID>LocationPrevious()<CR>
+nnoremap ± :call <SID>LocationNext()<CR>
 
+let g:syntastic_aggregate_errors = 1
 let jshint2_read = 1
 let jshint2_save = 1
 let jshint2_height = 3
-let g:syntastic_loc_list_height = 5
+let g:syntastic_loc_list_height = 1
 let g:syntastic_auto_loc_list = 2
-let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['jshint', 'jslint']
+
+let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -18,4 +25,20 @@ let g:syntastic_enable_signs=0
 "highlight SpellBad ctermfg=NONE
 "highlight SpellBad ctermbg=NONE
 "highlight SpellBad cterm=underline
+
+function! <SID>LocationPrevious()
+  try
+    lprev
+  catch /^Vim\%((\a\+)\)\=:E553/
+    llast
+  endtry
+endfunction
+
+function! <SID>LocationNext()
+  try
+    lnext
+  catch /^Vim\%((\a\+)\)\=:E553/
+    lfirst
+  endtry
+endfunction
 
