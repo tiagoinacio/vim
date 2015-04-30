@@ -34,3 +34,5 @@ let $JS_CMD='node'
 
 " center cursor on the screen
 set so=999
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%121v.\+/

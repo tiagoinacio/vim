@@ -137,10 +137,8 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 autocmd BufEnter * :call <SID>AutoProjectRootCD()
 autocmd BufEnter * :call MarkMargin(1)
-nmap <leader>cd :ProjectRootCD<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
-autocmd BufRead,BufNewFile *.txt :set ft=txtfmt
 
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!

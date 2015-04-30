@@ -7,6 +7,8 @@ nmap <leader>6 :s/\/\/g<CR>
 "nmap <leader>bi :set scrollbind<CR> <C-W>l :set scrollbind<CR>
 nmap <leader>bi :set scrollbind<CR>
 
+nmap <leader>cd :ProjectRootCD<CR>
+
 " Visual
 vnoremap s /\v
 vmap 7 :s/^/\/\//g<CR>
