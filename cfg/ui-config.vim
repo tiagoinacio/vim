@@ -36,3 +36,5 @@ let $JS_CMD='node'
 set so=999
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
+match h1 /h1.\+/
+highlight h1 cterm=bold
