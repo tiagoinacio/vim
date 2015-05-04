@@ -13,7 +13,7 @@ Plug 'heavenshell/vim-jsdoc'
 Plug 'scrooloose/syntastic'
 
 " auto completition
-" Plug 'marijnh/tern_for_vim'
+Plug 'marijnh/tern_for_vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'vim-scripts/YankRing.vim'
@@ -41,6 +41,7 @@ Plug 'vim-scripts/MatlabFilesEdition'
 Plug 'claco/jasmine.vim'
 Plug 'elzr/vim-json'
 Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'ahayman/vim-nodejs-complete'
 Plug 'othree/yajs.vim'
 Plug 'groenewege/vim-less'
 
