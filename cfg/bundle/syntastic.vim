@@ -1,5 +1,4 @@
-noremap <leader>si :SyntasticCheck<CR>
-noremap <leader>sy :SyntasticCheck jslint<CR>
+noremap <leader>si :call ToggleErrors()<CR>
 nnoremap § :call <SID>LocationPrevious()<CR>
 nnoremap ± :call <SID>LocationNext()<CR>
 
@@ -7,8 +6,8 @@ let g:syntastic_aggregate_errors = 1
 let jshint2_read = 1
 let jshint2_save = 1
 let jshint2_height = 3
-let g:syntastic_loc_list_height = 1
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height = 3
+let g:syntastic_auto_loc_list = 2
 let g:syntastic_javascript_checkers = ['jscs', 'jshint']
 
 let g:syntastic_always_populate_loc_list = 1
@@ -42,3 +41,11 @@ function! <SID>LocationNext()
   endtry
 endfunction
 
+function! ToggleErrors()
+    let old_last_winnr = winnr('$')
+    lclose
+    if old_last_winnr == winnr('$')
+        " Nothing was closed, open syntastic error location panel
+        Errors
+    endif
+endfunction
