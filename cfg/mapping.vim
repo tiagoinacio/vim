@@ -3,7 +3,7 @@ nmap <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
 nnoremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
-nmap <leader>6 :s/\/\/g<CR>
+nmap <leader>6 :s/\/\//g<CR>
 "nmap <leader>bi :set scrollbind<CR> <C-W>l :set scrollbind<CR>
 nmap <leader>bi :set scrollbind<CR>
 
@@ -23,8 +23,8 @@ nmap <leader>tn :tabnew<CR>
 nmap <leader>bd :bd<CR>
 nmap <leader>bn :bn<CR>
 nmap <leader>bp :bp<CR>
-nmap - dd
-nmap _ ddO
+nnoremap - dd
+nnoremap _ ddO
 nnoremap J 2j
 nnoremap K 2k
 nnoremap L :bn<CR>
