@@ -24,6 +24,10 @@
 <leader>yr	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^nnoremap <leader>yr :YRShow<CR>$/;"	m	language:Vim
 <S-TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <S-TAB> :GitGutterPrevHunk<CR>$/;"	m	language:Vim
 <TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <TAB> :GitGutterNextHunk<CR>$/;"	m	language:Vim
+g:ackprg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ackprg = 'ag --nogroup --nocolor --column'$/;"	v	language:Vim
+g:agprg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:agprg = 'ag --column -l'$/;"	v	language:Vim
+g:ag_format	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ag_format = '%f:%l:%c:%m'$/;"	v	language:Vim
+g:ag_prg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ag_prg = 'ag --column -l'$/;"	v	language:Vim
 g:airline#extensions#branch#displayed_head_limit	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#displayed_head_limit = 10$/;"	v	language:Vim
 g:airline#extensions#branch#empty_message	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#empty_message = ''$/;"	v	language:Vim
 g:airline#extensions#branch#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#enabled = 1$/;"	v	language:Vim
