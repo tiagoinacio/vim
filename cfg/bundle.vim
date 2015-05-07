@@ -3,9 +3,6 @@ call plug#begin('~/.vim/plugged')
 " personal plugins
 Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
 
-" vundle
-Plug 'gmarik/vundle'
-
 " documentation
 Plug 'heavenshell/vim-jsdoc'
 
@@ -19,10 +16,9 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'vim-scripts/YankRing.vim'
 
 " motion
-Plug 'terryma/vim-multiple-cursors'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
-Plug 'vim-scripts/repmo.vim'
+"Plug 'vim-scripts/repmo.vim'
 
 " window
 Plug 'vim-scripts/BufOnly.vim'
@@ -38,7 +34,6 @@ Plug 'vim-scripts/Tagbar'
 " languague support
 Plug 'embear/vim-localvimrc'
 Plug 'vim-scripts/MatlabFilesEdition'
-Plug 'claco/jasmine.vim'
 Plug 'elzr/vim-json'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'ahayman/vim-nodejs-complete'
@@ -65,7 +60,7 @@ Plug 'gerw/vim-latex-suite'
 
 " helpers
 Plug 'HTML-AutoCloseTag'
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
 Plug 'dahu/vim-fanfingtastic'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
@@ -96,5 +91,6 @@ Plug 'chrisbra/vim-diff-enhanced'
 "Plug 'tomtom/tlib_vim'
 "Plug 'garbas/vim-snipmate'
 "Plug 'honza/vim-snippets'
-
+"Plug 'terryma/vim-multiple-cursors'
+"Plug 'claco/jasmine.vim'
 call plug#end()

@@ -38,8 +38,6 @@ imap kk <Esc>:
 vmap <BS> x
 vmap ; :B<SPACE>
 
-noremap <leader>sh :term<CR>
-
 noremap <leader>g :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 noremap <leader>ls :ls<CR>
 noremap <leader>ln :lnext<CR>
@@ -63,3 +61,5 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+vmap <up> x k p
+
