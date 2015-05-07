@@ -8,13 +8,6 @@ set smartcase
 set smartindent
 set ignorecase
 
-" Folding
-set foldenable          " enable folding
-set foldlevelstart=99   " open most folds by default
-set foldnestmax=10      " 10 nested fold max
-set foldmethod=indent   " fold based on indent level
-nnoremap <leader>za za     " space open/closes folds
-
 " Organization
 set modelines=1
 set number "This will be folded
