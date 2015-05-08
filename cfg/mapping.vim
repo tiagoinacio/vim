@@ -8,6 +8,7 @@ nmap <leader>6 :s/\/\//g<CR>
 nmap <leader>bi :set scrollbind<CR>
 
 nmap <leader>cd :ProjectRootCD<CR>
+nnoremap <leader>sh :terminal<CR>
 
 " Visual
 vnoremap s /\v
@@ -25,10 +26,10 @@ nmap <leader>bn :bn<CR>
 nmap <leader>bp :bp<CR>
 nnoremap - dd
 nnoremap _ ddO
-nnoremap J 2j
-nnoremap K 2k
-nnoremap L :bn<CR>
-nnoremap H :bp<CR>
+nnoremap J 3j
+nnoremap K 3k
+nnoremap LL :bn<CR>
+nnoremap HH :bp<CR>
 
 
 " visual mode
@@ -53,10 +54,10 @@ imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 " Disable arrow keys
 
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+nmap <up> dd 2k p
+nmap <down> dd j p
+nmap <left> <nop>
+nmap <right> <nop>
 imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>

@@ -1,4 +1,5 @@
 bundle/**
 !bundle/vundle/**
+plugged/**
 tags
 ./tags

@@ -82,7 +82,7 @@ Plug 'danro/rename.vim'
 Plug 'aquach/vim-http-client'
 Plug 'dbeniamine/todo.txt-vim'
 Plug 'chrisbra/vim-diff-enhanced'
-
+Plug 'dpzmick/neovim-hackernews'
 "Plug 'maksimr/vim-jsbeautify'
 "Plug 'michalliu/sourcebeautify.vim'
 "Plug 'mattn/emmet-vim'
