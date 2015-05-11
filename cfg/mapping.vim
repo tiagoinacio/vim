@@ -10,6 +10,7 @@ nmap <leader>qa :qall!<CR>
 nmap <leader>sa :w!<CR>
 nmap <leader>cd :ProjectRootCD<CR>
 nnoremap <leader>sh :terminal<CR>
+nnoremap ´ /
 
 " Visual
 vnoremap s /\v

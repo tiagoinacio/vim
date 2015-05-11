@@ -1,5 +1,5 @@
 set t_Co=256
-set background=light
+set background=dark
 let base16colorspace=256
 colorscheme base16-default
 highlight clear SignColumn

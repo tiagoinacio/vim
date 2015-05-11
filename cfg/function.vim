@@ -83,23 +83,21 @@ function! ShiftLine()
     set smartindent
 endfunction
 
-"highlight ColorColumn ctermbg=grey
-
 function! Start()
 endfunction
 
-function! MarkMargin (on)
-    if exists('b:MarkMargin')
-        try
-            call matchdelete(b:MarkMargin)
-        catch /./
-        endtry
-        unlet b:MarkMargin
-    endif
-    if a:on
-        let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
-    endif
-endfunction
+"function! MarkMargin (on)
+"    if exists('b:MarkMargin')
+"        try
+"            call matchdelete(b:MarkMargin)
+"        catch /./
+"        endtry
+"        unlet b:MarkMargin
+"    endif
+"    if a:on
+"        let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
+"    endif
+"endfunction
 
 " highlight the status bar when in insert mode
 if version >= 700
@@ -136,11 +134,12 @@ endfunction
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 autocmd BufEnter * :call <SID>AutoProjectRootCD()
-autocmd BufEnter * :call MarkMargin(1)
+"autocmd BufEnter * :call MarkMargin(1)
 
 autocmd BufWritePre * :%s/\s\+$//e
 
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!
 autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+autocmd BufNewFile,BufRead *.js set colorcolumn=120
 call Start()

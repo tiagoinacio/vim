@@ -30,9 +30,9 @@ set shiftwidth=4
 "hi link NonText Ignore
 "au ColorScheme * hi clear NonText | hi link NonText Ignore
 let $JS_CMD='node'
-"hi CursorLine term=NONE cterm=NONE guibg=NONE
-
 " center cursor on the screen
 set so=999
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%121v.\+/
+"hi CursorLine term=NONE cterm=NONE guibg=NONE
+
+" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+" match OverLength /\%121v.\+/
