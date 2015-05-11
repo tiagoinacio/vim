@@ -6,7 +6,8 @@ nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\//g<CR>
 "nmap <leader>bi :set scrollbind<CR> <C-W>l :set scrollbind<CR>
 nmap <leader>bi :set scrollbind<CR>
-
+nmap <leader>qa :qall!<CR>
+nmap <leader>sa :w!<CR>
 nmap <leader>cd :ProjectRootCD<CR>
 nnoremap <leader>sh :terminal<CR>
 
@@ -54,13 +55,9 @@ imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 " Disable arrow keys
 
-nmap <up> dd 2k p
-nmap <down> dd j p
+nmap <up> :exec 'normal ddkkp'<CR>
+nmap <down> :exec 'normal ddp'<CR>
 nmap <left> <nop>
 nmap <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
 vmap <up> x k p
 
