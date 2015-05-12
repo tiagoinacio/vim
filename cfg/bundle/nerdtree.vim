@@ -3,7 +3,7 @@ noremap <leader>ne :call WorkaroundNERDTreeToggle()<CR>
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 "let NERDTreeChDirMode=2
 au BufRead,BufNewFile *.json setf json
-let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim']
+let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim', '*.aux']
 "let g:NERDTreeWinPos = "right"
 "let g:NERDTreeWinSize = 30
 "set autochdir

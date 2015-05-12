@@ -51,10 +51,11 @@ Plug 'FelikZ/ctrlp-py-matcher'
 
 " theme
 "Plug 'nanotech/jellybeans.vim'
+Plug 'therubymug/vim-pyte'
 Plug 'endel/vim-github-colorscheme'
 Plug 'vim-scripts/eclipse.vim'
 Plug 'chriskempson/base16-vim'
-"Plug 'whatyouhide/vim-gotham'
+Plug 'whatyouhide/vim-gotham'
 
 " latex
 Plug 'gerw/vim-latex-suite'
