@@ -30,8 +30,8 @@ nnoremap - dd
 nnoremap _ ddO
 nnoremap J 3j
 nnoremap K 3k
-nnoremap LL :bn<CR>
-nnoremap HH :bp<CR>
+nnoremap L :bn<CR>
+nnoremap H :bp<CR>
 
 
 " visual mode
