@@ -1,6 +1,8 @@
 " normal mode
 nmap <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
+nmap <leader>di :%s/\%x40name/@method/gi<CR>
+nmap <leader>du :%s/\%x40name/@method/gi<CR>
 nnoremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\//g<CR>
@@ -25,13 +27,13 @@ cmap § /
 nmap <leader>tn :tabnew<CR>
 nmap <leader>bd :bd<CR>
 nmap <leader>bn :bn<CR>
-nmap <leader>bp :bp<CR>
-nnoremap - dd
-nnoremap _ ddO
+nnoremap _ dd
 nnoremap J 3j
 nnoremap K 3k
 nnoremap L :bn<CR>
 nnoremap H :bp<CR>
+nnoremap + :bn<CR>
+nnoremap - :bp<CR>
 
 
 " visual mode
