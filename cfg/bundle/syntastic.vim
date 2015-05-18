@@ -1,6 +1,4 @@
 noremap <leader>si :call ToggleErrors()<CR>
-nnoremap § :call <SID>LocationPrevious()<CR>
-nnoremap ± :call <SID>LocationNext()<CR>
 
 let g:syntastic_aggregate_errors = 1
 let jshint2_read = 1
