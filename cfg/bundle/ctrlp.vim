@@ -19,3 +19,4 @@ let g:ctrlp_custom_ignore = {
   \ 'link': 'some_bad_symbolic_links',
   \ }
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/node_modules/*,.git/*,*/.git/*,blender/*,baseChanges/*
+let g:ctrlp_by_filename = 1
