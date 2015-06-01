@@ -44,12 +44,14 @@ Plug 'groenewege/vim-less'
 " grep
 Plug 'rking/ag.vim'
 Plug 'mileszs/ack.vim'
+Plug 'dyng/ctrlsf.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 "Plug 'DavidEGx/ctrlp-smarttabs'
 "Plug 'szw/vim-ctrlspace'
 
 " theme
+Plug 'trusktr/seti.vim'
 "Plug 'nanotech/jellybeans.vim'
 Plug 'therubymug/vim-pyte'
 Plug 'endel/vim-github-colorscheme'
