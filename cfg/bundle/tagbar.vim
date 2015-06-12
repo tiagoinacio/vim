@@ -2,7 +2,7 @@
 " Where to look for tags files
 " Sensible defaults
 "let g:tagbar_left = 1
-let g:tagbar_compact = 0
+let g:tagbar_compact = 1
 let g:tagbar_show_visibility = 1
 let g:tagbar_expand = 2
 let g:tagbar_show_linenumbers = 2

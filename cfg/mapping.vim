@@ -1,9 +1,11 @@
 " normal mode
 nmap <space> <leader>
 nmap S :s///g<LEFT><LEFT><LEFT>
+nmap <leader>on :only!<CR>
 nmap <leader>di :%s/\%x40name/@method/gi<CR>
 nmap <leader>du :%s/\%x40name/@method/gi<CR>
-nnoremap s /\v
+vmap <silent> s <Esc>:/\%V
+noremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\//g<CR>
 "nmap <leader>bi :set scrollbind<CR> <C-W>l :set scrollbind<CR>
@@ -12,7 +14,7 @@ nmap <leader>qa :qall!<CR>
 nmap <leader>sa :w!<CR>
 nmap <leader>cd :ProjectRootCD<CR>
 nnoremap <leader>sh :terminal<CR>
-nnoremap ´ /
+vmap ´ <Esc>:/\%V
 
 " Visual
 vnoremap s /\v
@@ -30,8 +32,8 @@ nmap <leader>bn :bn<CR>
 nnoremap _ dd
 nnoremap J 3j
 nnoremap K 3k
-nnoremap L :bn<CR>
-nnoremap H :bp<CR>
+nnoremap L 4l
+nnoremap H 4h
 nnoremap + :bn<CR>
 nnoremap - :bp<CR>
 

@@ -20,3 +20,4 @@ let g:ctrlp_custom_ignore = {
   \ }
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*,*/node_modules/*,.git/*,*/.git/*,blender/*,baseChanges/*
 let g:ctrlp_by_filename = 1
+let g:ctrlp_match_window = 'results:100' " overcome limit imposed by max height
