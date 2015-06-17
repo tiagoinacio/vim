@@ -38,6 +38,8 @@ nnoremap + :bn<CR>
 nnoremap - :bp<CR>
 
 
+map <leader>tt <c-]>
+
 " visual mode
 imap jj <Esc>
 imap kk <Esc>:
