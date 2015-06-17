@@ -53,6 +53,7 @@ Plug 'FelikZ/ctrlp-py-matcher'
 "Plug 'szw/vim-ctrlspace'
 
 " theme
+Plug 'ryanoasis/vim-webdevicons'
 Plug 'trusktr/seti.vim'
 "Plug 'nanotech/jellybeans.vim'
 Plug 'therubymug/vim-pyte'

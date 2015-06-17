@@ -10,7 +10,7 @@ set encoding=utf-8
 set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
-set guifont=Monaco:h11
+set guifont=MonacoPatched:h11
 "set winheight=3
 "set winheight=999
 set columns=120
