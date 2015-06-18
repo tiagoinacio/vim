@@ -17,6 +17,7 @@ Plug 'vim-scripts/YankRing.vim'
 
 " motion
 Plug 'Lokaltog/vim-easymotion'
+Plug 'bkad/CamelCaseMotion'
 Plug 'terryma/vim-expand-region'
 "Plug 'vim-scripts/repmo.vim'
 
@@ -77,6 +78,7 @@ Plug 'tommcdo/vim-exchange'
 " explorer
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'low-ghost/nerdtree-fugitive'
 Plug 'dbakker/vim-projectroot'

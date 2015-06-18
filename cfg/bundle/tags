@@ -27,7 +27,9 @@
 <leader>yr	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^nnoremap <leader>yr :YRShow<CR>$/;"	m	language:Vim
 <S-TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <S-TAB> :GitGutterPrevHunk<CR>$/;"	m	language:Vim
 <TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <TAB> :GitGutterNextHunk<CR>$/;"	m	language:Vim
+b	/Users/tiagoinacio/.vim/cfg/bundle/camelcasemotion.vim	/^map <silent> b <Plug>CamelCaseMotion_b$/;"	m	language:Vim
 Doc	/Users/tiagoinacio/.vim/cfg/bundle/jsdoc.vim	/^function Doc()$/;"	f	language:Vim
+e	/Users/tiagoinacio/.vim/cfg/bundle/camelcasemotion.vim	/^map <silent> e <Plug>CamelCaseMotion_e$/;"	m	language:Vim
 g:ackprg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ackprg = 'ag --nogroup --nocolor --column'$/;"	v	language:Vim
 g:agprg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:agprg = 'ag --column -l'$/;"	v	language:Vim
 g:ag_format	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ag_format = '%f:%l:%c:%m'$/;"	v	language:Vim
@@ -50,7 +52,7 @@ g:airline#extensions#whitespace#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airli
 g:airline#extensions#windowswap#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#windowswap#enabled = 1$/;"	v	language:Vim
 g:airline_section_c	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_section_c = '%f' "'%{getcwd()}\/%t'$/;"	v	language:Vim
 g:airline_theme	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_theme='base16'$/;"	v	language:Vim
-g:ctrlp_by_filename	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_by_filename = 1$/;"	v	language:Vim
+g:ctrlp_by_filename	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_by_filename = 1 " Ctrl D$/;"	v	language:Vim
 g:ctrlp_custom_ignore	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_custom_ignore = {$/;"	v	language:Vim
 g:ctrlp_match_window	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_match_window = 'bottom,order:ttb'$/;"	v	language:Vim
 g:ctrlp_match_window	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_match_window = 'results:100' " overcome limit imposed by max height$/;"	v	language:Vim
@@ -110,6 +112,7 @@ NERDTreeIgnore	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^let NERDTreeIgn
 repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ";"$/;"	v	language:Vim
 repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ":"$/;"	v	language:Vim
 ToggleErrors	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^function! ToggleErrors()$/;"	f	language:Vim
+w	/Users/tiagoinacio/.vim/cfg/bundle/camelcasemotion.vim	/^map <silent> w <Plug>CamelCaseMotion_w$/;"	m	language:Vim
 WorkaroundNERDTreeToggle	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^function! g:WorkaroundNERDTreeToggle()$/;"	f	language:Vim
 §	/Users/tiagoinacio/.vim/cfg/bundle/expand-regions.vim	/^map § <Plug>(expand_region_expand)$/;"	m	language:Vim
 ±	/Users/tiagoinacio/.vim/cfg/bundle/expand-regions.vim	/^map ± <Plug>(expand_region_shrink)$/;"	m	language:Vim

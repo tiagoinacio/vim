@@ -31,6 +31,8 @@ nmap <leader>bd :bd<CR>
 nmap <leader>bn :bn<CR>
 nnoremap _ dd
 nnoremap J 3j
+vmap J 3j
+vmap K 3k
 nnoremap K 3k
 nnoremap L 4l
 nnoremap H 4h
