@@ -18,7 +18,7 @@
 <Leader>j	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map <Leader>j <Plug>(easymotion-j)$/;"	m	language:Vim
 <Leader>k	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map <Leader>k <Plug>(easymotion-k)$/;"	m	language:Vim
 <leader>ne	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^noremap <leader>ne :NERDTreeToggle<CR>$/;"	m	language:Vim
-<leader>si	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>si :call ToggleErrors()<CR>$/;"	m	language:Vim
+<leader>si	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>si :SyntasticCheck<CR>:call ToggleErrors()<CR>$/;"	m	language:Vim
 <leader>ta	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ta :CtrlPTag<CR>$/;"	m	language:Vim
 <leader>tb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tb :CtrlPBufTagAll<CR>$/;"	m	language:Vim
 <leader>tc	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tc :CtrlPBufTag<CR>$/;"	m	language:Vim
@@ -89,7 +89,7 @@ g:lt_quickfix_list_toggle_map	/Users/tiagoinacio/.vim/cfg/bundle/listtoggle.vim	
 g:syntastic_aggregate_errors	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_aggregate_errors = 1$/;"	v	language:Vim
 g:syntastic_always_populate_loc_list	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v	language:Vim
 g:syntastic_auto_loc_list	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_auto_loc_list = 2$/;"	v	language:Vim
-g:syntastic_check_on_open	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_check_on_open = 1$/;"	v	language:Vim
+g:syntastic_check_on_open	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_check_on_open = 0$/;"	v	language:Vim
 g:syntastic_enable_signs	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_enable_signs=0$/;"	v	language:Vim
 g:syntastic_html_tidy_ignore_errors	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \\"ng-"]$/;"	v	language:Vim
 g:syntastic_javascript_checkers	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let g:syntastic_javascript_checkers = ['jscs', 'jshint']$/;"	v	language:Vim

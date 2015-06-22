@@ -39,6 +39,7 @@ nnoremap H 4h
 nnoremap + :bn<CR>
 nnoremap - :bp<CR>
 
+inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 map <leader>tt <c-]>
 

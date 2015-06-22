@@ -23,3 +23,4 @@ set clipboard=unnamed
 "           | |    |      |     |     |
 "           v v    v      v     v     v
 set viminfo=h,'500,<10000,s1000,/1000,:1000
+set sessionoptions-=options  " Don't save options

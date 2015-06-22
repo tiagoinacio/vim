@@ -1,4 +1,4 @@
-noremap <leader>si :call ToggleErrors()<CR>
+noremap <leader>si :SyntasticCheck<CR>:call ToggleErrors()<CR>
 
 let g:syntastic_aggregate_errors = 1
 let jshint2_read = 1
@@ -10,7 +10,7 @@ let g:syntastic_javascript_checkers = ['jscs', 'jshint']
 
 let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
