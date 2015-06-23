@@ -2,7 +2,6 @@
 /	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map  \/ <Plug>(easymotion-sn)$/;"	m	language:Vim
 /	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^omap \/ <Plug>(easymotion-tn)$/;"	m	language:Vim
 <leader><TAB>	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m	language:Vim
-<leader>b	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <leader>b <Plug>(easymotion-b)$/;"	m	language:Vim
 <leader>bo	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>bo :CtrlPBookmarkDir<CR>$/;"	m	language:Vim
 <leader>cb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
 <leader>cc	/Users/tiagoinacio/.vim/cfg/bundle/ctrlsf.vim	/^nmap <leader>cc <Plug>CtrlSFPrompt$/;"	m	language:Vim
@@ -23,7 +22,7 @@
 <leader>tb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tb :CtrlPBufTagAll<CR>$/;"	m	language:Vim
 <leader>tc	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tc :CtrlPBufTag<CR>$/;"	m	language:Vim
 <leader>tg	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^nmap <leader>tg :TagbarToggle<CR>$/;"	m	language:Vim
-<leader>w	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <leader>w <Plug>(easymotion-w)$/;"	m	language:Vim
+<leader>w	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <leader>w <Plug>(easymotion-bd-w)$/;"	m	language:Vim
 <leader>yr	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^nnoremap <leader>yr :YRShow<CR>$/;"	m	language:Vim
 <S-TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <S-TAB> :GitGutterPrevHunk<CR>$/;"	m	language:Vim
 <TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <TAB> :GitGutterNextHunk<CR>$/;"	m	language:Vim
