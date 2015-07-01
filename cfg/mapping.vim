@@ -15,7 +15,6 @@ nmap <leader>sa :w!<CR>
 nmap <leader>cd :ProjectRootCD<CR>
 nnoremap <leader>sh :terminal<CR>
 vmap ´ <Esc>:/\%V
-nmap <BS> <Plug>(easymotion-bd-w)
 nmap <S-BS> db
 
 " Visual

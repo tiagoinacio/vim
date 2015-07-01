@@ -22,6 +22,7 @@ Plug 'terryma/vim-expand-region'
 "Plug 'vim-scripts/repmo.vim'
 
 " window
+Plug 'wesQ3/vim-windowswap'
 " Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'

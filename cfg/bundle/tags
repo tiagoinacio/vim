@@ -1,6 +1,7 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
 /	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map  \/ <Plug>(easymotion-sn)$/;"	m	language:Vim
 /	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^omap \/ <Plug>(easymotion-tn)$/;"	m	language:Vim
+<BS>	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <BS> <Plug>(easymotion-bd-w)$/;"	m	language:Vim
 <leader><TAB>	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m	language:Vim
 <leader>bo	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>bo :CtrlPBookmarkDir<CR>$/;"	m	language:Vim
 <leader>cb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
@@ -14,15 +15,13 @@
 <leader>gp	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gp :GitGutterPreviewHunk<cr>$/;"	m	language:Vim
 <leader>gr	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gr :GitGutterRevertHunk<cr>$/;"	m	language:Vim
 <leader>gs	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gs :GitGutterStageHunk<cr>$/;"	m	language:Vim
-<Leader>j	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map <Leader>j <Plug>(easymotion-j)$/;"	m	language:Vim
-<Leader>k	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map <Leader>k <Plug>(easymotion-k)$/;"	m	language:Vim
 <leader>ne	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^noremap <leader>ne :NERDTreeToggle<CR>$/;"	m	language:Vim
 <leader>si	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>si :SyntasticCheck<CR>:call ToggleErrors()<CR>$/;"	m	language:Vim
 <leader>ta	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ta :CtrlPTag<CR>$/;"	m	language:Vim
 <leader>tb	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tb :CtrlPBufTagAll<CR>$/;"	m	language:Vim
 <leader>tc	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>tc :CtrlPBufTag<CR>$/;"	m	language:Vim
 <leader>tg	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^nmap <leader>tg :TagbarToggle<CR>$/;"	m	language:Vim
-<leader>w	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <leader>w <Plug>(easymotion-bd-w)$/;"	m	language:Vim
+<leader>ww	/Users/tiagoinacio/.vim/cfg/bundle/windowswap.vim	/^nnoremap <silent> <leader>ww :call WindowSwap#EasyWindowSwap()<CR>$/;"	m	language:Vim
 <leader>yr	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^nnoremap <leader>yr :YRShow<CR>$/;"	m	language:Vim
 <S-TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <S-TAB> :GitGutterPrevHunk<CR>$/;"	m	language:Vim
 <TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <TAB> :GitGutterNextHunk<CR>$/;"	m	language:Vim
@@ -98,6 +97,7 @@ g:tagbar_ctags_bin	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_
 g:tagbar_expand	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_expand = 2$/;"	v	language:Vim
 g:tagbar_show_linenumbers	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_show_linenumbers = 2$/;"	v	language:Vim
 g:tagbar_show_visibility	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_show_visibility = 1$/;"	v	language:Vim
+g:windowswap_map_keys	/Users/tiagoinacio/.vim/cfg/bundle/windowswap.vim	/^let g:windowswap_map_keys = 0 "prevent default bindings$/;"	v	language:Vim
 g:ycm_add_preview_to_completeopt	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_add_preview_to_completeopt=0$/;"	v	language:Vim
 g:ycm_confirm_extra_conf	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_confirm_extra_conf=0$/;"	v	language:Vim
 jshint2_height	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_height = 3$/;"	v	language:Vim
