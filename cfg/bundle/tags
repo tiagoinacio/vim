@@ -1,5 +1,5 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
-/	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^map  \/ <Plug>(easymotion-sn)$/;"	m	language:Vim
+/	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap  \/ <Plug>(easymotion-sn)$/;"	m	language:Vim
 /	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^omap \/ <Plug>(easymotion-tn)$/;"	m	language:Vim
 <BS>	/Users/tiagoinacio/.vim/cfg/bundle/easymotion.vim	/^nmap <BS> <Plug>(easymotion-bd-w)$/;"	m	language:Vim
 <leader><TAB>	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader><TAB> :CtrlP<CR>$/;"	m	language:Vim
