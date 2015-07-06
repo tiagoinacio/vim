@@ -17,6 +17,8 @@ nnoremap <leader>sh :terminal<CR>
 vmap ´ <Esc>:/\%V
 nmap <S-BS> db
 
+nmap < >
+nmap > <
 " Visual
 vnoremap s /\v
 vmap 7 :s/^/\/\//g<CR>
