@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
 
 " documentation
-Plug 'heavenshell/vim-jsdoc'
+Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 
 " error handling
 Plug 'scrooloose/syntastic'
@@ -31,20 +31,20 @@ Plug 'shinokada/dragvisuals.vim'
 
 " tags
 Plug 'xolox/vim-misc'
-Plug 'xolox/vim-easytags'
-Plug 'vim-scripts/Tagbar'
+Plug 'xolox/vim-easytags', {'for': 'json,javascript,js'}
+Plug 'vim-scripts/Tagbar', {'for': 'json,javascript,js'}
 
 " languague support
-Plug 'embear/vim-localvimrc'
-Plug 'vim-scripts/MatlabFilesEdition'
-Plug 'elzr/vim-json'
-Plug 'burnettk/vim-angular'
+"Plug 'embear/vim-localvimrc'
+Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
+Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
+"Plug 'burnettk/vim-angular'
 Plug 'michalliu/sourcebeautify.vim'
-Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
 Plug 'Quramy/vison'
-Plug 'ahayman/vim-nodejs-complete'
-Plug 'othree/yajs.vim'
-Plug 'groenewege/vim-less'
+Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'}
+Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
+Plug 'groenewege/vim-less', {'for': 'less'}
 
 " grep
 Plug 'rking/ag.vim'
@@ -63,13 +63,13 @@ Plug 'therubymug/vim-pyte'
 Plug 'endel/vim-github-colorscheme'
 Plug 'vim-scripts/eclipse.vim'
 Plug 'chriskempson/base16-vim'
-Plug 'whatyouhide/vim-gotham'
+"Plug 'whatyouhide/vim-gotham'
 
 " latex
-Plug 'gerw/vim-latex-suite'
+Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
 
 " helpers
-Plug 'HTML-AutoCloseTag'
+Plug 'HTML-AutoCloseTag', { 'for':  'html,css' }
 " Plug 'jiangmiao/auto-pairs'
 Plug 'dahu/vim-fanfingtastic'
 Plug 'tpope/vim-repeat'
@@ -78,11 +78,11 @@ Plug 'tmhedberg/matchit'
 Plug 'tommcdo/vim-exchange'
 
 " explorer
-Plug 'scrooloose/nerdtree'
-Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'xuyuanp/nerdtree-git-plugin', { 'on':  'NERDTreeToggle' }
+Plug 'low-ghost/nerdtree-fugitive', { 'on':  'NERDTreeToggle' }
 Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
-Plug 'low-ghost/nerdtree-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'sjl/gundo.vim'
 
@@ -91,10 +91,10 @@ Plug 'danro/rename.vim'
 
 "Plug 'jistr/vim-nerdtree-tabs'
 " others
-Plug 'aquach/vim-http-client'
-Plug 'dbeniamine/todo.txt-vim'
+"Plug 'aquach/vim-http-client'
+"Plug 'dbeniamine/todo.txt-vim'
 Plug 'chrisbra/vim-diff-enhanced'
-Plug 'dpzmick/neovim-hackernews'
+"Plug 'dpzmick/neovim-hackernews'
 ""Plug 'tpope/vim-vinegar'
 "Plug 'maksimr/vim-jsbeautify'
 "Plug 'michalliu/sourcebeautify.vim'
