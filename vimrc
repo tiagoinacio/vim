@@ -8,3 +8,6 @@ for f in split(glob('~/.vim/cfg/bundle/*.vim'), '\n')
     exe 'source' f
 endfor
 
+if exists("g:loaded_webdevicons")
+    call webdevicons#refresh()
+endif
