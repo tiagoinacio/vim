@@ -17,7 +17,7 @@ Plug 'vim-scripts/YankRing.vim'
 
 " motion
 Plug 'Lokaltog/vim-easymotion'
-Plug 'bkad/CamelCaseMotion'
+"Plug 'bkad/CamelCaseMotion'
 Plug 'terryma/vim-expand-region'
 
 " window

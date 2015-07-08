@@ -98,6 +98,7 @@ g:tagbar_expand	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_exp
 g:tagbar_show_linenumbers	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_show_linenumbers = 2$/;"	v	language:Vim
 g:tagbar_show_visibility	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_show_visibility = 1$/;"	v	language:Vim
 g:windowswap_map_keys	/Users/tiagoinacio/.vim/cfg/bundle/windowswap.vim	/^let g:windowswap_map_keys = 0 "prevent default bindings$/;"	v	language:Vim
+g:yankring_enabled	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^let g:yankring_enabled = 0$/;"	v	language:Vim
 g:ycm_add_preview_to_completeopt	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_add_preview_to_completeopt=0$/;"	v	language:Vim
 g:ycm_confirm_extra_conf	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_confirm_extra_conf=0$/;"	v	language:Vim
 jshint2_height	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^let jshint2_height = 3$/;"	v	language:Vim
