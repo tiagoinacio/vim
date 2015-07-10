@@ -27,7 +27,7 @@
 <TAB>	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^nmap <TAB> :GitGutterNextHunk<CR>$/;"	m	language:Vim
 b	/Users/tiagoinacio/.vim/cfg/bundle/camelcasemotion.vim	/^map <silent> b <Plug>CamelCaseMotion_b$/;"	m	language:Vim
 Doc	/Users/tiagoinacio/.vim/cfg/bundle/jsdoc.vim	/^function Doc()$/;"	f	language:Vim
-e	/Users/tiagoinacio/.vim/cfg/bundle/camelcasemotion.vim	/^map <silent> e <Plug>CamelCaseMotion_e$/;"	m	language:Vim
+e	/Users/tiagoinacio/.vim/cfg/bundle/camelcasemotion.vim	/^map <silent> e <Plug>CamelCaseMotion_esunmap w$/;"	m	language:Vim
 g:ackprg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ackprg = 'ag --nogroup --nocolor --column'$/;"	v	language:Vim
 g:agprg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:agprg = 'ag --column -l'$/;"	v	language:Vim
 g:ag_format	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ag_format = '%f:%l:%c:%m'$/;"	v	language:Vim
@@ -42,7 +42,7 @@ g:airline#extensions#hunks#hunk_symbols	/Users/tiagoinacio/.vim/cfg/bundle/airli
 g:airline#extensions#syntastic#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#syntastic#enabled = 1$/;"	v	language:Vim
 g:airline#extensions#tabline#buffer_idx_mode	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#buffer_idx_mode = 0$/;"	v	language:Vim
 g:airline#extensions#tabline#buffer_nr_show	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#buffer_nr_show = 1$/;"	v	language:Vim
-g:airline#extensions#tabline#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#enabled = 0$/;"	v	language:Vim
 g:airline#extensions#tabline#fnamecollapse	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#fnamecollapse = 0$/;"	v	language:Vim
 g:airline#extensions#tabline#fnamemod	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#fnamemod = ':t:.'$/;"	v	language:Vim
 g:airline#extensions#tagbar#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tagbar#enabled = 1$/;"	v	language:Vim
