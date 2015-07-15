@@ -21,7 +21,6 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
-Plug 'bkad/CamelCaseMotion'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'
