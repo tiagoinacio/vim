@@ -1,22 +1,18 @@
 syntax enable        " enable syntax processing
-set nocursorline
-"set showtabline=2
 set relativenumber
 set showcmd             " show command in bottom barset cursorline
 filetype indent on      " load filetype-specific indent files
+set cursorline
+set cursorcolumn
 set wildmenu            " visual autocomplete for command menu
-"set showmatch           " highlight matching [{()}]
 set encoding=utf-8
 set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
-set guifont=Monaco\ Plus\ Nerd\ File\ Types:h14
+set guifont=Monaco\ Plus\ Nerd\ File\ Types:h15
 set colorcolumn=120
-"set winheight=3
-"set winheight=999
 set columns=120
 set winwidth=84
-set nocursorcolumn
 set scrolljump=5
 set synmaxcol=180
 set laststatus=2
@@ -40,3 +36,10 @@ set so=999
 
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 " match OverLength /\%121v.\+/
+
+"set winheight=3
+"set winheight=999
+"set nocursorcolumn
+"set nocursorline
+"set showtabline=2
+"set showmatch           " highlight matching [{()}]

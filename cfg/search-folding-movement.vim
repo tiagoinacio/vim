@@ -2,7 +2,6 @@
 set incsearch           " search as characters are entered
 set nohlsearch
 
-
 "set hlsearch
 set smartcase
 set smartindent
