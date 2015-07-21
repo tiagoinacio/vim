@@ -134,6 +134,18 @@ augroup END
 
 
 "autocmd BufEnter * :call <SID>AutoProjectRootCD()
+function s:updateFlavour()
+    let g:bf_flavour_path = expand('%:p')
+    if g:bf_flavour_path =~ 'flavour/'
+        let g:bf_airline_path = 'flavour ⮁'
+    elseif g:bf_flavour_path =~ 'base/'
+        let g:bf_airline_path = 'base ⮁'
+    else
+        let g:bf_airline_path = 'no flavour'
+    endif
+endfunction
+
+autocmd BufEnter * :call <SID>updateFlavour()
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!

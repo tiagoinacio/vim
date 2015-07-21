@@ -14,6 +14,6 @@ let g:airline#extensions#tabline#fnamecollapse = 0
 let g:airline#extensions#windowswap#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t:.'
 let g:airline#extensions#bufferline#enabled = 1
-let g:airline_section_c = '%f' "'%{getcwd()}/%t'
+let g:airline_section_c = '%{g:bf_airline_path} %t' "'%{getcwd()}/%t'
 let g:airline#extensions#tabline#enabled = 0
 let g:airline_theme='base16'
