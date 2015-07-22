@@ -141,7 +141,7 @@ function s:updateFlavour()
     elseif g:bf_flavour_path =~ 'base/'
         let g:bf_airline_path = 'base ⮁'
     else
-        let g:bf_airline_path = 'no flavour'
+        let g:bf_airline_path = ''
     endif
 endfunction
 
