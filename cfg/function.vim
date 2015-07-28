@@ -134,18 +134,22 @@ augroup END
 
 
 "autocmd BufEnter * :call <SID>AutoProjectRootCD()
-function s:updateFlavour()
+function! UpdateFlavour()
     let g:bf_flavour_path = expand('%:p')
     if g:bf_flavour_path =~ 'flavour/'
         let g:bf_airline_path = 'flavour ⮁'
     elseif g:bf_flavour_path =~ 'base/'
         let g:bf_airline_path = 'base ⮁'
+    elseif g:bf_flavour_path =~ 'bf-edw-static-client'
+        let g:bf_airline_path = 'edw ⮁'
+    elseif g:bf_flavour_path =~ 'bf-eds-static-client'
+        let g:bf_airline_path = 'eds ⮁'
     else
         let g:bf_airline_path = ''
     endif
 endfunction
 
-autocmd BufEnter * :call <SID>updateFlavour()
+autocmd BufEnter * :call UpdateFlavour()
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd InsertLeave * :set relativenumber
 autocmd InsertEnter * :set relativenumber!

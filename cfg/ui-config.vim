@@ -9,7 +9,7 @@ set encoding=utf-8
 set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
-set guifont=Monaco\ Plus\ Nerd\ File\ Types:h15
+set guifont=Monaco\ Plus\ Nerd\ File\ Types:h14
 set colorcolumn=120
 set columns=120
 set winwidth=84
