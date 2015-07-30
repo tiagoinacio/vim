@@ -48,7 +48,7 @@ map <leader>tt <c-]>
 
 " visual mode
 imap jj <Esc>
-imap kk <Esc>:
+imap ff <Esc>:
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
 vmap ; :B<SPACE>
