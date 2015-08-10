@@ -58,6 +58,15 @@
 
 "autocmd BufEnter * :call MarkMargin(1)
 
+function! ClipboardYank()
+  call system('pbcopy', @@)
+endfunction
+
+function! ClipboardPaste()
+  let @@ = system('pbpaste')
+endfunction
+
+
 function! ToggleNumber() " toggle between number and relativenumber
     if(&relativenumber == 1)
         set norelativenumber

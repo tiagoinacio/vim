@@ -17,6 +17,12 @@ nnoremap <leader>sh :terminal<CR>
 vmap ´ <Esc>:/\%V
 nmap <S-BS> db
 
+vnoremap <silent> y y:call ClipboardYank()<cr>
+vnoremap <silent> d d:call ClipboardYank()<cr>
+nnoremap <silent> p :call ClipboardPaste()<cr>p
+onoremap <silent> y y:call ClipboardYank()<cr>
+onoremap <silent> d d:call ClipboardYank()<cr>
+
 nmap < >
 nmap > <
 " Visual

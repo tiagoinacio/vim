@@ -13,7 +13,7 @@ Plug 'scrooloose/syntastic'
 Plug 'marijnh/tern_for_vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'MarcWeber/vim-addon-mw-utils'
-Plug 'vim-scripts/YankRing.vim'
+" Plug 'vim-scripts/YankRing.vim'
 
 " motion
 Plug 'Lokaltog/vim-easymotion'
