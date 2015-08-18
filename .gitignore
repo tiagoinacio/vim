@@ -1,7 +1,5 @@
-bundle/**
-!bundle/vundle/**
-plugged/**
-plugged/
-plugged/*
+bundle
+!bundle/vundle
+plugged
 tags
 ./tags
