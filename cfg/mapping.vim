@@ -16,6 +16,8 @@ nmap <leader>cd :ProjectRootCD<CR>
 nnoremap <leader>sh :terminal<CR>
 vmap ´ <Esc>:/\%V
 nmap <S-BS> db
+nnoremap <leader>di :diffthis<CR>
+nnoremap <leader>dg :diffget<CR>
 
 nmap < >
 nmap > <
@@ -48,7 +50,7 @@ map <leader>tt <c-]>
 
 " visual mode
 imap jj <Esc>
-imap ff <Esc>:
+imap fjf <Esc>:
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
 vmap ; :B<SPACE>
