@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/tiagoinacio/.vim/cfg'
 let g:netrw_dirhist_2='/Users/tiagoinacio'
 let g:netrw_dirhist_3='/Users'
 let g:netrw_dirhist_4='/'
 let g:netrw_dirhist_5='/Users/tiagoinacio/Work/betfair/bf-edw-static-client-nj/base/app'
+let g:netrw_dirhist_6='/Users/tiagoinacio/Work/betfair/bf-edw-functional-tests-nj/grunt'
+let g:netrw_dirhist_7='/Users/tiagoinacio/0'
+let g:netrw_dirhist_8='/Users/tiagoinacio/Library/Preferences'

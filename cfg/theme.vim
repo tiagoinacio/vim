@@ -1,10 +1,12 @@
 set t_Co=256
-set background=light
+set background=dark
 let base16colorspace=256
-colorscheme base16-codeschool
+"colorscheme base16-codeschool
+hi CursorLine cterm=NONE guibg=Grey40
+hi CursorColumn ctermbg=NONE guibg=Grey40
 highlight clear SignColumn
-highlight ColorColumn  ctermbg=236
-highlight CursorLine   ctermbg=240
+"highlight ColorColumn  ctermbg=green
+"highlight CursorLine   ctermbg=238
 "hi CursorLine guibg=#232c31
 "hi LineNr guibg=#232c31
 "highlight LineNr       ctermbg=236 ctermfg=240

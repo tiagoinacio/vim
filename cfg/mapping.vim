@@ -5,6 +5,7 @@ nmap <leader>on :only!<CR>
 nmap <leader>di :%s/\%x40name/@method/gi<CR>
 nmap <leader>du :%s/\%x40name/@method/gi<CR>
 vmap <silent> s <Esc>:/\%V
+nmap <leader>ya :let @* = expand("%:p")<CR>
 noremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\//g<CR>
@@ -16,6 +17,8 @@ nmap <leader>cd :ProjectRootCD<CR>
 nnoremap <leader>sh :terminal<CR>
 vmap ´ <Esc>:/\%V
 nmap <S-BS> db
+nnoremap <leader>di :diffthis<CR>
+nnoremap <leader>dg :diffget<CR>
 
 vnoremap <silent> y y:call ClipboardYank()<cr>
 vnoremap <silent> d d:call ClipboardYank()<cr>
@@ -54,7 +57,7 @@ map <leader>tt <c-]>
 
 " visual mode
 imap jj <Esc>
-imap ff <Esc>:
+imap fjf <Esc>:
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
 vmap ; :B<SPACE>
