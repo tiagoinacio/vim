@@ -5,6 +5,7 @@ nmap <leader>on :only!<CR>
 nmap <leader>di :%s/\%x40name/@method/gi<CR>
 nmap <leader>du :%s/\%x40name/@method/gi<CR>
 vmap <silent> s <Esc>:/\%V
+nmap <leader>ya :let @* = expand("%:p")<CR>
 noremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\//g<CR>
