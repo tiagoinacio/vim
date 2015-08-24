@@ -48,6 +48,10 @@ g:airline#extensions#whitespace#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airli
 g:airline#extensions#windowswap#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#windowswap#enabled = 1$/;"	v	language:Vim
 g:airline_section_c	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_section_c = '%{g:bf_airline_path} %t' "'%{getcwd()}\/%t'$/;"	v	language:Vim
 g:airline_theme	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline_theme='base16'$/;"	v	language:Vim
+g:ConqueTerm_Color	/Users/tiagoinacio/.vim/cfg/bundle/conque.vim	/^let g:ConqueTerm_Color = 1$/;"	v	language:Vim
+g:ConqueTerm_FastMode	/Users/tiagoinacio/.vim/cfg/bundle/conque.vim	/^let g:ConqueTerm_FastMode = 0$/;"	v	language:Vim
+g:ConqueTerm_PyVersion	/Users/tiagoinacio/.vim/cfg/bundle/conque.vim	/^let g:ConqueTerm_PyVersion = 3$/;"	v	language:Vim
+g:ConqueTerm_ReadUnfocused	/Users/tiagoinacio/.vim/cfg/bundle/conque.vim	/^let g:ConqueTerm_ReadUnfocused = 1$/;"	v	language:Vim
 g:ctrlp_by_filename	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_by_filename = 1 " Ctrl D$/;"	v	language:Vim
 g:ctrlp_custom_ignore	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_custom_ignore = {$/;"	v	language:Vim
 g:ctrlp_match_window	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^let g:ctrlp_match_window = 'bottom,order:ttb'$/;"	v	language:Vim

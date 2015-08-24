@@ -29,6 +29,7 @@ Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
+Plug 'vim-scripts/Conque-Shell'
 
 " tags
 Plug 'xolox/vim-misc'
