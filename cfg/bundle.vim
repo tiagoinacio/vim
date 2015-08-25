@@ -109,6 +109,6 @@ Plug 'chrisbra/vim-diff-enhanced'
 "Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Plug 'embear/vim-localvimrc'
 "Plug 'bkad/CamelCaseMotion'
-"Plug 'vim-scripts/YankRing.vim'
+Plug 'vim-scripts/YankRing.vim'
 "Plug 'whatyouhide/vim-gotham'
 call plug#end()

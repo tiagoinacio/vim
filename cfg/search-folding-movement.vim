@@ -12,7 +12,7 @@ set modelines=1
 set number "This will be folded
 
 " copy to clipboard
-" set clipboard=unnamedplus
+set clipboard+=unnamedplus
 "           +--Disable hlsearch while loading viminfo
 "           | +--Remember marks for last 500 files
 "           | |    +--Remember up to 10000 lines in each register
