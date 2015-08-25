@@ -13,14 +13,13 @@ Plug 'scrooloose/syntastic'
 Plug 'marijnh/tern_for_vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'MarcWeber/vim-addon-mw-utils'
-" Plug 'vim-scripts/YankRing.vim'
 
 " motion
 Plug 'Lokaltog/vim-easymotion'
-"Plug 'bkad/CamelCaseMotion'
 Plug 'terryma/vim-expand-region'
 
 " window
+Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
@@ -37,6 +36,8 @@ Plug 'xolox/vim-easytags', {'for': 'json,javascript,js'}
 Plug 'vim-scripts/Tagbar', {'for': 'json,javascript,js'}
 
 " languague support
+Plug 'tomtom/tcomment_vim'
+Plug 'vim-scripts/colorsel.vim'
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
 Plug 'michalliu/sourcebeautify.vim'
@@ -107,5 +108,7 @@ Plug 'chrisbra/vim-diff-enhanced'
 "Plug 'szw/vim-ctrlspace'
 "Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Plug 'embear/vim-localvimrc'
+"Plug 'bkad/CamelCaseMotion'
+"Plug 'vim-scripts/YankRing.vim'
 "Plug 'whatyouhide/vim-gotham'
 call plug#end()
