@@ -10,11 +10,12 @@ Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 Plug 'scrooloose/syntastic'
 
 " auto completition
-Plug 'marijnh/tern_for_vim'
 Plug 'Valloric/YouCompleteMe'
+Plug 'marijnh/tern_for_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 
 " motion
+Plug 'unblevable/quick-scope'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
@@ -28,7 +29,6 @@ Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
-Plug 'vim-scripts/Conque-Shell'
 
 " tags
 Plug 'xolox/vim-misc'
@@ -50,6 +50,7 @@ Plug 'groenewege/vim-less', {'for': 'less'}
 " grep
 Plug 'rking/ag.vim'
 Plug 'mileszs/ack.vim'
+Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'FelikZ/ctrlp-py-matcher'

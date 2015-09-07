@@ -26,8 +26,9 @@ nnoremap <silent> p :call ClipboardPaste()<cr>p
 onoremap <silent> y y:call ClipboardYank()<cr>
 onoremap <silent> d d:call ClipboardYank()<cr>
 
-nmap < >
-nmap > <
+noremap 0 ^
+noremap ^ 0
+
 " Visual
 vnoremap s /\v
 vmap 7 :s/^/\/\//g<CR>
