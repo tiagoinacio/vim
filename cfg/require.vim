@@ -64,6 +64,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'sjl/gundo.vim'
 " theme
+Plug 'gosukiwi/vim-atom-dark'
 Plug '29decibel/codeschool-vim-theme'
 Plug 'ryanoasis/vim-webdevicons'
 Plug 'trusktr/seti.vim'
