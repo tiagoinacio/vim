@@ -16,6 +16,7 @@
 <leader>gp	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gp :GitGutterPreviewHunk<cr>$/;"	m	language:Vim
 <leader>gr	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gr :GitGutterRevertHunk<cr>$/;"	m	language:Vim
 <leader>gs	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gs :GitGutterStageHunk<cr>$/;"	m	language:Vim
+<leader>ls	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ls :CtrlPBuffer<CR>$/;"	m	language:Vim
 <leader>ne	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^noremap <leader>ne :NERDTreeToggle<CR>$/;"	m	language:Vim
 <leader>si	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>si :SyntasticCheck<CR>:call ToggleErrors()<CR>$/;"	m	language:Vim
 <leader>ta	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ta :CtrlPTag<CR>$/;"	m	language:Vim

@@ -12,7 +12,7 @@ set title
 set pastetoggle=<F2>
 set autowrite       "Save buffer automatically when changing files
 set updatecount=10                  "Save buffer every 10 chars typed
-
+set tags=./tags,tags;$HOME
 " session options
 set ssop-=options    " do not store global and local values in a session
 set ssop-=folds      " do not store folds

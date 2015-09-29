@@ -64,7 +64,6 @@ vmap <BS> x
 vmap ; :B<SPACE>
 
 noremap <leader>g :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
-noremap <leader>ls :ls<CR>
 noremap <leader>ln :lnext<CR>
 noremap <leader>vs :vsplit<CR>
 noremap <leader>hs :split<CR>
@@ -84,3 +83,5 @@ nmap <left> <nop>
 nmap <right> <nop>
 vmap <up> x k p
 
+nmap <leader>re :source ~/.vimrc<CR>
+map <RightMouse> :silent tag <CR>
