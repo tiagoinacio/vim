@@ -1,6 +1,6 @@
-nmap <leader>cc <Plug>CtrlSFPrompt
-nmap <leader>cw <Plug>CtrlSFCwordPath<CR>
-nmap <leader>cs <Plug>CtrlSFVwordPath<CR>
+nmap <leader>ff <Plug>CtrlSFPrompt
+nmap <leader>fw <Plug>CtrlSFCwordPath<CR>
+nmap <leader>fs <Plug>CtrlSFVwordPath<CR>
 
 let g:ctrlsf_winsize = '100%'
 let g:ctrlsf_position = 'bottom'

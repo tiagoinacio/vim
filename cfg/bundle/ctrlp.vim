@@ -1,11 +1,10 @@
 noremap <leader>cp :CtrlPCurWD<CR>
-noremap <leader>bo :CtrlPBookmarkDir<CR>
+noremap <leader>fp :CtrlPBookmarkDir<CR>
 noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>ta :CtrlPTag<CR>
 noremap <leader>tb :CtrlPBufTagAll<CR>
 noremap <leader>tc :CtrlPBufTag<CR>
-noremap <leader>cb :CtrlPBuffer<CR>
-noremap <leader>ls :CtrlPBuffer<CR>
+noremap <leader>ls :CtrlPBuffer<R
 noremap <leader>ct :CtrlPSmartTabs<CR>
 noremap <BS> :CtrlPBufTagAll<CR>
 
