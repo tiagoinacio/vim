@@ -105,6 +105,8 @@ g:tagbar_ctags_bin	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_
 g:tagbar_expand	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_expand = 2$/;"	v	language:Vim
 g:tagbar_show_linenumbers	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_show_linenumbers = 2$/;"	v	language:Vim
 g:tagbar_show_visibility	/Users/tiagoinacio/.vim/cfg/bundle/tagbar.vim	/^let g:tagbar_show_visibility = 1$/;"	v	language:Vim
+g:vim_tags_auto_generate	/Users/tiagoinacio/.vim/cfg/bundle/vim-tags.vim	/^let g:vim_tags_auto_generate = 1$/;"	v	language:Vim
+g:vim_tags_use_vim_dispatch	/Users/tiagoinacio/.vim/cfg/bundle/vim-tags.vim	/^let g:vim_tags_use_vim_dispatch = 1$/;"	v	language:Vim
 g:windowswap_map_keys	/Users/tiagoinacio/.vim/cfg/bundle/windowswap.vim	/^let g:windowswap_map_keys = 0 "prevent default bindings$/;"	v	language:Vim
 g:yankring_enabled	/Users/tiagoinacio/.vim/cfg/bundle/yankring.vim	/^let g:yankring_enabled = 0$/;"	v	language:Vim
 g:ycm_add_preview_to_completeopt	/Users/tiagoinacio/.vim/cfg/bundle/ycm.vim	/^let g:ycm_add_preview_to_completeopt=0$/;"	v	language:Vim
@@ -119,6 +121,7 @@ NERDTreeHighlightFile	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^function
 NERDTreeIgnore	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim', '*.aux']$/;"	v	language:Vim
 repmo_key	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_key = ";"$/;"	v	language:Vim
 repmo_revkey	/Users/tiagoinacio/.vim/cfg/bundle/repmo.vim	/^let repmo_revkey = ":"$/;"	v	language:Vim
+S	/Users/tiagoinacio/.vim/cfg/bundle/over.vim	/^nmap S :OverCommandLine<CR>$/;"	m	language:Vim
 ToggleErrors	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^function! ToggleErrors()$/;"	f	language:Vim
 WorkaroundNERDTreeToggle	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^function! g:WorkaroundNERDTreeToggle()$/;"	f	language:Vim
 §	/Users/tiagoinacio/.vim/cfg/bundle/expand-regions.vim	/^map § <Plug>(expand_region_expand)$/;"	m	language:Vim

@@ -1,6 +1,5 @@
 " normal mode
 nmap <space> <leader>
-nmap S :s///g<LEFT><LEFT><LEFT>
 nmap <leader>on :only!<CR>
 nmap <leader>di :%s/\%x40name/@method/gi<CR>
 nmap <leader>du :%s/\%x40name/@method/gi<CR>
@@ -81,4 +80,5 @@ nmap <right> <nop>
 vmap <up> x k p
 
 nmap <leader>re :source ~/.vimrc<CR>
-map <RightMouse> :silent tag <CR>
+map <C-RightMouse> :tag <C-R><C-W><CR>
+map <leader>tw :tag <C-R><C-W><CR>

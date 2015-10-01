@@ -20,6 +20,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
+Plug 'osyo-manga/vim-over'
 Plug 'wkentaro/conque.vim'
 Plug 'severin-lemaignan/vim-minimap'
 Plug 'godlygeek/tabular'
@@ -33,9 +34,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
 
 " tags
+Plug 'szw/vim-tags'
 Plug 'xolox/vim-misc'
-Plug 'xolox/vim-easytags', {'for': 'json,javascript,js'}
-Plug 'vim-scripts/Tagbar', {'for': 'json,javascript,js'}
+Plug 'xolox/vim-easytags'
+Plug 'vim-scripts/Tagbar'
 
 " languague support
 Plug 'tomtom/tcomment_vim'
