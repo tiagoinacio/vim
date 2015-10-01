@@ -7,5 +7,6 @@ if has("gui")
     set linespace=6
     set guifont=Monaco\ Plus\ Nerd\ File\ Types:h12
     "highlight clear SignColumn
-    colorscheme codeschool
+    colorscheme hybrid_reverse
+    let g:enable_bold_font = 1
 endif

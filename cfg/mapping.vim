@@ -20,11 +20,8 @@ nmap <S-BS> db
 nnoremap <leader>di :diffthis<CR>
 nnoremap <leader>dg :diffget<CR>
 
-vnoremap <silent> y y:call ClipboardYank()<cr>
-vnoremap <silent> d d:call ClipboardYank()<cr>
-nnoremap <silent> p :call ClipboardPaste()<cr>p
-onoremap <silent> y y:call ClipboardYank()<cr>
-onoremap <silent> d d:call ClipboardYank()<cr>
+" clipboard yank
+set clipboard=unnamed
 
 noremap 0 ^
 noremap ^ 0

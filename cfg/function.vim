@@ -142,7 +142,7 @@ augroup BWCCreateDir
 augroup END
 
 
-"autocmd BufEnter * :call <SID>AutoProjectRootCD()
+autocmd BufEnter * :call <SID>AutoProjectRootCD()
 function! UpdateFlavour()
     let g:bf_flavour_path = expand('%:p')
     if g:bf_flavour_path =~ 'flavour/'

@@ -15,7 +15,7 @@
 <leader>gp	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gp :GitGutterPreviewHunk<cr>$/;"	m	language:Vim
 <leader>gr	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gr :GitGutterRevertHunk<cr>$/;"	m	language:Vim
 <leader>gs	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^noremap <leader>gs :GitGutterStageHunk<cr>$/;"	m	language:Vim
-<leader>ls	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ls :CtrlPBuffer<R$/;"	m	language:Vim
+<leader>ls	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ls :CtrlPBuffer<CR>$/;"	m	language:Vim
 <leader>ne	/Users/tiagoinacio/.vim/cfg/bundle/nerdtree.vim	/^noremap <leader>ne :NERDTreeToggle<CR>$/;"	m	language:Vim
 <leader>si	/Users/tiagoinacio/.vim/cfg/bundle/syntastic.vim	/^noremap <leader>si :SyntasticCheck<CR>:call ToggleErrors()<CR>$/;"	m	language:Vim
 <leader>ta	/Users/tiagoinacio/.vim/cfg/bundle/ctrlp.vim	/^noremap <leader>ta :CtrlPTag<CR>$/;"	m	language:Vim
@@ -38,14 +38,14 @@ g:ag_prg	/Users/tiagoinacio/.vim/cfg/bundle/silver-search.vim	/^    let g:ag_prg
 g:airline#extensions#branch#displayed_head_limit	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#displayed_head_limit = 10$/;"	v	language:Vim
 g:airline#extensions#branch#empty_message	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#empty_message = ''$/;"	v	language:Vim
 g:airline#extensions#branch#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#branch#enabled = 1$/;"	v	language:Vim
-g:airline#extensions#bufferline#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#bufferline#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#bufferline#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#bufferline#enabled = 0$/;"	v	language:Vim
 g:airline#extensions#ctrlp#show_adjacent_modes	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#ctrlp#show_adjacent_modes = 1$/;"	v	language:Vim
 g:airline#extensions#hunks#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#hunks#enabled = 1$/;"	v	language:Vim
 g:airline#extensions#hunks#hunk_symbols	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#hunks#hunk_symbols = ['+', '~', '-']$/;"	v	language:Vim
 g:airline#extensions#syntastic#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#syntastic#enabled = 1$/;"	v	language:Vim
 g:airline#extensions#tabline#buffer_idx_mode	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#buffer_idx_mode = 0$/;"	v	language:Vim
 g:airline#extensions#tabline#buffer_nr_show	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#buffer_nr_show = 1$/;"	v	language:Vim
-g:airline#extensions#tabline#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#enabled = 0$/;"	v	language:Vim
+g:airline#extensions#tabline#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
 g:airline#extensions#tabline#fnamecollapse	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#fnamecollapse = 0$/;"	v	language:Vim
 g:airline#extensions#tabline#fnamemod	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tabline#fnamemod = ':t:.'$/;"	v	language:Vim
 g:airline#extensions#tagbar#enabled	/Users/tiagoinacio/.vim/cfg/bundle/airline.vim	/^let g:airline#extensions#tagbar#enabled = 1$/;"	v	language:Vim
@@ -75,6 +75,7 @@ g:easytags_async	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easyta
 g:easytags_dynamic_files	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_dynamic_files = 1$/;"	v	language:Vim
 g:easytags_events	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_events = ['BufWritePost']$/;"	v	language:Vim
 g:easytags_file	/Users/tiagoinacio/.vim/cfg/bundle/easy-tags.vim	/^let g:easytags_file = '.\/tags'$/;"	v	language:Vim
+g:enable_bold_font	/Users/tiagoinacio/.vim/cfg/bundle/macvim.vim	/^    let g:enable_bold_font = 1$/;"	v	language:Vim
 g:gitgutter_escape_grep	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_escape_grep = 1$/;"	v	language:Vim
 g:gitgutter_highlight_lines	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_highlight_lines = 0$/;"	v	language:Vim
 g:gitgutter_highlight_lines	/Users/tiagoinacio/.vim/cfg/bundle/gitgutter.vim	/^let g:gitgutter_highlight_lines = 1$/;"	v	language:Vim

@@ -20,6 +20,8 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
+Plug 'wkentaro/conque.vim'
+Plug 'severin-lemaignan/vim-minimap'
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/goyo.vim'
@@ -53,6 +55,7 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
 Plug 'kien/ctrlp.vim'
+Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 
 " explorer
@@ -64,6 +67,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'sjl/gundo.vim'
 " theme
+Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'gosukiwi/vim-atom-dark'
 Plug '29decibel/codeschool-vim-theme'
 Plug 'ryanoasis/vim-webdevicons'

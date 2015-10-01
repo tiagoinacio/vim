@@ -4,7 +4,7 @@ noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>ta :CtrlPTag<CR>
 noremap <leader>tb :CtrlPBufTagAll<CR>
 noremap <leader>tc :CtrlPBufTag<CR>
-noremap <leader>ls :CtrlPBuffer<R
+noremap <leader>ls :CtrlPBuffer<CR>
 noremap <leader>ct :CtrlPSmartTabs<CR>
 noremap <BS> :CtrlPBufTagAll<CR>
 

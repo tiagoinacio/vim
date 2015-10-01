@@ -25,11 +25,8 @@
 <leader>b8	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <leader>b8 8gt$/;"	m	language:Vim
 <leader>b9	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <leader>b9 9gt$/;"	m	language:Vim
 <leader>bd	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <leader>bd :bd<CR>$/;"	m	language:Vim
-<leader>bdb	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bdb :B2BDiff()<CR>$/;"	m	language:Vim
 <leader>bn	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap <leader>bn gt$/;"	m	language:Vim
 <leader>bo	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>bo :CtrlPBookmarkDir<CR>$/;"	m	language:Vim
-<leader>bsf	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bsf :B2BSwap()<CR>$/;"	m	language:Vim
-<leader>bst	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    nnoremap <leader>bst :B2BUnitTest()<CR>$/;"	m	language:Vim
 <leader>cb	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
 <leader>cp	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>cp :CtrlPCurWD<CR>$/;"	m	language:Vim
 <leader>ct	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^noremap <leader>ct :CtrlPSmartTabs<CR>$/;"	m	language:Vim
@@ -79,21 +76,10 @@
 >>	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments$/;"	m	language:Vim
 AutoProjectRootCD	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! <SID>AutoProjectRootCD()$/;"	f	language:Vim
 AutoUpdateCTags	/Users/tiagoinacio/.vim/cfg/function.vim	/^augroup AutoUpdateCTags$/;"	a	language:Vim
-B2BDiff	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BDiff call B2BDiff()$/;"	c	language:Vim
-B2BDiff	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BDiff()$/;"	f	language:Vim
-B2BSwap	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BSwap call B2BSwap()$/;"	c	language:Vim
-B2BSwap	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BSwap()$/;"	f	language:Vim
-B2BTabsFunctional	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BTabsFunctional call B2BTabsFunctional()$/;"	c	language:Vim
-B2BTabsFunctional	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BTabsFunctional()$/;"	f	language:Vim
-B2BTabsSetup	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BTabsSetup call B2BTabsStatic()$/;"	c	language:Vim
-B2BTabsStatic	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BTabsStatic()$/;"	f	language:Vim
-B2BUnitTest	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^command! B2BUnitTest call B2BUnitTest()$/;"	c	language:Vim
-B2BUnitTest	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^function! B2BUnitTest()$/;"	f	language:Vim
 base16colorspace	/Users/tiagoinacio/.vim/cfg/theme.vim	/^let base16colorspace=256$/;"	v	language:Vim
-g:bf_b2b_loaded	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_b2b_loaded = 1$/;"	v	language:Vim
-g:bf_b2b_map_keys	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^    let g:bf_b2b_map_keys = 1$/;"	v	language:Vim
-g:bf_base_path	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_base_path = ''$/;"	v	language:Vim
-g:bf_flavour_path	/Users/tiagoinacio/.vim/bundle/vim-bf-b2b/plugin/bf-b2b.vim	/^let g:bf_flavour_path = ''$/;"	v	language:Vim
+ctrlp_bdelete#init	/Users/tiagoinacio/.vim/plugged/ctrlp_bdelete.vim/autoload/ctrlp_bdelete.vim	/^function! ctrlp_bdelete#init()$/;"	f	language:Vim
+ctrlp_bdelete#mappings	/Users/tiagoinacio/.vim/plugged/ctrlp_bdelete.vim/autoload/ctrlp_bdelete.vim	/^function! ctrlp_bdelete#mappings(...)$/;"	f	language:Vim
+DeleteMarkedBuffers	/Users/tiagoinacio/.vim/plugged/ctrlp_bdelete.vim/autoload/ctrlp_bdelete.vim	/^function! s:DeleteMarkedBuffers()$/;"	f	language:Vim
 H	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap H gT$/;"	m	language:Vim
 J	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap J 1j<CR>$/;"	m	language:Vim
 K	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nnoremap K 3k<CR>$/;"	m	language:Vim
@@ -103,6 +89,7 @@ MarkMargin	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! MarkMargin (on)$
 Q	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap Q <Plug>(easymotion-b)$/;"	m	language:Vim
 RenameFile	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! RenameFile()$/;"	f	language:Vim
 S	/Users/tiagoinacio/.vim/cfg/mapping.vim	/^nmap S :s\/\/\/g<LEFT><LEFT><LEFT>$/;"	m	language:Vim
+ScoreboardBaseScoreModel	/Users/tiagoinacio/Work/betfair/bf-scoreboard/src/core/src/scripts/providers/factories/scoreboard-base-score-model.js	/^            function ScoreboardBaseScoreModel(model) {$/;"	o	language:JavaScript
 ShiftLine	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! ShiftLine()$/;"	f	language:Vim
 Start	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! Start()$/;"	f	language:Vim
 StripTrailingWhitespaces	/Users/tiagoinacio/.vim/cfg/function.vim	/^function! <SID>StripTrailingWhitespaces()$/;"	f	language:Vim
