@@ -34,9 +34,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
 
 " tags
-Plug 'szw/vim-tags'
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-easytags'
+"Plug 'szw/vim-tags'
+"Plug 'xolox/vim-misc'
+"Plug 'xolox/vim-easytags'
 Plug 'vim-scripts/Tagbar'
 
 " languague support
