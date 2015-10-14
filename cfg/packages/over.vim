@@ -1,0 +1,1 @@
+nmap S :OverCommandLine<CR>

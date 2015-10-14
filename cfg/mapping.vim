@@ -79,6 +79,8 @@ nmap <left> <nop>
 nmap <right> <nop>
 vmap <up> x k p
 
+nmap n :cnext<CR>
+nmap N :cprevious<CR>
 nmap <leader>re :source ~/.vimrc<CR>
 map <C-RightMouse> :tag <C-R><C-W><CR>
 map <leader>tw :tag <C-R><C-W><CR>

@@ -1,10 +1,15 @@
 set t_Co=256
+let &t_Co=256
 set background=light
 let base16colorspace=256
-colorscheme base16-default
-hi CursorLine cterm=NONE guibg=Grey40
-hi CursorColumn ctermbg=NONE guibg=Grey40
+"colorscheme iceberg
+"hi CursorLine cterm=NONE guibg=Grey40
+hi CursorLine cterm=NONE ctermbg=450
+hi CursorColumn ctermbg=NONE guibg=NONE
 highlight clear SignColumn
+
+set norelativenumber
+set nonumber
 
 "highlight ColorColumn  ctermbg=green
 "highlight CursorLine   ctermbg=238

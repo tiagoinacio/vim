@@ -1,5 +1,5 @@
 syntax enable        " enable syntax processing
-set relativenumber
+"set relativenumber
 set showcmd             " show command in bottom barset cursorline
 filetype indent on      " load filetype-specific indent files
 set cursorline

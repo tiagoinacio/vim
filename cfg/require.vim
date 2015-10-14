@@ -15,14 +15,12 @@ Plug 'marijnh/tern_for_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 
 " motion
-Plug 'unblevable/quick-scope'
+"Plug 'unblevable/quick-scope'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
 Plug 'osyo-manga/vim-over'
-Plug 'wkentaro/conque.vim'
-Plug 'severin-lemaignan/vim-minimap'
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/goyo.vim'
@@ -41,7 +39,7 @@ Plug 'vim-scripts/Tagbar'
 
 " languague support
 Plug 'tomtom/tcomment_vim'
-Plug 'vim-scripts/colorsel.vim'
+"Plug 'vim-scripts/colorsel.vim'
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
 Plug 'michalliu/sourcebeautify.vim'
@@ -68,7 +66,11 @@ Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'sjl/gundo.vim'
+
 " theme
+Plug 'nelstrom/vim-mac-classic-theme'
+Plug 'cocopon/iceberg.vim'
+Plug 'mbbill/desertEx'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'gosukiwi/vim-atom-dark'
 Plug '29decibel/codeschool-vim-theme'
@@ -91,6 +93,7 @@ Plug 'tmhedberg/matchit'
 Plug 'tommcdo/vim-exchange'
 Plug 'danro/rename.vim'
 Plug 'chrisbra/vim-diff-enhanced'
+Plug 'vim-scripts/YankRing.vim'
 
 " others
 "Plug 'vim-scripts/repmo.vim'
@@ -117,6 +120,6 @@ Plug 'chrisbra/vim-diff-enhanced'
 "Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Plug 'embear/vim-localvimrc'
 "Plug 'bkad/CamelCaseMotion'
-Plug 'vim-scripts/YankRing.vim'
 "Plug 'whatyouhide/vim-gotham'
+"Plug 'severin-lemaignan/vim-minimap'
 call plug#end()
