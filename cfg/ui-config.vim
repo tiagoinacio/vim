@@ -6,7 +6,6 @@ set cursorline
 set cursorcolumn
 set wildmenu            " visual autocomplete for command menu
 set encoding=utf-8
-set laststatus=2
 set winfixwidth
 set fileencoding=utf-8
 set guifont=Monaco\ Plus\ Nerd\ File\ Types:h13
@@ -15,7 +14,6 @@ set columns=120
 set winwidth=84
 set scrolljump=5
 set synmaxcol=180
-set laststatus=2
 filetype off
 filetype plugin on
 set backspace=indent,eol,start

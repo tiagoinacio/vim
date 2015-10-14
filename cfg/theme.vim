@@ -1,30 +1,20 @@
+set term=xterm
 set t_Co=256
-let &t_Co=256
 set background=light
-let base16colorspace=256
-"colorscheme iceberg
-"hi CursorLine cterm=NONE guibg=Grey40
-hi CursorLine cterm=NONE ctermbg=450
-hi CursorColumn ctermbg=NONE guibg=NONE
-highlight clear SignColumn
+if has("gui")
+    colorscheme mac_classic
+endif
 
+"disable all
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
+set shortmess=at
 set norelativenumber
 set nonumber
+set foldcolumn=1
 
-"highlight ColorColumn  ctermbg=green
-"highlight CursorLine   ctermbg=238
-"hi CursorLine guibg=#232c31
-"hi LineNr guibg=#232c31
-"highlight LineNr       ctermbg=236 ctermfg=240
-"highlight CursorLineNr ctermbg=236 ctermfg=240
 
-" set up some custom colors
-"highlight VertSplit    ctermbg=236
-"highlight StatusLineNC ctermbg=238 ctermfg=0
-"highlight StatusLine   ctermbg=240 ctermfg=12
-"highlight IncSearch    ctermbg=3   ctermfg=1
-"highlight Search       ctermbg=1   ctermfg=3
-"highlight Visual       ctermbg=3   ctermfg=0
-"highlight Pmenu        ctermbg=240 ctermfg=12
-"highlight PmenuSel     ctermbg=3   ctermfg=1
-"highlight SpellBad     ctermbg=0   ctermfg=1
+"let base16colorspace=256
+"colorscheme iceberg

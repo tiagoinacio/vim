@@ -27,7 +27,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim'
-Plug 'bling/vim-airline'
+"Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
 
@@ -39,6 +39,7 @@ Plug 'vim-scripts/Tagbar'
 
 " languague support
 Plug 'tomtom/tcomment_vim'
+Plug 'yurifury/hexHighlight'
 "Plug 'vim-scripts/colorsel.vim'
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
@@ -68,13 +69,14 @@ Plug 'dbakker/vim-projectroot'
 Plug 'sjl/gundo.vim'
 
 " theme
+"Plug 'godlygeek/csapprox'
 Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'
 Plug 'mbbill/desertEx'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'gosukiwi/vim-atom-dark'
 Plug '29decibel/codeschool-vim-theme'
-Plug 'ryanoasis/vim-webdevicons'
+" Plug 'ryanoasis/vim-webdevicons'
 Plug 'trusktr/seti.vim'
 Plug 'therubymug/vim-pyte'
 Plug 'endel/vim-github-colorscheme'
