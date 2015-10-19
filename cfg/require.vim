@@ -6,6 +6,9 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 
+" shell
+Plug 'Shougo/vimshell.vim'
+
 " error handling
 Plug 'scrooloose/syntastic'
 
@@ -36,6 +39,9 @@ Plug 'shinokada/dragvisuals.vim'
 "Plug 'xolox/vim-misc'
 "Plug 'xolox/vim-easytags'
 Plug 'vim-scripts/Tagbar'
+
+" debug
+Plug 'sidorares/node-vim-debugger'
 
 " languague support
 Plug 'tomtom/tcomment_vim'
