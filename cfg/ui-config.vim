@@ -41,3 +41,10 @@ set so=999
 "set nocursorline
 "set showtabline=2
 "set showmatch           " highlight matching [{()}]
+
+hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
+hi CursorLine cterm=NONE ctermbg=NONE
+hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
+hi SignColumn guibg=NONE ctermbg=NONE
+hi FoldColumn guibg=white ctermbg=white
+

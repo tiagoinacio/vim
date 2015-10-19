@@ -17,9 +17,9 @@ hi GitGutterDeleteLine guibg=#fff5f5
 hi GitGutterChangeLine guibg=#f5faff
 hi GitGutterChangeDeleteLine guibg=#f5faff
 hi GitGutterAddLine guibg=#f8fff5
-highlight GitGutterAdd ctermbg=white guibg=white
-highlight GitGutterChange guibg=white ctermbg=white
-highlight GitGutterChangeDelete guibg=white ctermbg=white
-highlight GitGutterDelete guibg=white ctermbg=white
-highlight GitGutterAdd guibg=white ctermfg=NONE
-highlight GitGutterDelete guibg=white ctermfg=NONE
+highlight GitGutterAdd ctermbg=NONE guibg=NONE
+highlight GitGutterChange guibg=NONE ctermbg=NONE
+highlight GitGutterChangeDelete guibg=NONE ctermbg=NONE
+highlight GitGutterDelete guibg=NONE ctermbg=NONE
+highlight GitGutterAdd guibg=NONE ctermfg=NONE
+highlight GitGutterDelete guibg=NONE ctermfg=NONE
