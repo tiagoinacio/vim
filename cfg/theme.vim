@@ -1,6 +1,7 @@
-set term=xterm
-set t_Co=256
+"set term=xterm
+"set t_Co=256
 set background=light
+colorscheme mac_classic
 if has("gui")
     colorscheme mac_classic
 endif
@@ -13,8 +14,7 @@ set noshowcmd
 set shortmess=at
 set norelativenumber
 set nonumber
-set foldcolumn=1
-
+"set foldcolumn=1
 
 "let base16colorspace=256
 "colorscheme iceberg

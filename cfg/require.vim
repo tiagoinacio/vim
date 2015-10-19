@@ -23,6 +23,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
+Plug 'chrisbra/NrrwRgn'
 Plug 'osyo-manga/vim-over'
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
@@ -72,9 +73,12 @@ Plug 'low-ghost/nerdtree-fugitive', { 'on':  'NERDTreeToggle' }
 Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
-Plug 'sjl/gundo.vim'
+Plug 'mbbill/undotree'
+Plug 'mhinz/vim-startify'
+Plug 'kshenoy/vim-signature'
 
 " theme
+Plug 'tpope/vim-vividchalk'
 "Plug 'godlygeek/csapprox'
 Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'

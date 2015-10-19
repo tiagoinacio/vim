@@ -12,8 +12,3 @@ endfor
 "    call webdevicons#refresh()
 "endif
 
-hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
-hi CursorLine cterm=NONE ctermbg=NONE
-hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
-hi SignColumn guibg=NONE ctermbg=NONE
-hi FoldColumn guibg=white ctermbg=white
