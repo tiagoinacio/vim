@@ -58,6 +58,7 @@ Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
 Plug 'groenewege/vim-less', {'for': 'less'}
 
 " grep
+Plug 'yegappan/grep'
 Plug 'rking/ag.vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'

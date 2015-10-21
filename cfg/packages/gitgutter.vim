@@ -13,10 +13,10 @@ let g:gitgutter_escape_grep = 1
 let g:gitgutter_highlight_lines = 1
 let g:gitgutter_map_keys = 0
 
-hi GitGutterDeleteLine guibg=#fff5f5
-hi GitGutterChangeLine guibg=#f5faff
-hi GitGutterChangeDeleteLine guibg=#f5faff
-hi GitGutterAddLine guibg=#f8fff5
+" hi GitGutterDeleteLine guibg=#fff5f5
+" hi GitGutterChangeLine guibg=#f5faff
+" hi GitGutterChangeDeleteLine guibg=#f5faff
+" hi GitGutterAddLine guibg=#f8fff5
 highlight GitGutterAdd ctermbg=NONE guibg=NONE
 highlight GitGutterChange guibg=NONE ctermbg=NONE
 highlight GitGutterChangeDelete guibg=NONE ctermbg=NONE
