@@ -18,3 +18,8 @@ set nonumber
 
 "let base16colorspace=256
 "colorscheme iceberg
+"
+
+" set background=dark
+" set t_CO=256
+" colorscheme base16-railscasts
