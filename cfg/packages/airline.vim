@@ -1,4 +1,4 @@
-"let g:airline_section_warning = 1
+let g:airline_section_warning = 1
 let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#branch#empty_message = ''
@@ -16,5 +16,5 @@ let g:airline#extensions#tabline#fnamemod = ':t:.'
 let g:airline#extensions#bufferline#enabled = 0
 let g:airline_section_c = '%{g:bf_airline_path} %t' "'%{getcwd()}/%t'
 let g:airline#extensions#tabline#enabled = 0
-"let g:airline_theme='base16'
-let g:airline_theme='light'
+let g:airline_theme='base16'
+"let g:airline_theme='light'

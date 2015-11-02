@@ -31,7 +31,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim'
-"Plug 'bling/vim-airline'
+Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
 

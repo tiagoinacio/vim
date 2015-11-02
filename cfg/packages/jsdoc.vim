@@ -1,4 +1,5 @@
-noremap <leader>do :call Doc()<CR>
+" noremap <leader>do :call Doc()<CR>
+noremap <leader>do :JsDoc<CR>
 
 function Doc()
     :JsDoc

@@ -42,9 +42,9 @@ set so=999
 "set showtabline=2
 "set showmatch           " highlight matching [{()}]
 
+
 hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
-hi CursorLine cterm=NONE ctermbg=NONE
+hi CursorLine cterm=NONE ctermbg=7
 hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 hi FoldColumn guibg=white ctermbg=white
-
