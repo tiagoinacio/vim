@@ -20,18 +20,18 @@
 "    autocmd BufWritePost,FileWritePost *.* call AutoUpdateCTags()
 "augroup END
 
-"function! MarkMargin (on)
-"    if exists('b:MarkMargin')
-"        try
-"            call matchdelete(b:MarkMargin)
-"        catch /./
-"        endtry
-"        unlet b:MarkMargin
-"    endif
-"    if a:on
-"        let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
-"    endif
-"endfunction
+function! MarkMargin (on)
+    if exists('b:MarkMargin')
+        try
+            call matchdelete(b:MarkMargin)
+        catch /./
+        endtry
+        unlet b:MarkMargin
+    endif
+    if a:on
+        let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
+    endif
+endfunction
 
 " strips trailing whitespace at the end of files. this
 " is called on buffer write in the autogroup above.
@@ -56,7 +56,7 @@
 "    endif
 "endfunction
 
-"autocmd BufEnter * :call MarkMargin(1)
+autocmd BufEnter * :call MarkMargin(1)
 
 function! ClipboardYank()
   call system('pbcopy', @@)
@@ -127,7 +127,7 @@ function! XTermPasteBegin()
   return ""
 endfunction
 
-function s:MkNonExDir(file, buf)
+function! s:MkNonExDir(file, buf)
     if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
         let dir=fnamemodify(a:file, ':h')
         if !isdirectory(dir)
@@ -160,9 +160,10 @@ endfunction
 
 autocmd BufEnter * :call UpdateFlavour()
 autocmd BufWritePre * :%s/\s\+$//e
-"autocmd InsertLeave * :set relativenumber
-"autocmd InsertEnter * :set relativenumber!
 autocmd FilterWritePre * if &diff | setlocal wrap< | endif
+autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
+
 "au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
 "au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
-autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
+"autocmd InsertLeave * :set relativenumber
+"autocmd InsertEnter * :set relativenumber!

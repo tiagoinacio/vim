@@ -1,12 +1,13 @@
 " ----- xolox/vim-easytags settings -----
 " Where to look for tags files
 " Sensible defaults
-"let g:tagbar_left = 1
-let g:tagbar_compact = 1
-let g:tagbar_show_visibility = 1
-let g:tagbar_expand = 2
-let g:tagbar_show_linenumbers = 2
+
+" let g:tagbar_compact = 0
+" let g:tagbar_show_visibility = 1
+" let g:tagbar_expand = 2
+" let g:tagbar_show_linenumbers = 2
 " let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+
 "autocmd VimEnter * nested :TagbarOpen
 
 " ----- majutsushi/tagbar settings -----
@@ -15,3 +16,11 @@ nmap <leader>tg :TagbarToggle<CR>
 " Uncomment to open tagbar automatically whenever possible
 "autocmd BufEnter * nested :call tagbar#autoopen(0)
 "
+let g:tagbar_type_javascript = {
+    \ 'ctagstype' : 'JavaScript',
+    \ 'kinds'     : [
+        \ 'o:objects',
+        \ 'u:functions',
+        \ 'a:arrays'
+    \ ]
+\ }

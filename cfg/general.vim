@@ -12,12 +12,12 @@ set title
 set pastetoggle=<F2>
 set autowrite       "Save buffer automatically when changing files
 set updatecount=10                  "Save buffer every 10 chars typed
-set tags=./tags,tags;$HOME
+set tags=./tags;/
 " session options
 set ssop-=options    " do not store global and local values in a session
 set ssop-=folds      " do not store folds
 
-set scrolloff=2                     "Scroll when 2 lines from top/bottom
+" set scrolloff=2                     "Scroll when 2 lines from top/bottom
 
 set ruler                           "Show cursor location info on status line
 let g:tlist_javascript_settings = 'javascript;r:var;s:string;a:array;o:object;u:function'

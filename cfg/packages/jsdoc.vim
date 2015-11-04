@@ -1,13 +1,4 @@
-" noremap <leader>do :call Doc()<CR>
 noremap <leader>do :JsDoc<CR>
-
-function Doc()
-    :JsDoc
-    execute '%s/\%x40name/@method/gi'
-    execute 'g/\%x40function/d'
-    execute 'normal kkdd'
-    execute 'normal jjjj0w'
-endfunction
 
 let g:jsdoc_default_mapping = 0
 

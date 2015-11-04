@@ -1,5 +1,5 @@
-nmap <TAB> :GitGutterNextHunk<CR>
-nmap <S-TAB> :GitGutterPrevHunk<CR>
+nmap <leader>nh :GitGutterNextHunk<CR>
+nmap <leader>ph :GitGutterPrevHunk<CR>
 noremap <leader>gp :GitGutterPreviewHunk<cr>
 noremap <leader>gs :GitGutterStageHunk<cr>
 noremap <leader>gr :GitGutterRevertHunk<cr>

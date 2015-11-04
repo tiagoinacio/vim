@@ -18,8 +18,12 @@ Plug 'marijnh/tern_for_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 
 " motion
-"Plug 'unblevable/quick-scope'
-Plug 'Lokaltog/vim-easymotion'
+Plug 'haya14busa/vim-easyoperator-line'
+Plug 'bkad/CamelCaseMotion'
+" Plug 'unblevable/quick-scope'
+Plug 'Julian/vim-textobj-variable-segment'
+Plug 'kana/vim-textobj-user'
+Plug 'easymotion/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
@@ -36,9 +40,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
 
 " tags
-Plug 'szw/vim-tags'
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-easytags'
+" Plug 'szw/vim-tags'
+" Plug 'xolox/vim-misc'
+" Plug 'xolox/vim-easytags'
 Plug 'vim-scripts/Tagbar'
 
 " debug
@@ -132,7 +136,6 @@ Plug 'vim-scripts/YankRing.vim'
 "Plug 'szw/vim-ctrlspace'
 "Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 "Plug 'embear/vim-localvimrc'
-"Plug 'bkad/CamelCaseMotion'
 "Plug 'whatyouhide/vim-gotham'
 "Plug 'severin-lemaignan/vim-minimap'
 call plug#end()
