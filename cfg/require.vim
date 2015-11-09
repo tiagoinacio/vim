@@ -40,6 +40,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'shinokada/dragvisuals.vim'
 
 " tags
+Plug 'grassdog/tagman.vim'
 " Plug 'szw/vim-tags'
 " Plug 'xolox/vim-misc'
 " Plug 'xolox/vim-easytags'

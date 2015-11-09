@@ -17,10 +17,13 @@ nmap <leader>tg :TagbarToggle<CR>
 "autocmd BufEnter * nested :call tagbar#autoopen(0)
 "
 let g:tagbar_type_javascript = {
-    \ 'ctagstype' : 'JavaScript',
+    \ 'ctagstype' : 'js',
     \ 'kinds'     : [
-        \ 'o:objects',
-        \ 'u:functions',
+        \ 'n:constant',
+        \ 'o:object',
+        \ 'c:class',
+        \ 'f:function',
+        \ 'm:method',
         \ 'a:arrays'
     \ ]
 \ }

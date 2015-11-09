@@ -43,7 +43,7 @@ set so=999
 "set showmatch           " highlight matching [{()}]
 
 
-hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
-hi CursorLine cterm=NONE ctermbg=NONE
+hi CursorLine cterm=NONE ctermbg=15
+hi Normal ctermbg=231
 hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE

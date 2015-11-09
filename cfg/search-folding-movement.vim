@@ -9,7 +9,6 @@ set ignorecase
 
 " Organization
 set modelines=1
-set nonumber "This will be folded
 
 " copy to clipboard
 set clipboard+=unnamedplus

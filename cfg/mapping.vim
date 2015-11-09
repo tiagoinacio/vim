@@ -5,7 +5,6 @@ nmap <leader>di :%s/\%x40name/@method/gi<CR>
 nmap <leader>du :%s/\%x40name/@method/gi<CR>
 vmap <silent> s <Esc>:/\%V
 nmap <leader>ya :let @* = expand("%:p")<CR>
-noremap s /\v
 nmap <leader>7 :s/^/\/\//g<CR>
 nmap <leader>6 :s/\/\//g<CR>
 "nmap <leader>bi :set scrollbind<CR> <C-W>l :set scrollbind<CR>
@@ -22,6 +21,12 @@ nnoremap <leader>dg :diffget<CR>
 " clipboard yank
 set clipboard=unnamed
 
+" In command-line mode, C-a jumps to beginning (to match C-e)
+cnoremap <C-a> <Home>
+
+" Yank from the cursor to the end of the line, to be consistent with C and D.
+nnoremap Y y$
+
 noremap 0 ^
 noremap ^ 0
 
@@ -35,7 +40,9 @@ nmap :W :w
 nnoremap <silent> >> :call ShiftLine()<CR>|               "And no shift magic on comments
 map :Q :q
 cmap § /
-nmap <leader>tn :tabnew<CR>
+nmap <leader>tn :tnext<CR>
+nmap <leader>tp :tprev<CR>
+nmap <leader>tab :tabnew<CR>
 nmap <leader>bd :bd<CR>
 nmap <leader>bn :bn<CR>
 nnoremap _ dd
@@ -54,7 +61,6 @@ map <leader>tt <c-]>
 
 " visual mode
 imap jj <Esc>
-imap fjf <Esc>:
 " Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
 vmap <BS> x
 vmap ; :B<SPACE>
@@ -72,9 +78,6 @@ noremap <leader>h- :resize -10<cr>
 imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 " Disable arrow keys
-
-nmap <up> :exec 'normal ddkkp'<CR>
-nmap <down> :exec 'normal ddp'<CR>
 nmap <left> <nop>
 nmap <right> <nop>
 vmap <up> x k p

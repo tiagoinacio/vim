@@ -26,3 +26,9 @@
 15:15:27: Empty filename or type
 15:15:27: Not a valid file, stopping processing
 15:15:37: goto_win(): 1wincmd w, 1
+14:47:04: AutoUpdate called [/Users/tiagoinacio/.vim/cfg/packages/tagbar.vim]
+14:47:04: Vim filetype: 'vim', sanitized filetype: 'vim'
+14:47:04: Checking if file is valid [/Users/tiagoinacio/.vim/cfg/packages/tagbar.vim]
+14:47:04: File data seems up to date [/Users/tiagoinacio/.vim/cfg/packages/tagbar.vim]
+14:47:04: Setting current file [/Users/tiagoinacio/.vim/cfg/packages/tagbar.vim]
+14:47:04: AutoUpdate finished successfully
