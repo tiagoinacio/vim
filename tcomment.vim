@@ -1,1 +1,2 @@
-nnoremap <C-\> :TComment<CR>
+nmap <C-\> :TComment<CR>
+vmap <C-\> :TComment<CR>

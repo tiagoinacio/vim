@@ -12,6 +12,7 @@ nmap <leader>bi :set scrollbind<CR>
 nmap <leader>qa :qall!<CR>
 nmap <leader>sa :w!<CR>
 nmap <leader>cd :ProjectRootCD<CR>
+nmap <leader>cl :lcd %:p:h<CR>
 nnoremap <leader>sh :terminal<CR>
 vmap ´ <Esc>:/\%V
 nmap <S-BS> db

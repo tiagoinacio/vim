@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/tiagoinacio/Work'
 let g:netrw_dirhist_2='/Users/tiagoinacio'
 let g:netrw_dirhist_3='/Users'
 let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_5='/Users/tiagoinacio/Work/betfair/bf-smx-static-client'
+let g:netrw_dirhist_6='/Users/tiagoinacio/Work/betfair/bf-smx-http-sports-highlights'

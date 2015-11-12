@@ -69,6 +69,7 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
 Plug 'kien/ctrlp.vim'
+Plug 'Shougo/unite.vim'
 Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 
@@ -112,6 +113,7 @@ Plug 'tommcdo/vim-exchange'
 Plug 'danro/rename.vim'
 Plug 'chrisbra/vim-diff-enhanced'
 Plug 'vim-scripts/YankRing.vim'
+Plug 'gcmt/taboo.vim'
 
 " others
 "Plug 'vim-scripts/repmo.vim'

@@ -1,7 +1,10 @@
 noremap <leader>cp :CtrlPCurWD<CR>
+noremap <leader>cc :CtrlPChangeAll<CR>
+noremap <leader>cu :CtrlPUndo<CR>
 noremap <leader>fp :CtrlPBookmarkDir<CR>
 noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>ta :CtrlPTag<CR>
+noremap <leader>cq :CtrlPQuickfix<CR>
 noremap <leader>tb :CtrlPBufTagAll<CR>
 noremap <leader>tc :CtrlPBufTag<CR>
 noremap <leader>ls :CtrlPBuffer<CR>
@@ -23,5 +26,12 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
       \ --ignore .svn
       \ --ignore .hg
       \ --ignore .DS_Store
+      \ --ignore coverage
+      \ --ignore temp
       \ --ignore "**/*.pyc"
       \ -g ""'
+
+
+let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
+                          \ 'undo', 'line', 'changes', 'mixed', 'bookmarkdir']
+let g:ctrlp_buftag_ctags_bin = '/usr/bin/ctags'

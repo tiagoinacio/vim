@@ -9,6 +9,7 @@ for f in split(glob('~/.vim/cfg/packages/*.vim'), '\n')
 endfor
 
 highlight SignColumn guibg=NONE
+highlight LineNr guibg=NONE
 
 "if exists("g:loaded_webdevicons")
 "    call webdevicons#refresh()
