@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " personal plugins
-Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git'
+Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,js'}
 
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
@@ -20,7 +20,7 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 " motion
 Plug 'haya14busa/vim-easyoperator-line'
 Plug 'bkad/CamelCaseMotion'
-" Plug 'unblevable/quick-scope'
+Plug 'unblevable/quick-scope'
 Plug 'Julian/vim-textobj-variable-segment'
 Plug 'kana/vim-textobj-user'
 Plug 'easymotion/vim-easymotion'
@@ -47,15 +47,16 @@ Plug 'grassdog/tagman.vim'
 Plug 'vim-scripts/Tagbar'
 
 " debug
-Plug 'sidorares/node-vim-debugger'
+Plug 'sidorares/node-vim-debugger', {'for': 'json,javascript,js'}
 
 " languague support
+Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'}
+" Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'}
 Plug 'tomtom/tcomment_vim'
 Plug 'yurifury/hexHighlight'
-"Plug 'vim-scripts/colorsel.vim'
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
-Plug 'michalliu/sourcebeautify.vim'
+Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
 Plug 'Quramy/vison'
 Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'}
@@ -85,19 +86,13 @@ Plug 'mhinz/vim-startify'
 Plug 'kshenoy/vim-signature'
 
 " theme
-Plug 'tpope/vim-vividchalk'
-"Plug 'godlygeek/csapprox'
 Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'
 Plug 'mbbill/desertEx'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'gosukiwi/vim-atom-dark'
 Plug '29decibel/codeschool-vim-theme'
-" Plug 'ryanoasis/vim-webdevicons'
 Plug 'trusktr/seti.vim'
-Plug 'therubymug/vim-pyte'
-Plug 'endel/vim-github-colorscheme'
-Plug 'vim-scripts/eclipse.vim'
 Plug 'chriskempson/base16-vim'
 
 " latex
@@ -116,6 +111,9 @@ Plug 'vim-scripts/YankRing.vim'
 Plug 'gcmt/taboo.vim'
 
 " others
+"Plug 'therubymug/vim-pyte'
+"Plug 'endel/vim-github-colorscheme'
+"Plug 'vim-scripts/eclipse.vim'
 "Plug 'vim-scripts/repmo.vim'
 "Plug 'burnettk/vim-angular'
 "Plug 'nanotech/jellybeans.vim'
@@ -141,4 +139,8 @@ Plug 'gcmt/taboo.vim'
 "Plug 'embear/vim-localvimrc'
 "Plug 'whatyouhide/vim-gotham'
 "Plug 'severin-lemaignan/vim-minimap'
+"Plug 'vim-scripts/colorsel.vim'
+"Plug 'tpope/vim-vividchalk'
+"Plug 'godlygeek/csapprox'
+"Plug 'ryanoasis/vim-webdevicons'
 call plug#end()
