@@ -5,7 +5,7 @@ let base16colorspace=256
 set background=light
 colorscheme mac_classic
 
-set noruler
+set ruler
 set relativenumber
 set nonumber
 set cursorline

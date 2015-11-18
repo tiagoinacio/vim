@@ -80,7 +80,7 @@ imap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 " Disable arrow keys
 nmap <left> <nop>
-nmap <right> <nop>
+vmap <right> :call ShiftLine()<CR>| "And no shift magic on comments
 vmap <up> x k p
 
 nmap n :cnext<CR>
