@@ -37,13 +37,10 @@ Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
-Plug 'shinokada/dragvisuals.vim'
+" Plug 'shinokada/dragvisuals.vim'
 
 " tags
 Plug 'grassdog/tagman.vim'
-" Plug 'szw/vim-tags'
-" Plug 'xolox/vim-misc'
-" Plug 'xolox/vim-easytags'
 Plug 'vim-scripts/Tagbar'
 
 " debug
@@ -51,7 +48,6 @@ Plug 'sidorares/node-vim-debugger', {'for': 'json,javascript,js'}
 
 " languague support
 Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'}
-" Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'}
 Plug 'tomtom/tcomment_vim'
 Plug 'yurifury/hexHighlight'
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
@@ -70,7 +66,6 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
 Plug 'kien/ctrlp.vim'
-Plug 'Shougo/unite.vim'
 Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 
@@ -82,7 +77,7 @@ Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'mbbill/undotree'
-Plug 'mhinz/vim-startify'
+" Plug 'mhinz/vim-startify'
 Plug 'kshenoy/vim-signature'
 
 " theme
@@ -99,7 +94,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
 
 " helpers
-Plug 'HTML-AutoCloseTag', { 'for':  'html,css' }
+Plug 'HTML-AutoCloseTag', {'for': 'html,css'}
 Plug 'dahu/vim-fanfingtastic'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
@@ -108,6 +103,8 @@ Plug 'tommcdo/vim-exchange'
 Plug 'danro/rename.vim'
 Plug 'chrisbra/vim-diff-enhanced'
 Plug 'vim-scripts/YankRing.vim'
+" Plug 'svermeulen/vim-easyclip'
+" Plug 'vim-scripts/EasyClipRing.vim'
 Plug 'gcmt/taboo.vim'
 
 " others
@@ -143,4 +140,9 @@ Plug 'gcmt/taboo.vim'
 "Plug 'tpope/vim-vividchalk'
 "Plug 'godlygeek/csapprox'
 "Plug 'ryanoasis/vim-webdevicons'
+" Plug 'Shougo/unite.vim'
+" Plug 'szw/vim-tags'
+" Plug 'xolox/vim-misc'
+" Plug 'xolox/vim-easytags'
+" Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'}
 call plug#end()

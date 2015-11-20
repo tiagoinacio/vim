@@ -6,7 +6,7 @@ set background=light
 colorscheme mac_classic
 
 set ruler
-set relativenumber
+" set relativenumber
 set nonumber
 set cursorline
 
