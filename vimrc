@@ -1,3 +1,6 @@
+" Author: Tiago Inácio
+" repo: https://github.com/tiagoinacio/vim
+
 so ~/.vim/autoload/plug.vim
 
 for f in split(glob('~/.vim/cfg/*.vim'), '\n')
@@ -11,6 +14,3 @@ endfor
 highlight SignColumn guibg=NONE
 highlight LineNr guibg=NONE
 
-"if exists("g:loaded_webdevicons")
-"    call webdevicons#refresh()
-"endif

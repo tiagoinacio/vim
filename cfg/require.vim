@@ -6,16 +6,17 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 
-" shell
-Plug 'Shougo/vimshell.vim'
-
 " error handling
 Plug 'scrooloose/syntastic'
 
 " auto completition
 Plug 'Valloric/YouCompleteMe'
 Plug 'marijnh/tern_for_vim'
+Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'matthewsimo/angular-vim-snippets'
+Plug 'honza/vim-snippets'
+Plug 'garbas/vim-snipmate'
 
 " motion
 Plug 'haya14busa/vim-easyoperator-line'
@@ -27,6 +28,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'terryma/vim-expand-region'
 
 " window
+Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn'
 Plug 'osyo-manga/vim-over'
 Plug 'godlygeek/tabular'
@@ -37,17 +39,15 @@ Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
-" Plug 'shinokada/dragvisuals.vim'
 
 " tags
 Plug 'grassdog/tagman.vim'
 Plug 'vim-scripts/Tagbar'
 
-" debug
-Plug 'sidorares/node-vim-debugger', {'for': 'json,javascript,js'}
 
 " languague support
 Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'}
+Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'}
 Plug 'tomtom/tcomment_vim'
 Plug 'yurifury/hexHighlight'
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
@@ -58,6 +58,8 @@ Plug 'Quramy/vison'
 Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'}
 Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
 Plug 'groenewege/vim-less', {'for': 'less'}
+Plug 'sidorares/node-vim-debugger', {'for': 'json,javascript,js'}
+Plug 'gorodinskiy/vim-coloresque'
 
 " grep
 Plug 'yegappan/grep'
@@ -65,7 +67,7 @@ Plug 'rking/ag.vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 
@@ -77,8 +79,9 @@ Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'mbbill/undotree'
-" Plug 'mhinz/vim-startify'
+Plug 'Shougo/unite.vim'
 Plug 'kshenoy/vim-signature'
+" Plug 'mhinz/vim-startify'
 
 " theme
 Plug 'nelstrom/vim-mac-classic-theme'
@@ -139,10 +142,9 @@ Plug 'gcmt/taboo.vim'
 "Plug 'vim-scripts/colorsel.vim'
 "Plug 'tpope/vim-vividchalk'
 "Plug 'godlygeek/csapprox'
-"Plug 'ryanoasis/vim-webdevicons'
 " Plug 'Shougo/unite.vim'
 " Plug 'szw/vim-tags'
 " Plug 'xolox/vim-misc'
 " Plug 'xolox/vim-easytags'
-" Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'}
+" Plug 'shinokada/dragvisuals.vim'
 call plug#end()

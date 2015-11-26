@@ -1,6 +1,8 @@
 "set term=xterm
 set t_Co=256
 let base16colorspace=256
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
 
 set background=light
 colorscheme mac_classic
