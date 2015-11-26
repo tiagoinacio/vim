@@ -25,6 +25,7 @@ Plug 'unblevable/quick-scope'
 Plug 'Julian/vim-textobj-variable-segment'
 Plug 'kana/vim-textobj-user'
 Plug 'easymotion/vim-easymotion'
+Plug 'dbarsam/vim-rainbow-parentheses'
 Plug 'terryma/vim-expand-region'
 
 " window
