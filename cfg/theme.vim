@@ -7,7 +7,7 @@ let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 set background=light
 colorscheme mac_classic
 
-set ruler
+"set ruler
 " set relativenumber
 set nonumber
 set cursorline

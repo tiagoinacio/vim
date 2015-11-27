@@ -6,8 +6,8 @@ nmap <down> :GitGutterNextHunk<CR>
 
 let g:gitgutter_override_sign_column_highlight = 0
 let g:gitgutter_realtime = 1
-let g:gitgutter_sign_column_always = 0
-let g:gitgutter_signs = 0
+let g:gitgutter_sign_column_always = 1
+let g:gitgutter_signs = 1
 let g:gitgutter_max_signs = 500  " default value
 let g:gitgutter_escape_grep = 1
 let g:gitgutter_highlight_lines = 0
