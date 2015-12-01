@@ -7,7 +7,8 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 
 " error handling
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
+Plug 'benekastah/neomake'
 
 " auto completition
 Plug 'Valloric/YouCompleteMe'

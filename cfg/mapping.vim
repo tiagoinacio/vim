@@ -94,3 +94,4 @@ vmap < <gv
 vmap > >gv
 
 vmap <CR> <Esc>
+nnoremap <leader>ll :lopen<CR>

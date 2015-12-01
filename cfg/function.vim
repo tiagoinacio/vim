@@ -2,24 +2,6 @@
 "endfunction
 "call Start()
 
-"function! RangeSearch(direction)
-"  call inputsave()
-"  let g:srchstr = input(a:direction)
-"  call inputrestore()
-"  if strlen(g:srchstr) > 0
-"    let g:srchstr = g:srchstr.
-"          \ '\%>'.(line("'<")-1).'l'.
-"          \ '\%<'.(line("'>")+1).'l'
-"  else
-"    let g:srchstr = ''
-"  endif
-"endfunction
-
-"augroup AutoUpdateCTags
-"    autocmd!
-"    autocmd BufWritePost,FileWritePost *.* call AutoUpdateCTags()
-"augroup END
-
 function! MarkMargin (on)
     if exists('b:MarkMargin')
         try
@@ -32,49 +14,6 @@ function! MarkMargin (on)
         let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
     endif
 endfunction
-
-" strips trailing whitespace at the end of files. this
-" is called on buffer write in the autogroup above.
-"function! <SID>StripTrailingWhitespaces()
-"    " save last search & cursor position
-"    let _s=@/
-"    let l = line(".")
-"    let c = col(".")
-"    %s/\s\+$//e
-"    let @/=_s
-"    call cursor(l, c)
-"endfunction
-
-"function! AutoUpdateCTags()
-"    if filewritable("tags")==1
-"        if &ch>1
-"            echo "Updating tags..."
-"        endif
-"        let filename = expand('%')
-"        let filename = substitute(filename, '^./',     '', '')
-"        silent exec '!ctags -a ' . shellescape(filename) . ' 2> >(grep -v "^ctags: Warning: ignoring null tag")'
-"    endif
-"endfunction
-
-autocmd BufEnter * :call MarkMargin(1)
-
-function! ClipboardYank()
-  call system('pbcopy', @@)
-endfunction
-
-function! ClipboardPaste()
-  let @@ = system('pbpaste')
-endfunction
-
-
-function! ToggleNumber() " toggle between number and relativenumber
-    if(&relativenumber == 1)
-        set norelativenumber
-        set number
-    else
-        set relativenumber
-    endif
-endfunc
 
 function! Tab_Or_Complete()
     if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
@@ -102,12 +41,6 @@ function! RenameFile()
         exec ':silent !rm ' . old_name
         redraw!
     endif
-endfunction
-
-function! ShiftLine()
-    set nosmartindent
-    normal! >>
-    set smartindent
 endfunction
 
 function! WrapForTmux(s)
@@ -141,8 +74,6 @@ augroup BWCCreateDir
     autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
 augroup END
 
-
-autocmd BufEnter * :call <SID>AutoProjectRootCD()
 function! UpdateFlavour()
     let g:bf_flavour_path = expand('%:p')
     if g:bf_flavour_path =~ 'flavour/'
@@ -158,12 +89,10 @@ function! UpdateFlavour()
     endif
 endfunction
 
-autocmd BufEnter * :call UpdateFlavour()
+" autocmd BufEnter * :call UpdateFlavour()
+autocmd BufEnter * :call MarkMargin(1)
+autocmd BufEnter * :call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
-
-"au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
-"au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
-"autocmd InsertLeave * :set relativenumber
-"autocmd InsertEnter * :set relativenumber!
+autocmd! BufWritePost * Neomake
