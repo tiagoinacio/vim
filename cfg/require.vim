@@ -10,6 +10,9 @@ Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 " Plug 'scrooloose/syntastic'
 Plug 'benekastah/neomake'
 
+Plug 'mattn/gist-vim'
+Plug 'vim-scripts/vimagit'
+
 " auto completition
 Plug 'Valloric/YouCompleteMe'
 Plug 'marijnh/tern_for_vim'
