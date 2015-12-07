@@ -4,8 +4,8 @@ let base16colorspace=256
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
 
-set background=light
-colorscheme mac_classic
+set background=dark
+colorscheme atom-dark-256
 
 "set ruler
 " set relativenumber
@@ -21,3 +21,4 @@ set foldcolumn=0
 "disable all
 "set noshowmode
 
+hi CursorColumn ctermbg=NONE guibg=NONE

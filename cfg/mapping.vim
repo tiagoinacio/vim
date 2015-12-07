@@ -83,8 +83,8 @@ nmap <left> <nop>
 vmap <right> :call ShiftLine()<CR>| "And no shift magic on comments
 vmap <up> x k p
 
-nmap n :cnext<CR>
-nmap N :cprevious<CR>
+nmap <leader>n :cnext<CR>
+nmap <leader>N :cprevious<CR>
 nmap <leader>re :source ~/.vimrc<CR>
 nmap <leader>r. :source %<CR>
 map <C-RightMouse> :tag <C-R><C-W><CR>

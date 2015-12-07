@@ -43,6 +43,8 @@ Plug 'junegunn/limelight.vim'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim'
 Plug 'bling/vim-airline'
+Plug 'mattn/webapi-vim'
+Plug 'Wildog/airline-weather.vim'
 Plug 'airblade/vim-gitgutter'
 
 " tags
