@@ -8,7 +8,6 @@ Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 
 " error handling
 Plug 'benekastah/neomake'
-Plug 'vim-scripts/FavEx'
 
 Plug 'mattn/gist-vim'
 Plug 'vim-scripts/vimagit'
@@ -75,7 +74,6 @@ Plug 'rking/ag.vim'
 Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
