@@ -7,14 +7,15 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 
 " error handling
-" Plug 'scrooloose/syntastic'
 Plug 'benekastah/neomake'
+Plug 'vim-scripts/FavEx'
 
 Plug 'mattn/gist-vim'
 Plug 'vim-scripts/vimagit'
 
 " auto completition
 Plug 'Valloric/YouCompleteMe'
+Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -75,6 +76,7 @@ Plug 'mileszs/ack.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf.vim'
 Plug 'd11wtq/ctrlp_bdelete.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 

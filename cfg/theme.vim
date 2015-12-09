@@ -4,8 +4,10 @@ let base16colorspace=256
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
 
 
-set background=dark
-colorscheme atom-dark-256
+" set background=dark
+" colorscheme atom-dark-256
+
+colorscheme mac_classic
 
 "set ruler
 " set relativenumber

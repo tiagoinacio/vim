@@ -1,15 +1,11 @@
 noremap <leader>cp :CtrlPCurWD<CR>
 noremap <leader>cc :CtrlPChangeAll<CR>
 noremap <leader>cu :CtrlPUndo<CR>
-noremap <leader>fp :CtrlPBookmarkDir<CR>
-noremap <leader><TAB> :CtrlP<CR>
 noremap <leader>ta :CtrlPTag<CR>
 noremap <leader>cq :CtrlPQuickfix<CR>
 noremap <leader>tb :CtrlPBufTagAll<CR>
 noremap <leader>tc :CtrlPBufTag<CR>
-noremap <leader>ls :CtrlPBuffer<CR>
 noremap <leader>ct :CtrlPSmartTabs<CR>
-noremap <BS> :CtrlPBufTagAll<CR>
 
 set runtimepath^=~/.vim/plugged/ctrlp.vim
 let g:ctrlp_match_window = 'bottom,order:ttb'

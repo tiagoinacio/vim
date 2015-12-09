@@ -1,5 +1,6 @@
 noremap <leader>si :SyntasticCheck<CR>:call ToggleErrors()<CR>
 
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 let g:syntastic_aggregate_errors = 1
 let jshint2_read = 1
 let jshint2_save = 1
