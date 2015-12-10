@@ -1,6 +1,6 @@
 set rtp+=/usr/local/opt/fzf
 
-function! s:choose_favorite(path)
+function! s:ChooseFavorite(path)
     echo a:path
     exec "cd ".a:path
     GitFiles
@@ -10,7 +10,7 @@ endfunction
 function! Favorites()
     call fzf#run({
         \   'source': 'cat $HOME/.cdg_paths',
-        \   'sink': function('s:my_func')
+        \   'sink': function('s:ChooseFavorite')
         \ })
 endfunction
 
