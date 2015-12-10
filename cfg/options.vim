@@ -67,8 +67,6 @@ set clipboard+=unnamedplus
 """"""""""""""
 set ssop-=options    " do not store global and local values in a session
 set ssop-=folds      " do not store folds
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview
 
 """"""""""""""""""""""""""
 "" TABS AND INDENTATION ""
