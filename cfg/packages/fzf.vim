@@ -18,3 +18,4 @@ nnoremap <silent> <Leader>fp :call Favorites()<cr>
 noremap <leader><TAB> :GitFiles<cr>
 noremap <leader>ls :Buffers<cr>
 noremap <BS> :Tags<cr>
+noremap <leader>ma :Marks<cr>
