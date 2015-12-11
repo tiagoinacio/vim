@@ -82,7 +82,7 @@ set shiftwidth=4
 "" CURSOR ""
 """"""""""""
 set mouse=a
-set so=999 "center cursor on the screen
+" set so=999 "center cursor on the screen
 
 """""""""""""""""""
 "" GUI STRUCTURE ""
@@ -111,8 +111,8 @@ set guifont=Monaco\ Plus\ Nerd\ File\ Types:h13
 """"""""""""""""
 "" HIGHLIGHTS ""
 """"""""""""""""
-hi CursorLine cterm=NONE ctermbg=15
 hi Normal ctermbg=231
 hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
 hi CursorColumn ctermbg=NONE guibg=NONE
+hi CursorLine cterm=NONE ctermbg=15

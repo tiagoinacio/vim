@@ -43,23 +43,6 @@ function! RenameFile()
     endif
 endfunction
 
-function! WrapForTmux(s)
-  if !exists('$TMUX')
-    return a:s
-  endif
-
-  let tmux_start = "\<Esc>Ptmux;"
-  let tmux_end = "\<Esc>\\"
-
-  return tmux_start . substitute(a:s, "\<Esc>", "\<Esc>\<Esc>", 'g') . tmux_end
-endfunction
-
-function! XTermPasteBegin()
-  set pastetoggle=<Esc>[201~
-  set paste
-  return ""
-endfunction
-
 function! s:MkNonExDir(file, buf)
     if empty(getbufvar(a:buf, '&buftype')) && a:file!~#'\v^\w+\:\/'
         let dir=fnamemodify(a:file, ':h')
@@ -90,9 +73,9 @@ function! UpdateFlavour()
 endfunction
 
 " autocmd BufEnter * :call UpdateFlavour()
+autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
 autocmd BufEnter * :call MarkMargin(1)
 autocmd BufEnter * :call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
-autocmd FilterWritePre * if &diff | setlocal wrap< | endif
 autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
 autocmd! BufWritePost * Neomake

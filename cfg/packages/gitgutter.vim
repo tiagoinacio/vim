@@ -4,7 +4,7 @@ noremap <leader>gr :GitGutterRevertHunk<cr>
 nmap <up> :GitGutterPrevHunk<CR>
 nmap <down> :GitGutterNextHunk<CR>
 
-let g:gitgutter_override_sign_column_highlight = 0
+let g:gitgutter_override_sign_column_highlight = 1
 let g:gitgutter_realtime = 1
 let g:gitgutter_sign_column_always = 1
 let g:gitgutter_signs = 1
@@ -13,14 +13,14 @@ let g:gitgutter_escape_grep = 1
 let g:gitgutter_highlight_lines = 0
 let g:gitgutter_map_keys = 0
 
-highlight GitGutterAdd ctermbg=NONE guibg=NONE
-highlight GitGutterChange guibg=NONE ctermbg=NONE
-highlight GitGutterChangeDelete guibg=NONE ctermbg=NONE
-highlight GitGutterDelete guibg=NONE ctermbg=NONE
-highlight GitGutterAdd guibg=NONE ctermfg=NONE
-highlight GitGutterDelete guibg=NONE ctermfg=NONE
+" highlight GitGutterAdd ctermbg=NONE guibg=NONE
+" highlight GitGutterChange guibg=NONE ctermbg=NONE
+" highlight GitGutterChangeDelete guibg=NONE ctermbg=NONE
+" highlight GitGutterDelete guibg=NONE ctermbg=NONE
+" highlight GitGutterAdd guibg=NONE ctermfg=NONE
+" highlight GitGutterDelete guibg=NONE ctermfg=NONE
 
-"hi GitGutterDeleteLine guibg=#fff5f5
-"hi GitGutterChangeLine guibg=#f5faff
-"hi GitGutterChangeDeleteLine guibg=#f5faff
-"hi GitGutterAddLine guibg=#f8fff5
+" hi GitGutterDeleteLine guibg=#fff5f5 ctermbg=231
+" hi GitGutterChangeLine ctermbg=195 guibg=#f5faff
+" hi GitGutterChangeDeleteLine ctermbg=red guibg=#f5faff
+" hi GitGutterAddLine ctermbg=194 guibg=#f8fff5

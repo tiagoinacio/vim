@@ -9,7 +9,7 @@ endfunction
 
 function! Favorites()
     call fzf#run({
-        \   'source': 'cat $HOME/.cdg_paths',
+        \   'source': 'cat $HOME/.fzf_favorites',
         \   'sink': function('s:ChooseFavorite')
         \ })
 endfunction

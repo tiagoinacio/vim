@@ -22,6 +22,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'dbarsam/vim-rainbow-parentheses'
 
 " window
+Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
 Plug 'osyo-manga/vim-over' " preview substitute commands
@@ -51,8 +52,11 @@ Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
 Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
 Plug 'gorodinskiy/vim-coloresque' " color hex, rgb, etc
 
+" shell
+Plug 'vim-scripts/vim-do'
+
 " grep
-Plug 'mileszs/ack.vim'
+Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim'
@@ -71,7 +75,7 @@ Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'gosukiwi/vim-atom-dark'
-Plug '29decibel/codeschool-vim-theme'
+Plug '29decibel/codeschool-Vim-theme'
 Plug 'trusktr/seti.vim'
 Plug 'chriskempson/base16-vim'
 
@@ -86,8 +90,6 @@ Plug 'tpope/vim-surround'
 Plug 'tmhedberg/matchit'
 Plug 'tommcdo/vim-exchange'
 Plug 'danro/rename.vim'
-Plug 'chrisbra/vim-diff-enhanced'
 Plug 'vim-scripts/YankRing.vim'
-Plug 'gcmt/taboo.vim'
 
 call plug#end()

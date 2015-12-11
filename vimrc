@@ -11,6 +11,3 @@ for f in split(glob('~/.vim/cfg/packages/*.vim'), '\n')
     exe 'source' f
 endfor
 
-highlight SignColumn guibg=NONE
-highlight LineNr guibg=NONE
-
