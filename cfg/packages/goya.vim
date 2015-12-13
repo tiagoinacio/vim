@@ -1,2 +1,3 @@
-nmap <leader>go :Goyo<CR>
+nnoremap <leader>go :Goyo<cr>
+
 

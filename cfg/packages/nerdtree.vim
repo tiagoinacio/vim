@@ -1,6 +1,6 @@
-noremap <leader>ne :NERDTreeToggle<CR>
+nnoremap <leader>ne :NERDTreeToggle<cr>
 nnoremap <silent> <leader>dt :ProjectRootExe NERDTreeFind<cr>
-nmap <leader>nf :NERDTreeFind<CR>
+nnoremap <leader>nf :NERDTreeFind<cr>
 
 au BufRead,BufNewFile *.json setf json
 let NERDTreeIgnore = ['tags', 'Session.vim', '.session.vim', '*.aux']

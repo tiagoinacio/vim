@@ -1,81 +1,80 @@
-" normal mode
+"""""""""""""""
+" NORMAL MODE "
+"""""""""""""""
 nmap <space> <leader>
-nmap <leader>on :only!<cr>
-nmap <leader>ya :let @* = expand("%:p")<cr>
-nmap <leader>bi :set scrollbind<cr>
-nmap <leader>qa :qall!<cr>
-nmap <leader>sa :w!<cr>
-nmap <leader>cd :ProjectRootCD<cr>
-nmap <leader>cl :lcd %:p:h<cr>
-nnoremap <leader>sh :terminal<cr>
-nmap <S-BS> db
+nnoremap , :
+
+" Source files
+nnoremap <leader>re :source ~/.vimrc<cr>
+nnoremap <leader>r. :source %<cr>
+
+" Window Management
+nnoremap <leader>on :only!<cr>
+nnoremap <leader>bi :set scrollbind<cr>
+nnoremap <leader>qa :qall!<cr>
+nnoremap :W :w
+nnoremap :Q :q
+nnoremap <c-s> :w!<cr>
+nnoremap <leader>bd :bd<cr>
+
+" Change Directory
+nnoremap <leader>cd :ProjectRootCD<cr>
+nnoremap <leader>cl :lcd %:p:h<cr>
+nnoremap <leader>ya :let @* = expand("%:p")<cr>
+
+" Git
 nnoremap <leader>di :diffthis<cr>
 nnoremap <leader>dg :diffget<cr>
 
-" clipboard yank
-set clipboard=unnamed
-
-" In command-line mode, C-a jumps to beginning (to match C-e)
-cnoremap <C-a> <Home>
-
-" Yank from the cursor to the end of the line, to be consistent with C and D.
-nnoremap Y y$
-
-noremap 0 ^
-noremap ^ 0
-
-" Visual
-" vnoremap s /\v
-vnoremap <silent> s <Esc>:/\%V
-vmap y y`]
-nnoremap , :
-nmap :W :w
-map :Q :q
-nmap <leader>tn :tnext<cr>
-nmap <leader>tp :tprev<cr>
-nmap <leader>tab :tabnew<cr>
-nmap <leader>bd :bd<cr>
-nmap <leader>bn :bn<cr>
+" Movement
 nnoremap _ dd
+nnoremap Y y$
+nnoremap 0 ^
+nnoremap ^ 0
 nnoremap J 3j
-vmap J 3j
-vmap K 3k
 nnoremap K 3k
 nnoremap L 4l
 nnoremap H 4h
+
+" Buffers
 nnoremap + :bn<cr>
 nnoremap - :bp<cr>
 
-map <leader>tt <c-]>
+" Tags
+nnoremap <leader>tn :tnext<cr>
+nnoremap <leader>tp :tprev<cr>
+nnoremap <leader>tw :tag <C-R><C-W><cr>
 
-" visual mode
-imap jj <Esc>
+" Location List
+nnoremap <leader><right> :lnext<cr>
+nnoremap <leader><left> :lprevious<cr>
+nnoremap <leader><up> :lopen<cr>
+nnoremap <leader><down> :lclose<cr>
 
-" Make BS/DEL work as expected in visual modes (i.e. delete the selected text)...
-vmap <BS> x
+" Error List
+nnoremap <right> :cnext<cr>
+nnoremap <left> :cprevious<cr>
+nnoremap <up> :copen<cr>
+nnoremap <down> :cclose<cr>
 
-noremap <leader>ln :lnext<cr>
-noremap <leader>vs :vsplit<cr>
-noremap <leader>hs :split<cr>
-nnoremap <leader>v- :vertical resize -10<cr>
-noremap <leader>v+ :vertical resize +10<cr>
-noremap <leader>-- :vertical resize -20<cr> "resize current buffer by +/- 5
-noremap <leader>++ :vertical resize +20<cr>
-noremap <leader>h+ :resize +10<cr>
-noremap <leader>h- :resize -10<cr>
-imap <Tab> <C-R>=Tab_Or_Complete()<cr>
+"""""""""""""""""""""
+" COMMAND-LINE MODE "
+"""""""""""""""""""""
+cnoremap <C-a> <Home>
 
-" Disable arrow keys
-nmap <right>n :cnext<cr>
-nmap <left>N :cprevious<cr>
+"""""""""""""""
+" VISUAL MODE "
+"""""""""""""""
+vnoremap y y`]
+vnoremap J 3j
+vnoremap K 3k
+vnoremap <cr> <Esc>
+vnoremap <BS> x
+vnoremap < <gv
+vnoremap > >gv
 
-nmap <leader>re :source ~/.vimrc<cr>
-nmap <leader>r. :source %<cr>
-map <C-RightMouse> :tag <C-R><C-W><cr>
-map <leader>tw :tag <C-R><C-W><cr>
-
-vmap < <gv
-vmap > >gv
-
-vmap <cr> <Esc>
-nnoremap <leader>ll :lopen<cr>
+"""""""""""""""
+" INSERT MODE "
+"""""""""""""""
+inoremap jj <Esc>
+inoremap <Tab> <C-R>=Tab_Or_Complete()<cr>

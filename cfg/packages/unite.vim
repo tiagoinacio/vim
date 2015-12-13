@@ -1,1 +1,2 @@
-nmap <leader>lb :Unite buffer<CR>
+nnoremap <leader>lb :Unite buffer<cr>
+

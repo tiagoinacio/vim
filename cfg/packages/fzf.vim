@@ -1,3 +1,9 @@
+nnoremap <silent> <Leader>fp :call Favorites()<cr>
+nnoremap <leader><TAB> :GitFiles<cr>
+nnoremap <leader>ls :Buffers<cr>
+nnoremap <BS> :Tags<cr>
+nnoremap <leader>ma :Marks<cr>
+
 set rtp+=/usr/local/opt/fzf
 
 function! s:ChooseFavorite(path)
@@ -14,8 +20,3 @@ function! Favorites()
         \ })
 endfunction
 
-nnoremap <silent> <Leader>fp :call Favorites()<cr>
-noremap <leader><TAB> :GitFiles<cr>
-noremap <leader>ls :Buffers<cr>
-noremap <BS> :Tags<cr>
-noremap <leader>ma :Marks<cr>

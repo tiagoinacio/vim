@@ -1,1 +1,2 @@
-nmap <leader>li :Limelight<CR>
+nnoremap <leader>li :Limelight<cr>
+

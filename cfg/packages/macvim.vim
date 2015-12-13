@@ -1,8 +1,3 @@
-if v:lang ==? "en_PT.UTF-8"
-endif
-
-set autochdir
-
 if has("gui")
     set autochdir!
     let macvim_hig_shift_movement = 1

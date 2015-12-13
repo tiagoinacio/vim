@@ -77,5 +77,6 @@ autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with dif
 autocmd BufEnter * :call MarkMargin(1)
 autocmd BufEnter * :call <SID>AutoProjectRootCD()
 autocmd BufWritePre * :%s/\s\+$//e
-autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>
+autocmd BufReadPost quickfix nnoremap <buffer> <cr> <cr>
 autocmd! BufWritePost * Neomake
+
