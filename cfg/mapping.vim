@@ -12,9 +12,9 @@ nnoremap <leader>r. :source %<cr>
 nnoremap <leader>on :only!<cr>
 nnoremap <leader>bi :set scrollbind<cr>
 nnoremap <leader>qa :qall!<cr>
-nnoremap :W :w
 nnoremap :Q :q
 nnoremap <c-s> :w!<cr>
+nnoremap § :w!<cr>
 nnoremap <leader>bd :bd<cr>
 
 " Change Directory
@@ -68,7 +68,6 @@ cnoremap <C-a> <Home>
 vnoremap y y`]
 vnoremap J 3j
 vnoremap K 3k
-vnoremap <cr> <Esc>
 vnoremap <BS> x
 vnoremap < <gv
 vnoremap > >gv
@@ -77,5 +76,6 @@ vnoremap > >gv
 " INSERT MODE "
 """""""""""""""
 inoremap <Tab> <C-R>=Tab_Or_Complete()<cr>
+inoremap § <Esc>:w!<cr>a
 inoremap jk <Esc>
 inoremap <esc> <nop>
