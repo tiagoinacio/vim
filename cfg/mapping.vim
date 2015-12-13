@@ -76,5 +76,6 @@ vnoremap > >gv
 """""""""""""""
 " INSERT MODE "
 """""""""""""""
-inoremap jj <Esc>
 inoremap <Tab> <C-R>=Tab_Or_Complete()<cr>
+inoremap jk <Esc>
+inoremap <esc> <nop>
