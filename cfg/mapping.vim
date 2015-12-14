@@ -27,7 +27,7 @@ nnoremap <leader>di :diffthis<cr>
 nnoremap <leader>dg :diffget<cr>
 
 " Movement
-nnoremap _ dd
+nnoremap <silent> _ dd
 nnoremap Y y$
 nnoremap 0 ^
 nnoremap ^ 0
