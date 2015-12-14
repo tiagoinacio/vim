@@ -79,3 +79,19 @@ inoremap <Tab> <C-R>=Tab_Or_Complete()<cr>
 inoremap § <Esc>:w!<cr>a
 inoremap jk <Esc>
 inoremap <esc> <nop>
+
+"""""""""""""""""
+" OPERATOR MODE "
+"""""""""""""""""
+onoremap p i(
+onoremap q i"
+onoremap t i'
+onoremap b i{
+onoremap in( :<c-u>normal! f(vi(<cr>
+onoremap in" :<c-u>normal! f"vi"<cr>
+onoremap in' :<c-u>normal! f'vi'<cr>
+onoremap in{ :<c-u>normal! f{vi{<cr>
+onoremap ip( :<c-u>normal! F(vi(<cr>
+onoremap ip" :<c-u>normal! F"vi"<cr>
+onoremap ip' :<c-u>normal! F'vi'<cr>
+onoremap ip{ :<c-u>normal! F{vi{<cr>
