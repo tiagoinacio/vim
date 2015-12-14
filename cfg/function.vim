@@ -52,10 +52,6 @@ function! s:MkNonExDir(file, buf)
     endif
 endfunction
 
-augroup BWCCreateDir
-    autocmd!
-    autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
-augroup END
 
 function! UpdateFlavour()
     let g:bf_flavour_path = expand('%:p')
@@ -72,11 +68,18 @@ function! UpdateFlavour()
     endif
 endfunction
 
-" autocmd BufEnter * :call UpdateFlavour()
-autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
-autocmd BufEnter * :call MarkMargin(1)
-autocmd BufEnter * :call <SID>AutoProjectRootCD()
-autocmd BufWritePre * :%s/\s\+$//e
-autocmd BufReadPost quickfix nnoremap <buffer> <cr> <cr>
-autocmd! BufWritePost * Neomake
+augroup BWCCreateDir
+    autocmd!
+    autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
+augroup END
 
+augroup all_autocmds
+    autocmd!
+    " autocmd BufEnter * :call UpdateFlavour()
+    autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
+    autocmd BufEnter * :call MarkMargin(1)
+    autocmd BufEnter * :call <SID>AutoProjectRootCD()
+    autocmd BufWritePre * :%s/\s\+$//e
+    autocmd BufReadPost quickfix nnoremap <buffer> <cr> <cr>
+    autocmd! BufWritePost * Neomake
+augroup END
