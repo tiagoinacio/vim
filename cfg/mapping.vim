@@ -87,11 +87,11 @@ onoremap p i(
 onoremap q i"
 onoremap t i'
 onoremap b i{
-onoremap in( :<c-u>normal! f(vi(<cr>
-onoremap in" :<c-u>normal! f"vi"<cr>
-onoremap in' :<c-u>normal! f'vi'<cr>
-onoremap in{ :<c-u>normal! f{vi{<cr>
-onoremap ip( :<c-u>normal! F(vi(<cr>
-onoremap ip" :<c-u>normal! F"vi"<cr>
-onoremap ip' :<c-u>normal! F'vi'<cr>
-onoremap ip{ :<c-u>normal! F{vi{<cr>
+onoremap il( :<c-u>normal! f(vi(<cr>
+onoremap il" :<c-u>normal! f"vi"<cr>
+onoremap il' :<c-u>normal! f'vi'<cr>
+onoremap il{ :<c-u>normal! f{vi{<cr>
+onoremap il( :<c-u>normal! F(vi(<cr>
+onoremap ih" :<c-u>normal! F"vi"<cr>
+onoremap ih' :<c-u>normal! F'vi'<cr>
+onoremap ih{ :<c-u>normal! F{vi{<cr>
