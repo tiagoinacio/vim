@@ -32,7 +32,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
-Plug 'bling/vim-airline'
+" Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 
 " tags

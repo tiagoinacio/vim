@@ -101,3 +101,14 @@ set nonumber
 set cursorline
 set noruler                           "Show cursor location info on status line
 
+"""""""""""""""""
+"" STATUS LINE ""
+"""""""""""""""""
+set statusline=Git\ \-\>\ "
+set statusline+=%{exists('g:loaded_fugitive')?fugitive#head():''}
+set statusline+=\ -\ %f
+set statusline+=%=        " Switch to the right side
+set statusline+=\ %y
+set statusline+=%l        " Current line
+set statusline+=/         " Separator
+set statusline+=%L        " Total lines
