@@ -51,6 +51,7 @@ Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax suppo
 Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
 Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
 Plug 'gorodinskiy/vim-coloresque' " color hex, rgb, etc
+Plug 'tpope/vim-abolish'
 
 " shell
 Plug 'vim-scripts/vim-do'
