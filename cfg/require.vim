@@ -41,6 +41,7 @@ Plug 'vim-scripts/Tagbar'
 
 " languague support
 Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'} " for typescript
+Plug 'vim-scripts/vim-dtsm', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
