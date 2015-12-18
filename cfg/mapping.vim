@@ -71,6 +71,8 @@ vnoremap K 3k
 vnoremap <BS> x
 vnoremap < <gv
 vnoremap > >gv
+vnoremap jk <esc>
+vnoremap <esc> <nop>
 
 """""""""""""""
 " INSERT MODE "
