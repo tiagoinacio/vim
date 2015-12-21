@@ -78,6 +78,9 @@ set expandtab        " tabs are spaces
 set linespace=2
 set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
+set foldmethod=indent
+set foldignore=
+set foldlevel=99
 
 """"""""""""
 "" CURSOR ""
