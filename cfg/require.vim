@@ -40,6 +40,7 @@ Plug 'grassdog/tagman.vim'
 Plug 'vim-scripts/Tagbar'
 
 " languague support
+Plug 'vim-scripts/argwrap.vim'
 Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'vim-scripts/vim-dtsm', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'} " for typescript

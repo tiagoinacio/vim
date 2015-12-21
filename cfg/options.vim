@@ -103,6 +103,8 @@ set splitright
 set nonumber
 set cursorline
 set noruler                           "Show cursor location info on status line
+let g:quickfix_is_open = 0
+let g:location_list_is_open = 0
 
 """""""""""""""""
 "" STATUS LINE ""

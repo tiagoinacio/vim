@@ -45,17 +45,19 @@ nnoremap <leader>tn :tnext<cr>
 nnoremap <leader>tp :tprev<cr>
 nnoremap <leader>tw :tag <C-R><C-W><cr>
 
-" Location List
-nnoremap <leader><right> :lnext<cr>
-nnoremap <leader><left> :lprevious<cr>
-nnoremap <leader><up> :lopen<cr>
-nnoremap <leader><down> :lclose<cr>
+"""""""""""""""""
+" LOCATION LIST "
+"""""""""""""""""
+nnoremap <leader>ln :lnext<cr>
+nnoremap <leader>lp :lprevious<cr>
+nnoremap <leader>lo :call LocationListToggle()<cr>
 
-" Error List
-nnoremap <right> :cnext<cr>
-nnoremap <left> :cprevious<cr>
-nnoremap <up> :copen<cr>
-nnoremap <down> :cclose<cr>
+"""""""""""""""""
+" QUICKFIX LIST "
+"""""""""""""""""
+nnoremap <leader>cn :cnext<cr>
+nnoremap <leader>cp :cprevious<cr>
+nnoremap <leader>ci :call QuickfixToggle()<cr>
 
 """""""""""""""""""""
 " COMMAND-LINE MODE "
@@ -71,8 +73,6 @@ vnoremap K 3k
 vnoremap <BS> x
 vnoremap < <gv
 vnoremap > >gv
-vnoremap jk <esc>
-vnoremap <esc> <nop>
 
 """""""""""""""
 " INSERT MODE "

@@ -1,6 +1,7 @@
 nnoremap <silent> <Leader>fp :call Favorites()<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
 nnoremap <leader>ls :Buffers<cr>
+nnoremap <leader>co :Colors<cr>
 nnoremap <BS> :Tags<cr>
 nnoremap <leader>ma :Marks<cr>
 
