@@ -11,6 +11,7 @@ Plug 'benekastah/neomake'
 
 " auto completition
 Plug 'Valloric/YouCompleteMe'
+Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim'
 
