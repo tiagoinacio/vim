@@ -57,7 +57,7 @@ nnoremap <leader>lo :call LocationListToggle()<cr>
 """""""""""""""""
 nnoremap <leader>cn :cnext<cr>
 nnoremap <leader>cp :cprevious<cr>
-nnoremap <leader>ci :call QuickfixToggle()<cr>
+nnoremap <leader>co :call QuickfixToggle()<cr>
 
 """""""""""""""""""""
 " COMMAND-LINE MODE "
@@ -73,6 +73,7 @@ vnoremap K 3k
 vnoremap <BS> x
 vnoremap < <gv
 vnoremap > >gv
+vnoremap <leader>js :<',>'!python -m json.tool<cr>
 
 """""""""""""""
 " INSERT MODE "

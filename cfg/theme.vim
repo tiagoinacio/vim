@@ -5,7 +5,7 @@ set t_Co=256
 let base16colorspace=256
 set guifont=Monaco\ Plus\ Nerd\ File\ Types:h13
 set background=dark
-colorscheme atom-dark-256
+colorscheme spacegray
 
 """"""""""""""""
 "" HIGHLIGHTS ""

@@ -26,8 +26,10 @@ Plug 'dbarsam/vim-rainbow-parentheses'
 Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
-Plug 'osyo-manga/vim-over' " preview substitute commands
-Plug 'godlygeek/tabular' " tabularize by = signs, etc
+" preview substitute commands. Hint [:OverCommandLine]
+Plug 'osyo-manga/vim-over'
+" tabularize by = signs, etc. Hint [:Tab /=]
+Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
@@ -75,6 +77,7 @@ Plug 'dbakker/vim-projectroot'
 Plug 'Shougo/unite.vim'
 
 " theme
+Plug 'ajh17/Spacegray.vim'
 Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'
 Plug 'kristijanhusak/vim-hybrid-material'
