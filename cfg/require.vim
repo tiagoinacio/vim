@@ -10,7 +10,7 @@ Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 Plug 'benekastah/neomake'
 
 " auto completition
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
 Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim'
