@@ -18,7 +18,6 @@ Plug 'marijnh/tern_for_vim'
 " motion
 Plug 'haya14busa/vim-easyoperator-line'
 Plug 'bkad/CamelCaseMotion'
-Plug 'unblevable/quick-scope'
 Plug 'easymotion/vim-easymotion'
 Plug 'dbarsam/vim-rainbow-parentheses'
 
