@@ -96,6 +96,13 @@ function! UpdateFlavour()
     endif
 endfunction
 
+function! CompareWithEDS()
+    let l:flavourPath = expand("%:p")
+    let l:basePath = substitute(l:flavourPath, "bf-edw-static-client-nj\\/flavour", "bf-eds-static-client", "")
+    echom l:basePath
+    exec 'vsplit ' . l:basePath
+endfunction
+
 augroup BWCCreateDir
     autocmd!
     autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
