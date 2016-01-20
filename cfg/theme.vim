@@ -3,10 +3,12 @@
 """""""""""
 set t_Co=256
 let base16colorspace=256
-set guifont=Monaco\ Plus\ Nerd\ File\ Types:h13
+set guifont=Hack:h13
 set background=dark
-" colorscheme spacegray
-colorscheme mac_classic
+colorscheme spacegray
+if has('gui_running')
+    colorscheme codeschool
+endif
 
 """"""""""""""""
 "" HIGHLIGHTS ""
@@ -26,3 +28,6 @@ set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
 set guicursor+=i:blinkwait10
+
+"" ODD
+" hi EvenLbg ctermbg=234

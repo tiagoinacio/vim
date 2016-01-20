@@ -5,6 +5,7 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
+Plug 'othree/jsdoc-syntax.vim'
 
 " error handling
 Plug 'benekastah/neomake'
@@ -13,7 +14,12 @@ Plug 'benekastah/neomake'
 Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
 Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
-Plug 'marijnh/tern_for_vim'
+Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
+Plug 'othree/jspc.vim'
+
+" notes
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
 
 " motion
 Plug 'haya14busa/vim-easyoperator-line'
@@ -38,6 +44,7 @@ Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
 Plug 'airblade/vim-gitgutter'
 
 " tags
+Plug 'ludovicchabant/vim-gutentags'
 Plug 'grassdog/tagman.vim'
 Plug 'vim-scripts/Tagbar'
 
@@ -53,6 +60,7 @@ Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
 Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax support for nodejs
 Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
+" Plug 'bigfish/vim-js-context-coloring', {'do': 'npm install --update'}
 Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
 Plug 'gorodinskiy/vim-coloresque' " color hex, rgb, etc
 Plug 'tpope/vim-abolish'
@@ -81,7 +89,7 @@ Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'gosukiwi/vim-atom-dark'
-Plug '29decibel/codeschool-Vim-theme'
+Plug '29decibel/codeschool-vim-theme'
 Plug 'trusktr/seti.vim'
 Plug 'chriskempson/base16-vim'
 
