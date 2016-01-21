@@ -1,3 +1,3 @@
 nnoremap <leader>yr :YRShow<cr>
 
-let g:yankring_enabled = 0
+let g:yankring_enabled = 1
