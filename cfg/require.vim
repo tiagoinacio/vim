@@ -11,6 +11,7 @@ Plug 'othree/jsdoc-syntax.vim'
 Plug 'benekastah/neomake'
 
 " auto completition
+Plug 'jiangmiao/auto-pairs'
 Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
 Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
@@ -82,6 +83,7 @@ Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 Plug 'Shougo/unite.vim'
+Plug 'junkblocker/unite-codesearch'
 
 " theme
 Plug 'ajh17/Spacegray.vim'

@@ -1,9 +1,9 @@
 " python3 plugins
 call remote#host#RegisterPlugin('python3', '/Users/tiagoinacio/.vim/plugged/deoplete.nvim/rplugin/python3/deoplete.py', [
-      \ {'sync': 1, 'name': 'DeopleteInitializePython', 'opts': {}, 'type': 'command'},
+      \ {'sync': 1, 'name': 'DeopleteInitializePython', 'type': 'command', 'opts': {}},
      \ ])
 call remote#host#RegisterPlugin('python3', '/Users/tiagoinacio/.vim/plugged/unite.vim/rplugin/python3/unite.py', [
-      \ {'sync': 1, 'name': 'UniteInitializePython', 'opts': {}, 'type': 'command'},
+      \ {'sync': 1, 'name': 'UniteInitializePython', 'type': 'command', 'opts': {}},
      \ ])
 
 
