@@ -116,5 +116,7 @@ augroup all_autocmds
     autocmd BufEnter * :call <SID>AutoProjectRootCD()
     autocmd BufWritePre * :%s/\s\+$//e
     autocmd BufReadPost quickfix nnoremap <buffer> <cr> <cr>
+    autocmd BufReadPost locationlist nnoremap <buffer> <cr> <cr>
+    autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr>
     autocmd! BufWritePost * Neomake
 augroup END

@@ -4,14 +4,32 @@
 nmap <space> <leader>
 nnoremap , :
 
+"""""""""""""""""""""""""
+" PREFIXES              "
+"""""""""""""""""""""""""
+" b -> buffer           "
+" c -> change directory "
+" d -> diff             "
+" d -> dispatch         "
+" f -> find             "
+" g -> git gutter       "
+" l -> location list    "
+" n -> nerdtree         "
+" q -> quickfix         "
+" s -> source files     "
+" t -> tags             "
+" w -> window           "
+"""""""""""""""""""""""""
+
 " Source files
 nnoremap <leader>sv :source ~/.vimrc<cr>
-nnoremap <leader>sb :source %<cr>
+nmap <leader>s. :source %<cr>
 
 " Window Management
 nnoremap <leader>wo :only!<cr>
 nnoremap <leader>ws :w!<cr>
-nnoremap <leader>wq :qall!<cr>
+nnoremap <leader>wq :wq!<cr>
+nnoremap <leader>qa :qall!<cr>
 nnoremap <leader>sb :set scrollbind<cr>
 nnoremap :Q :q
 nnoremap <c-s> :w!<cr>
@@ -50,14 +68,18 @@ nnoremap <leader>tw :tag <C-R><C-W><cr>
 """""""""""""""""
 nnoremap <leader>ln :lnext<cr>
 nnoremap <leader>lp :lprevious<cr>
-nnoremap <leader>lo :call LocationListToggle()<cr>
+nnoremap <leader>lt :call LocationListToggle()<cr>
+nnoremap <leader>lo :lopen<cr>
+nnoremap <leader>lc :lclose<cr>
 
 """""""""""""""""
 " QUICKFIX LIST "
 """""""""""""""""
 nnoremap <leader>qn :cnext<cr>
 nnoremap <leader>qp :cprevious<cr>
-nnoremap <leader>qo :call QuickfixToggle()<cr>
+nnoremap <leader>qt :call QuickfixToggle()<cr>
+nnoremap <leader>qo :Copen<cr>
+nnoremap <leader>qc :cclose<cr>
 
 """""""""""""""""""""
 " COMMAND-LINE MODE "

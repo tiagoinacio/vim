@@ -1,8 +1,11 @@
 nnoremap <silent> <Leader>fp :call Favorites()<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
-nnoremap <leader>ls :Buffers<cr>
 nnoremap <BS> :FZF<cr>
+nnoremap <leader>ls :Buffers<cr>
 nnoremap <leader>ma :Marks<cr>
+nnoremap <leader>hi :History:<cr>
+nnoremap <leader>mru :History<cr>
+nnoremap <leader>ta :Tags<cr>
 
 set rtp+=/usr/local/opt/fzf
 

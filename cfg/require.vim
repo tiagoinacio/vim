@@ -12,7 +12,7 @@ Plug 'benekastah/neomake'
 
 " auto completition
 Plug 'jiangmiao/auto-pairs'
-Plug 'Valloric/YouCompleteMe', {'do': './install.py'}
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --tern-completer'}
 Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}

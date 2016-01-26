@@ -1,4 +1,5 @@
 autocmd FileType javascript let b:dispatch = 'grunt buid && grunt test'
 
-nnoremap <leader>db :Start!
-nnoremap <leader>di :Start
+nnoremap <leader>ds :Start
+nnoremap <leader>dp :Dispatch grunt blender && grunt protractor:dev<cr>
+nnoremap <leader>db :Dispatch grunt blender && grunt protractor:dev<cr>
