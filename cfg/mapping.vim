@@ -16,6 +16,7 @@ nnoremap , :
 " l -> location list    "
 " n -> nerdtree         "
 " q -> quickfix         "
+" p -> plugin
 " s -> source files     "
 " t -> tags             "
 " w -> window           "

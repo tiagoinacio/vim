@@ -27,6 +27,7 @@ Plug 'haya14busa/vim-easyoperator-line'
 Plug 'bkad/CamelCaseMotion'
 Plug 'easymotion/vim-easymotion'
 Plug 'dbarsam/vim-rainbow-parentheses'
+Plug 'yonchu/accelerated-smooth-scroll'
 
 " window
 Plug 'mhinz/vim-startify'
@@ -41,7 +42,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
-" Plug 'bling/vim-airline'
+Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 
 " tags
@@ -79,6 +80,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'xuyuanp/nerdtree-git-plugin', { 'on':  'NERDTreeToggle' }
 Plug 'low-ghost/nerdtree-fugitive', { 'on':  'NERDTreeToggle' }
+Plug 'junegunn/gv.vim'
 Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'

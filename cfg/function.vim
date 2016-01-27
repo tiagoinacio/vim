@@ -110,7 +110,7 @@ augroup END
 
 augroup all_autocmds
     autocmd!
-    " autocmd BufEnter * :call UpdateFlavour()
+    autocmd BufEnter * :call UpdateFlavour()
     autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
     autocmd BufEnter * :call MarkMargin(1)
     autocmd BufEnter * :call <SID>AutoProjectRootCD()

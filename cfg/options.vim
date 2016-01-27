@@ -112,6 +112,7 @@ let g:location_list_is_open = 0
 set statusline=Git\ \-\>\ "
 set statusline+=%{exists('g:loaded_fugitive')?fugitive#head():''}
 set statusline+=\ -\ %f
+set statusline+=%{gutentags#statusline()}
 set statusline+=%=        " Switch to the right side
 set statusline+=\ %y
 set statusline+=%l        " Current line
