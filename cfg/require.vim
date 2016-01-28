@@ -6,6 +6,7 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 Plug 'othree/jsdoc-syntax.vim'
+Plug 'vim-scripts/GenerateMatlabFunctionComment', {'for': 'matlab,m'}
 
 " error handling
 Plug 'benekastah/neomake'
