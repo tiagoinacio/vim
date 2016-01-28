@@ -27,19 +27,15 @@ Plug 'haya14busa/vim-easyoperator-line'
 Plug 'bkad/CamelCaseMotion'
 Plug 'easymotion/vim-easymotion'
 Plug 'dbarsam/vim-rainbow-parentheses'
-Plug 'yonchu/accelerated-smooth-scroll'
 
 " window
 Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
 " preview substitute commands. Hint [:OverCommandLine]
-Plug 'osyo-manga/vim-over'
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
 Plug 'bling/vim-airline'
@@ -47,8 +43,6 @@ Plug 'airblade/vim-gitgutter'
 
 " tags
 Plug 'ludovicchabant/vim-gutentags'
-Plug 'grassdog/tagman.vim'
-Plug 'vim-scripts/Tagbar'
 
 " languague support
 Plug 'vim-scripts/argwrap.vim'
