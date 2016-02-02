@@ -124,3 +124,7 @@ onoremap il( :<c-u>normal! F(vi(<cr>
 onoremap ih" :<c-u>normal! F"vi"<cr>
 onoremap ih' :<c-u>normal! F'vi'<cr>
 onoremap ih{ :<c-u>normal! F{vi{<cr>
+
+" JAVASCRIPT "
+nnoremap <leader>br ibrowser.pause();<esc>=l
+
