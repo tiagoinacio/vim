@@ -83,6 +83,7 @@ Plug 'Shougo/unite.vim'
 Plug 'junkblocker/unite-codesearch'
 
 " theme
+Plug 'vim-scripts/Tango-colour-scheme'
 Plug 'ajh17/Spacegray.vim'
 Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'cocopon/iceberg.vim'

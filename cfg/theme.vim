@@ -5,7 +5,7 @@ set t_Co=256
 let base16colorspace=256
 set guifont=Hack:h13
 set background=dark
-colorscheme spacegray
+colorscheme tango
 if has('gui_running')
     colorscheme codeschool
 endif
