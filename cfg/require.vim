@@ -6,7 +6,6 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
 Plug 'othree/jsdoc-syntax.vim'
-Plug 'vim-scripts/GenerateMatlabFunctionComment', {'for': 'matlab,m'}
 
 " error handling
 Plug 'benekastah/neomake'
@@ -73,9 +72,9 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim'
 
 " explorer
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'xuyuanp/nerdtree-git-plugin', { 'on':  'NERDTreeToggle' }
-Plug 'low-ghost/nerdtree-fugitive', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'low-ghost/nerdtree-fugitive'
 Plug 'junegunn/gv.vim'
 Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
