@@ -33,6 +33,7 @@ Plug 'mhinz/vim-startify'
 Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
 " preview substitute commands. Hint [:OverCommandLine]
+Plug 'osyo-manga/vim-over'
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
