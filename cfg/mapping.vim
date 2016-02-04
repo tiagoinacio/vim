@@ -107,6 +107,7 @@ vnoremap <leader>js :<',>'!python -m json.tool<cr>
 """""""""""""""
 inoremap <Tab> <C-R>=Tab_Or_Complete()<cr>
 inoremap jk <Esc>
+inoremap JK <Esc>
 inoremap <esc> <nop>
 
 """""""""""""""""
