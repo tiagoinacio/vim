@@ -74,6 +74,7 @@ Plug 'junegunn/fzf.vim'
 
 " explorer
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-vinegar'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'low-ghost/nerdtree-fugitive'
 Plug 'junegunn/gv.vim'
