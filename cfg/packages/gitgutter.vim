@@ -4,6 +4,8 @@ nnoremap <leader>gr :GitGutterRevertHunk<cr>
 nnoremap <tab> :GitGutterPrevHunk<cr>
 nnoremap <s-tab> :GitGutterNextHunk<cr>
 
+nnoremap <leader>gt :GitGutterToggle<cr>
+
 let g:gitgutter_override_sign_column_highlight = 1
 let g:gitgutter_realtime = 1
 let g:gitgutter_sign_column_always = 1
