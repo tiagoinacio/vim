@@ -81,6 +81,7 @@ Plug 'junegunn/gv.vim'
 Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
+Plug 'tsukkee/unite-tag'
 Plug 'Shougo/unite.vim'
 Plug 'junkblocker/unite-codesearch'
 
@@ -94,6 +95,7 @@ Plug 'gosukiwi/vim-atom-dark'
 Plug '29decibel/codeschool-vim-theme'
 Plug 'trusktr/seti.vim'
 Plug 'chriskempson/base16-vim'
+Plug 'joshdick/onedark.vim'
 
 " latex
 Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
