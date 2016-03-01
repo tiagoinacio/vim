@@ -1,1 +1,1 @@
-nnoremap <C-e> :Explore<cr>
+nnoremap <C-e> :Texplore<cr>

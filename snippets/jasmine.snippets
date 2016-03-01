@@ -1,0 +1,33 @@
+# Describe
+snippet des [des] describe("...". function() { ... });
+	describe("${1:description}", function() {
+		${2}
+	});${3}
+
+snippet des6
+	describe("${1:description}", () => {
+		${2}
+	});${3}
+
+snippet i it("...", function() { ... });...
+	it("${1:description}", function() {
+		${2}
+	});${3}
+
+snippet i6 it("...", function() { ... });...
+	it("${1:description}", () => {
+		${2}
+	});${3}
+
+snippet bef
+	beforeEach(function() {
+		${1}
+	});
+
+snippet bef6
+	beforeEach(${1});
+
+#Expect to
+snippet e [expect] expect(...).to...();
+	expect(${1}).to${2}(${3});
+

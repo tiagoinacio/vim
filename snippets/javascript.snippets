@@ -1,0 +1,65 @@
+snippet fun
+	function ${1:function_name}(${2}) {
+		${0}
+	}
+
+snippet cl
+	console.log(${1});
+
+# if
+snippet if
+	if (${1:true}) {
+		${0}
+	}
+
+# if ... else
+snippet ife
+	if (${1:true}) {
+		${2}
+	} else {
+		${0}
+	}
+
+# tertiary conditional
+snippet ter
+	${1:/* condition */} ? ${2:/* if true */} : ${0:/* if false */}
+
+# switch
+snippet switch
+	switch (${1:expression}) {
+		case '${3:case}':
+			${4}
+			break;
+		${0}
+		default:
+			${2}
+	}
+
+# try
+snippet try
+	try {
+		${1}
+	} catch (${2:e}) {
+		${0:/* handle error */}
+	}
+
+# for loop
+snippet for
+	for (var ${2:i} = 0, l = ${1:arr}.length; $2 < l; $2++) {
+		var ${3:v} = $1[$2];${0:}
+	}
+
+	# docstring
+snippet /**
+	/**
+	 * ${0:description}
+	 *
+	 */
+snippet @par
+	@param {${1:type}} ${2:name} ${0:description}
+snippet @ret
+	@return {${1:type}} ${0:description}
+
+# 'use strict';
+snippet us
+	'use strict';
