@@ -22,6 +22,7 @@ Plug 'othree/jspc.vim'
 " notes
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
+Plug 'dhruvasagar/vim-table-mode'
 
 " motion
 Plug 'haya14busa/vim-easyoperator-line'

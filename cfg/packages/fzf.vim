@@ -13,7 +13,7 @@ set rtp+=/usr/local/opt/fzf
 function! s:ChooseFavoriteAllFiles(path)
     echo a:path
     exec "cd ".a:path
-    FZF
+    Files
     call feedkeys('i', 'n')
 endfunction
 

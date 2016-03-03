@@ -1,1 +1,1 @@
-let g:notes_directories = ['/Users/tiagoinacio/Dropbox\ \(Personal\)/Apps/PlainText\ 2']
+let g:notes_directories = ['/Users/tiagoinacio/Dropbox/Apps/PlainText\ 2']
