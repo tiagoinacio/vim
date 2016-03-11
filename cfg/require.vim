@@ -88,6 +88,7 @@ Plug 'Shougo/unite.vim'
 Plug 'junkblocker/unite-codesearch'
 
 " theme
+Plug 'daylerees/colour-schemes', {'do': 'mv ~/.vim/plugged/colour-schemes/vim/colors/* ~/.vim/colors/'}
 Plug 'vim-scripts/Tango-colour-scheme'
 Plug 'ajh17/Spacegray.vim'
 Plug 'nelstrom/vim-mac-classic-theme'
