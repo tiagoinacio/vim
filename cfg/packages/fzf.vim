@@ -8,6 +8,7 @@ nnoremap <leader>hi :History:<cr>
 nnoremap <leader>mru :History<cr>
 nnoremap <leader>ta :Tags<cr>
 
+" let g:fzf_launcher = "~/.home/bin/fzf.sh %s"
 set rtp+=/usr/local/opt/fzf
 
 function! s:ChooseFavoriteAllFiles(path)
