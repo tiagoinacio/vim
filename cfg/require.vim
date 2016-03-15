@@ -71,6 +71,7 @@ Plug 'vim-scripts/vim-do'
 " grep
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
+Plug 'radenling/vim-dispatch-neovim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim'
 
@@ -88,6 +89,7 @@ Plug 'Shougo/unite.vim'
 Plug 'junkblocker/unite-codesearch'
 
 " theme
+Plug 'KabbAmine/yowish.vim'
 Plug 'daylerees/colour-schemes', {'do': 'mv ~/.vim/plugged/colour-schemes/vim/colors/* ~/.vim/colors/'}
 Plug 'vim-scripts/Tango-colour-scheme'
 Plug 'ajh17/Spacegray.vim'

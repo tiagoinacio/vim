@@ -23,3 +23,12 @@ let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#tabline#show_buffers = 1
 
 
+" airline
+let g:airline_section_b = ''
+let g:airline_section_y = ''
+let g:airline_left_sep = ' '
+let g:airline_right_sep = ' '
+
+
+" buffer-line
+let g:bufferline_echo = 0
