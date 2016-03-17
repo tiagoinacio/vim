@@ -5,7 +5,7 @@ set t_Co=256
 let base16colorspace=256
 set guifont=Hack:h13
 set background=dark
-colorscheme base16-default
+" colorscheme base16-default
 set number
 
 if has('gui_running')
