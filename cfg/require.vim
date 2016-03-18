@@ -71,7 +71,7 @@ Plug 'vim-scripts/vim-do'
 " grep
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
-Plug 'radenling/vim-dispatch-neovim'
+" Plug 'radenling/vim-dispatch-neovim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim'
 
