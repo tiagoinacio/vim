@@ -1,5 +1,6 @@
-nnoremap <silent> <Leader>fp :call Favorites()<cr>
-nnoremap <silent> <Leader>fo :call FavoritesAllFiles()<cr>
+nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
+nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
+nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
 nnoremap <BS> :FZF<cr>
 nnoremap <leader>ls :Buffers<cr>
@@ -11,31 +12,29 @@ nnoremap <leader>ta :Tags<cr>
 " let g:fzf_launcher = "~/.home/bin/fzf.sh %s"
 set rtp+=/usr/local/opt/fzf
 
-function! s:ChooseFavoriteAllFiles(path)
+function! s:ChangeDirectory(path)
+    echo a:path
+    exec "cd ".a:path
+endfunction
+
+function! s:OpenAllFiles(path)
     echo a:path
     exec "cd ".a:path
     Files
     call feedkeys('i', 'n')
 endfunction
 
-function! s:ChooseFavorite(path)
+function! s:OpenGitFiles(path)
     echo a:path
     exec "cd ".a:path
     GitFiles
     call feedkeys('i', 'n')
 endfunction
 
-function! FavoritesAllFiles()
+function! ListFavorites(path)
     call fzf#run({
         \   'source': 'cat $HOME/.fzf_favorites',
-        \   'sink': function('s:ChooseFavoriteAllFiles')
-        \ })
-endfunction
-
-function! Favorites()
-    call fzf#run({
-        \   'source': 'cat $HOME/.fzf_favorites',
-        \   'sink': function('s:ChooseFavorite')
+        \   'sink': function(a:path)
         \ })
 endfunction
 

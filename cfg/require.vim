@@ -39,6 +39,7 @@ Plug 'osyo-manga/vim-over'
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-tbone'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
 Plug 'bling/vim-airline'
@@ -71,9 +72,10 @@ Plug 'vim-scripts/vim-do'
 " grep
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
-" Plug 'radenling/vim-dispatch-neovim'
 Plug 'dyng/ctrlsf.vim'
+Plug 'vim-scripts/YankRing.vim'
 Plug 'junegunn/fzf.vim'
+Plug 'junegunn/vim-peekaboo'
 
 " explorer
 Plug 'scrooloose/nerdtree'
@@ -113,6 +115,5 @@ Plug 'tpope/vim-surround'
 Plug 'tmhedberg/matchit'
 Plug 'tommcdo/vim-exchange'
 Plug 'danro/rename.vim'
-Plug 'vim-scripts/YankRing.vim'
 
 call plug#end()
