@@ -10,6 +10,9 @@ Plug 'othree/jsdoc-syntax.vim'
 " error handling
 Plug 'benekastah/neomake'
 
+" more text objects
+Plug 'wellle/targets.vim'
+
 " auto completition
 " Plug 'jiangmiao/auto-pairs'
 Plug 'SirVer/ultisnips'
@@ -38,7 +41,6 @@ Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
 Plug 'osyo-manga/vim-over'
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
-Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-tbone'
 Plug 'wesQ3/vim-windowswap'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one

@@ -23,9 +23,6 @@ syntax enable        " enable syntax processing
 filetype indent on      " load filetype-specific indent files
 filetype off
 filetype plugin on
-set encoding=utf-8
-set fileencoding=utf-8
-set backspace=indent,eol,start
 set scrolljump=5
 set synmaxcol=180
 
@@ -42,7 +39,6 @@ set tags=./tags;/
 """""""""""""""
 "" SEARCHING ""
 """""""""""""""
-set incsearch           " search as characters are entered
 set nohlsearch
 set smartcase
 set smartindent
@@ -76,17 +72,10 @@ set tabstop=4        " number of visual spaces per TAB
 set softtabstop=4    " number of spaces in tab when editing
 set expandtab        " tabs are spaces
 set linespace=2
-set listchars=tab:▸\ ,nbsp:.
 set shiftwidth=4
 set foldmethod=indent
 set foldignore=
 set foldlevel=99
-
-""""""""""""
-"" CURSOR ""
-""""""""""""
-set mouse=a
-" set so=999 "center cursor on the screen
 
 """""""""""""""""""
 "" GUI STRUCTURE ""

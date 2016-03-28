@@ -46,10 +46,3 @@ hi CursorLine cterm=NONE guibg=NONE
 """"""""""""
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
-" set guicursor=n-v-c:block-Cursor
-" set guicursor+=i:ver100-iCursor
-" set guicursor+=n-v-c:blinkon0
-" set guicursor+=i:blinkwait10
-
-"" ODD
-" hi EvenLbg ctermbg=234
