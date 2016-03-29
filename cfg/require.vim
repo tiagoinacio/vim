@@ -59,6 +59,8 @@ Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
+Plug 'KabbAmine/gulp-vim'
+Plug 'mklabs/grunt.vim'
 Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
 Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax support for nodejs

@@ -38,3 +38,7 @@ function! ListFavorites(path)
         \ })
 endfunction
 
+command! FzfGulp call fzf#run({
+    \ 'source': split(gulpVim#GetTasks()),
+    \ 'sink': 'GulpExt'
+    \ })
