@@ -3,6 +3,7 @@
 """""""""""""""
 nmap <space> <leader>
 nnoremap , :
+set wildcharm=<Tab>
 
 """""""""""""""""""""""""
 " PREFIXES              "
@@ -25,6 +26,7 @@ nnoremap , :
 " Source files
 nnoremap <leader>sv :source ~/.vimrc<cr>
 nmap <leader>s. :source %<cr>
+nnoremap <leader>ee :e %:p:h<tab>
 
 " Window Management
 nnoremap <leader>wo :only!<cr>
