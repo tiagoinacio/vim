@@ -119,4 +119,5 @@ augroup all_autocmds
     autocmd BufReadPost locationlist nnoremap <buffer> <cr> <cr>
     autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr>
     autocmd! BufWritePost * Neomake
+    " autocmd CursorMoved * exe printf('match EasyMotionIncCursor /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 augroup END
