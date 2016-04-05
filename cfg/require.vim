@@ -15,8 +15,8 @@ Plug 'wellle/targets.vim'
 
 " auto completition
 " Plug 'jiangmiao/auto-pairs'
-Plug 'SirVer/ultisnips'
-Plug 'matthewsimo/angular-vim-snippets'
+" Plug 'SirVer/ultisnips'
+" Plug 'matthewsimo/angular-vim-snippets'
 Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
@@ -63,7 +63,7 @@ Plug 'KabbAmine/gulp-vim'
 Plug 'mklabs/grunt.vim'
 Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
-Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax support for nodejs
+" Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax support for nodejs
 Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
 " Plug 'bigfish/vim-js-context-coloring', {'do': 'npm install --update'}
 Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
