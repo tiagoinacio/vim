@@ -13,19 +13,16 @@ nnoremap <leader>ta :Tags<cr>
 set rtp+=/usr/local/opt/fzf
 
 function! s:ChangeDirectory(path)
-    echo a:path
     exec "cd ".a:path
 endfunction
 
 function! s:OpenAllFiles(path)
-    echo a:path
     exec "cd ".a:path
-    Files
+    exec "Files ".a:path
     call feedkeys('i', 'n')
 endfunction
 
 function! s:OpenGitFiles(path)
-    echo a:path
     exec "cd ".a:path
     GitFiles
     call feedkeys('i', 'n')

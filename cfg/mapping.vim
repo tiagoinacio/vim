@@ -134,3 +134,8 @@ nnoremap <leader>br ibrowser.pause();<esc>=l
 """""""""
 " MOUSE "
 """""""""
+
+""""""""
+" TEXT "
+""""""""
+nnoremap <leader>ju gggqG_j
