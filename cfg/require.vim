@@ -23,6 +23,7 @@ Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'othree/jspc.vim'
 
 " notes
+Plug 'neilagabriel/vim-geeknote'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
 Plug 'dhruvasagar/vim-table-mode'
