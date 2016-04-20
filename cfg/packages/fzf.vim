@@ -4,10 +4,9 @@ nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
 nnoremap <BS> :FZF<cr>
 nnoremap <leader>ls :Buffers<cr>
-nnoremap <leader>ma :Marks<cr>
-nnoremap <leader>hi :History:<cr>
-nnoremap <leader>mru :History<cr>
-nnoremap <leader>ta :Tags<cr>
+nnoremap <C-m> :Marks<cr>
+nnoremap <C-i> :History<cr>
+nnoremap <C-t> :Tags<cr>
 
 " let g:fzf_launcher = "~/.home/bin/fzf.sh %s"
 set rtp+=/usr/local/opt/fzf

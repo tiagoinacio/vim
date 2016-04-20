@@ -14,9 +14,6 @@ Plug 'benekastah/neomake'
 Plug 'wellle/targets.vim'
 
 " auto completition
-" Plug 'jiangmiao/auto-pairs'
-" Plug 'SirVer/ultisnips'
-" Plug 'matthewsimo/angular-vim-snippets'
 Plug 'vim-scripts/SearchComplete'
 Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
@@ -26,7 +23,6 @@ Plug 'othree/jspc.vim'
 Plug 'neilagabriel/vim-geeknote'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-notes'
-Plug 'dhruvasagar/vim-table-mode'
 
 " motion
 Plug 'haya14busa/vim-easyoperator-line'
@@ -36,7 +32,7 @@ Plug 'dbarsam/vim-rainbow-parentheses'
 
 " window
 Plug 'mhinz/vim-startify'
-Plug 'ryanoasis/vim-devicons'
+" Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
 " preview substitute commands. Hint [:OverCommandLine]
 Plug 'osyo-manga/vim-over'
@@ -60,8 +56,6 @@ Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
 Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
-Plug 'KabbAmine/gulp-vim'
-Plug 'mklabs/grunt.vim'
 Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
 " Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax support for nodejs
@@ -92,9 +86,6 @@ Plug 'junegunn/gv.vim'
 Plug 'gregsexton/gitv'
 Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
-Plug 'tsukkee/unite-tag'
-Plug 'Shougo/unite.vim'
-Plug 'junkblocker/unite-codesearch'
 
 " theme
 Plug 'KabbAmine/yowish.vim'

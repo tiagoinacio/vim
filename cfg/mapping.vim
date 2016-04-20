@@ -36,7 +36,6 @@ nnoremap <leader>wd :bd<cr>
 nnoremap <leader>qa :qall!<cr>
 nnoremap <leader>sb :set scrollbind<cr>
 nnoremap :Q :q
-nnoremap <c-s> :w!<cr>
 
 nnoremap § :vertical resize +5<cr>
 nnoremap ± :vertical resize -5<cr>
