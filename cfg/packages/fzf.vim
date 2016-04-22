@@ -4,7 +4,6 @@ nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
 nnoremap <BS> :FZF<cr>
 nnoremap <leader>ls :Buffers<cr>
-nnoremap <C-m> :Marks<cr>
 nnoremap <C-i> :History<cr>
 nnoremap <C-t> :Tags<cr>
 
