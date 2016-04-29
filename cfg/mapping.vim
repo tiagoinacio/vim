@@ -54,8 +54,8 @@ nnoremap <silent> _ dd
 nnoremap Y y$
 nnoremap 0 ^
 nnoremap ^ 0
-nnoremap J 3j
-nnoremap K 3k
+nnoremap J 5j
+nnoremap K 5k
 nnoremap L 4l
 nnoremap H 4h
 

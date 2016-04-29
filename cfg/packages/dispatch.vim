@@ -4,6 +4,5 @@ nnoremap <leader>dd :Dispatch
 nnoremap <leader>dp :Dispatch! grunt protractor:dev
 nnoremap <leader>dt :Dispatch! make all && make open
 nnoremap <C-s> :below 10sp term://$SHELL<cr>i
-nnoremap <C-d> :Dispatch
 nnoremap <C-c> :Commands<CR>
 nnoremap <C-q> :History:<CR>
