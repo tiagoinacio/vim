@@ -47,6 +47,7 @@ Plug 'airblade/vim-gitgutter'
 
 " tags
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'majutsushi/tagbar'
 
 " languague support
 Plug 'vim-scripts/argwrap.vim' " arguments wrap
