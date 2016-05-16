@@ -17,9 +17,9 @@ endif
 "" HIGHLIGHTS ""
 """"""""""""""""
 " hi Normal ctermbg=231
-hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
+hi CursorColumn ctermbg=00 cterm=NONE ctermfg=NONE guibg=NONE
 hi SignColumn guibg=NONE ctermbg=NONE
-hi CursorLine cterm=NONE guibg=NONE
+hi CursorLine cterm=NONE guibg=00 ctermbg=00
 
 " for base16
 " highlight CursorLine   ctermbg=236

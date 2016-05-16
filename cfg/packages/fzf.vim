@@ -1,6 +1,7 @@
 nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
 nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
 nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
+nnoremap <silent> <Leader>cd :call ListDirectories()<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
 nnoremap <BS> :FZF<cr>
 nnoremap <leader>ls :Buffers<cr>

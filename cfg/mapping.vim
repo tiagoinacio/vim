@@ -41,7 +41,7 @@ nnoremap § :vertical resize +5<cr>
 nnoremap ± :vertical resize -5<cr>
 
 " Change Directory
-nnoremap <leader>cd :ProjectRootCD<cr>
+nnoremap <leader>cr :ProjectRootCD<cr>
 nnoremap <leader>cl :lcd %:p:h<cr>
 nnoremap <leader>ya :let @* = expand("%:p")<cr>
 
