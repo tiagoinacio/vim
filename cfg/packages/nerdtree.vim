@@ -18,3 +18,6 @@ function! g:WorkaroundNERDTreeToggle()
   try | :NERDTreeToggle | catch | :NERDTree | endtry
 endfunction
 
+
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1

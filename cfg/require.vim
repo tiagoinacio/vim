@@ -31,7 +31,6 @@ Plug 'easymotion/vim-easymotion'
 Plug 'dbarsam/vim-rainbow-parentheses'
 
 " window
-Plug 'mhinz/vim-startify'
 " Plug 'ryanoasis/vim-devicons'
 Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
 " preview substitute commands. Hint [:OverCommandLine]
@@ -71,13 +70,13 @@ Plug 'vim-scripts/vim-do'
 " grep
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
-Plug 'dyng/ctrlsf.vim'
+Plug 'eugen0329/vim-esearch'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-peekaboo'
 
 " explorer
-Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-vinegar'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'low-ghost/nerdtree-fugitive'
