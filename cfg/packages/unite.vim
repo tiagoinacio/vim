@@ -1,5 +1,7 @@
 " -quick-match -auto-preview
 nnoremap <c-u> :Unite -start-insert<cr>
+nnoremap <leader>ne :Unite -start-insert directory<cr>
+nnoremap <leader>nf :Unite -start-insert directory_rec/async<cr>
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
