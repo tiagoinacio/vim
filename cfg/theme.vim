@@ -7,7 +7,7 @@ set guifont=Hack:h13
 set background=dark
 " colorscheme base16-default
 colorscheme default
-set number
+" set number
 
 if has('gui_running')
     colorscheme codeschool

@@ -71,15 +71,13 @@ Plug 'vim-scripts/vim-do'
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
 Plug 'eugen0329/vim-esearch'
-Plug 'vim-scripts/YankRing.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-peekaboo'
 
 " explorer
-" Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-vinegar'
-Plug 'xuyuanp/nerdtree-git-plugin'
-Plug 'low-ghost/nerdtree-fugitive'
+" Plug 'tpope/vim-vinegar'
+Plug 'Shougo/unite.vim'
+Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'kablamo/vim-git-log'
 Plug 'junegunn/gv.vim'
 Plug 'gregsexton/gitv'

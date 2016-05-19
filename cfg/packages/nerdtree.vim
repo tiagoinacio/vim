@@ -1,5 +1,5 @@
 nnoremap <silent> <leader>dt :ProjectRootExe NERDTreeFind<cr>
-nnoremap <leader>ne :NERDTreeToggle<cr>
+" nnoremap <leader>ne :NERDTreeToggle<cr>
 nnoremap <leader>nf :call NERDTreeLocalFind()<cr>
 nnoremap <leader>nc :NERDTreeClose<cr>
 nnoremap <leader>no :NERDTree<cr>
@@ -17,7 +17,3 @@ endfunction
 function! g:WorkaroundNERDTreeToggle()
   try | :NERDTreeToggle | catch | :NERDTree | endtry
 endfunction
-
-
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1

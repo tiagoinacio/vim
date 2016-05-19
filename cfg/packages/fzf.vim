@@ -8,6 +8,8 @@ nnoremap <leader>ls :Buffers<cr>
 nnoremap <C-i> :History<cr>
 nnoremap <C-t> :Tags<cr>
 
+imap <c-x><c-l> <plug>(fzf-complete-line)
+
 " let g:fzf_launcher = "~/.home/bin/fzf.sh %s"
 set rtp+=/usr/local/opt/fzf
 
