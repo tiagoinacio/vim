@@ -62,7 +62,6 @@ Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
 " Plug 'bigfish/vim-js-context-coloring', {'do': 'npm install --update'}
 Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
 Plug 'gorodinskiy/vim-coloresque' " color hex, rgb, etc
-Plug 'tpope/vim-abolish'
 
 " shell
 Plug 'vim-scripts/vim-do'
@@ -70,13 +69,14 @@ Plug 'vim-scripts/vim-do'
 " grep
 Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
-Plug 'eugen0329/vim-esearch'
+Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-peekaboo'
 
 " explorer
 " Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
+Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'kablamo/vim-git-log'
 Plug 'junegunn/gv.vim'
@@ -103,11 +103,9 @@ Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
 
 " helpers
 Plug 'HTML-AutoCloseTag', {'for': 'html,css'}
-Plug 'dahu/vim-fanfingtastic'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tmhedberg/matchit'
-Plug 'tommcdo/vim-exchange'
 Plug 'danro/rename.vim'
 
 call plug#end()

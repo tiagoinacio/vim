@@ -46,8 +46,6 @@ nnoremap <leader>cl :lcd %:p:h<cr>
 nnoremap <leader>ya :let @* = expand("%:p")<cr>
 
 " Git
-nnoremap <leader>di :diffthis<cr>
-nnoremap <leader>dg :diffget<cr>
 
 " Movement
 nnoremap <silent> _ dd
@@ -116,7 +114,6 @@ inoremap <esc> <nop>
 """""""""""""""""
 onoremap p i(
 onoremap q i"
-onoremap t i'
 onoremap b i{
 onoremap il( :<c-u>normal! f(vi(<cr>
 onoremap il" :<c-u>normal! f"vi"<cr>
