@@ -1,7 +1,7 @@
 " -quick-match -auto-preview
 nnoremap <c-u> :Unite -start-insert<cr>
-nnoremap <leader>dd :Unite directory<cr>
-nnoremap <leader>di :Unite -start-insert directory<cr>
+nnoremap <leader>dp :call ProjectRootCD() <bar> :Unite directory<cr>
+nnoremap <leader>dc :Unite directory<cr>
 nnoremap <leader>dr :Unite -start-insert directory_rec/async<cr>
 " Quickly switch lcd
 nnoremap <silent> <leader>cd
