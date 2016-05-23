@@ -76,6 +76,8 @@ Plug 'junegunn/vim-peekaboo'
 " explorer
 " Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
+Plug 'Shougo/vimfiler.vim'
+Plug 'romgrk/vimfiler-prompt'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'kablamo/vim-git-log'

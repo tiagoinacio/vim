@@ -1,10 +1,8 @@
 " -quick-match -auto-preview
 nnoremap <c-u> :Unite -start-insert<cr>
-nnoremap <leader>dp :call ProjectRootCD() <bar> :Unite directory<cr>
-nnoremap <leader>dc :Unite directory<cr>
-nnoremap <leader>dr :Unite -start-insert directory_rec/async<cr>
+nnoremap <leader>dr :Unite directory_rec -start-insert<cr>
 " Quickly switch lcd
-nnoremap <silent> <leader>cd
+nnoremap <silent> <leader>mru
       \ :<C-u>Unite -buffer-name=change-cwd -default-action=cd directory_mru directory_rec/async<CR>
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])

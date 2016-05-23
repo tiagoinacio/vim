@@ -29,7 +29,7 @@ set synmaxcol=180
 """""""""""""""""""""
 "" GENERAL OPTIONS ""
 """""""""""""""""""""
-set autochdir
+" set autochdir
 set completeopt-=preview
 set noswapfile
 set list!
