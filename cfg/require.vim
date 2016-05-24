@@ -87,6 +87,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'dbakker/vim-projectroot'
 
 " theme
+Plug 'panosl/lucario'
 Plug 'KabbAmine/yowish.vim'
 Plug 'daylerees/colour-schemes', {'do': 'mv ~/.vim/plugged/colour-schemes/vim/colors/* ~/.vim/colors/'}
 Plug 'vim-scripts/Tango-colour-scheme'
