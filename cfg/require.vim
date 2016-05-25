@@ -71,7 +71,7 @@ Plug 'junegunn/vim-peekaboo'
 " explorer
 Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
-Plug 'rking/ag.vim'
+" Plug 'rking/ag.vim'
 Plug 'Shougo/denite.nvim'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}

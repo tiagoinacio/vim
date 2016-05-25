@@ -36,13 +36,60 @@ function! s:OpenGitFiles(path)
 endfunction
 
 function! ListFavorites(path)
-    call fzf#run({
-        \   'source': 'cat $HOME/.fzf_favorites',
-        \   'sink': function(a:path)
-        \ })
+call fzf#run({
+    \   'source': 'cat $HOME/.fzf_favorites',
+    \   'sink': function(a:path)
+    \ })
 endfunction
 
 command! FzfGulp call fzf#run({
-    \ 'source': split(gulpVim#GetTasks()),
-    \ 'sink': 'GulpExt'
-    \ })
+\ 'source': split(gulpVim#GetTasks()),
+\ 'sink': 'GulpExt'
+\ })
+
+" [Buffers] Jump to the existing window if possible
+let g:fzf_buffers_jump = 1
+
+" [[B]Commits] Customize the options used by 'git log':
+let g:fzf_commits_log_options =
+\ '--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'
+
+" [Tags] Command to generate tags file
+let g:fzf_tags_command = 'ctags -R'
+
+
+
+"Find A Directory
+function! FZFDirectory(directory)
+  let directory = expand(a:directory)
+  let command = 'tree -i -f -d "'.directory.'"'
+  call fzf#run({
+  \ 'source': command,
+  \ 'sink': 'Unite directory',
+  \ 'options': ''
+  \ })
+endfunction
+command! -nargs=+ -complete=dir FZFDirectory call FZFDirectory('<args>')
+
+"Grepping Using FZF #TODO File With :File: Name
+ function! s:escape(path)
+  return substitute(a:path, ' ', '\\ ', 'g')
+ endfunction
+ "TODO Extend To Other Handlers
+ function! AgHandler(line)
+  let parts = split(a:line, ':')
+  let [fn, lno] = parts[0 : 1]
+  execute 'e '. s:escape(fn)
+  execute lno
+  normal! zz
+ endfunction
+function! FZFGrep(pattern, ...)
+let filter = a:0 > 0 ? a:1 : '*'
+let command = 'ag -i "'.a:pattern.'" '.filter
+call fzf#run({
+  \ 'source': command,
+  \ 'sink': function('AgHandler'),
+  \ 'options': '+m'
+  \ })
+endfunction
+command! -nargs=* FZFGrep call FZFGrep(<f-args>)
