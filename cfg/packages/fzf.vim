@@ -12,6 +12,7 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 
 " let g:fzf_launcher = "~/.home/bin/fzf.sh %s"
 set rtp+=/usr/local/opt/fzf
+" autocmd VimEnter * command! -nargs=+ -complete=file Ag call fzf#vim#ag_raw(<q-args>)
 
 function! FindFilesInDirectory()
     let s:path = expand('%:p:h')

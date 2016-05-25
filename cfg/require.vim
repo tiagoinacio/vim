@@ -19,11 +19,6 @@ Plug 'Shougo/deoplete.nvim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'othree/jspc.vim'
 
-" notes
-Plug 'neilagabriel/vim-geeknote'
-Plug 'xolox/vim-misc'
-Plug 'xolox/vim-notes'
-
 " motion
 Plug 'haya14busa/vim-easyoperator-line'
 Plug 'bkad/CamelCaseMotion'
@@ -74,10 +69,10 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/vim-peekaboo'
 
 " explorer
-" Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
-Plug 'Shougo/vimfiler.vim'
-Plug 'romgrk/vimfiler-prompt'
+Plug 'rking/ag.vim'
+Plug 'Shougo/denite.nvim'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
 Plug 'kablamo/vim-git-log'
