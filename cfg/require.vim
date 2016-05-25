@@ -43,7 +43,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'ludovicchabant/vim-gutentags'
 
 " languague support
-Plug 'vim-scripts/argwrap.vim' " arguments wrap
+" Plug 'vim-scripts/argwrap.vim' " arguments wrap
 Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'vim-scripts/vim-dtsm', {'for': 'typescript,ts,tsc'} " for typescript
 Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'} " for typescript
@@ -58,20 +58,16 @@ Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
 Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
 Plug 'gorodinskiy/vim-coloresque' " color hex, rgb, etc
 
-" shell
-Plug 'vim-scripts/vim-do'
-
 " grep
-Plug 'mhinz/vim-grepper'
 Plug 'tpope/vim-dispatch'
-Plug 'dyng/ctrlsf.vim'
+" Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim'
-Plug 'junegunn/vim-peekaboo'
 
 " explorer
 Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
-" Plug 'rking/ag.vim'
+Plug 'Shougo/vimfiler.vim'
+Plug 'romgrk/vimfiler-prompt'
 Plug 'Shougo/denite.nvim'
 Plug 'Shougo/neomru.vim'
 Plug 'Shougo/vimproc.vim', {'do': 'make'}

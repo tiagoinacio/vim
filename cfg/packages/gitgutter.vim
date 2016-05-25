@@ -1,8 +1,8 @@
 nnoremap <leader>gp :GitGutterPreviewHunk<cr>
 nnoremap <leader>gr :GitGutterRevertHunk<cr>
 
-nnoremap <tab> :GitGutterPrevHunk<cr>
-nnoremap <s-tab> :GitGutterNextHunk<cr>
+" nnoremap <tab> :GitGutterPrevHunk<cr>
+" nnoremap <s-tab> :GitGutterNextHunk<cr>
 
 nnoremap <leader>gt :GitGutterToggle<cr>
 

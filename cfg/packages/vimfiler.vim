@@ -1,3 +1,4 @@
-" autocmd FileType vimfiler nmap <buffer> i :VimFilerPrompt<CR>
+autocmd FileType vimfiler nmap <buffer> i :VimFilerPrompt<CR>
+let g:vimfiler_as_default_explorer = 1
 
-" nnoremap <leader>dc :VimFiler<cr>
+nnoremap <c-d> :VimFilerExplorer<cr>

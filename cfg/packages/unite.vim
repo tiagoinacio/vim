@@ -2,10 +2,12 @@
 nnoremap <c-u> :Unite -start-insert<cr>
 nnoremap <leader>dr :Unite directory_rec -start-insert<cr>
 nnoremap <c-g> :execute 'Unite grep'<cr><bs><C-r>=getcwd()<cr>
-nnoremap <c-d> :Unite directory_rec/async -start-insert<cr>
+" nnoremap <c-d> :Unite directory_rec/async -start-insert<cr>
 " Quickly switch lcd
 nnoremap <silent> <leader>mru
       \ :<C-u>Unite -buffer-name=change-cwd -default-action=cd directory_mru directory_rec/async<CR>
+nnoremap <tab> :Unite file_rec/async<cr>
+" nnoremap <s-tab> :GitGutterNextHunk<cr>
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
