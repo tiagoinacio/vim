@@ -6,8 +6,8 @@ nnoremap <c-g> :execute 'Unite grep'<cr><bs><C-r>=getcwd()<cr>
 " Quickly switch lcd
 nnoremap <silent> <leader>mru
       \ :<C-u>Unite -buffer-name=change-cwd -default-action=cd directory_mru directory_rec/async<CR>
-nnoremap <tab> :Unite file_rec/async<cr>
-" nnoremap <s-tab> :GitGutterNextHunk<cr>
+nnoremap <tab> :VimFilerExplorer .<cr>
+nnoremap <s-tab> :VimFilerExplorer .<cr>
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
@@ -62,3 +62,33 @@ let g:unite_source_grep_default_opts =
 let g:unite_source_grep_command = 'ag'
 
 call unite#custom#source('grep', 'matchers', 'matcher_fuzzy')
+
+"""""""""""""""""""""""""""""
+" ESC to close Unite buffer "
+"""""""""""""""""""""""""""""
+function! s:EscapeUnite()
+    augroup CloseUniteBuffer
+        autocmd!
+        autocmd InsertEnter <buffer>
+            \ let b:close = 0 |
+            \ let g:udt = &updatetime |
+            \ set updatetime=3
+
+        autocmd InsertLeave <buffer>
+            \ let b:close = 1
+
+        imap <buffer> <Esc>     <Plug>(unite_exit)
+
+        autocmd BufLeave,CursorHold <buffer>
+            \ let &updatetime = g:udt |
+            \ unlet g:udt
+
+        autocmd CursorHold <buffer>
+            \ if b:close | close | endif
+    augroup END
+endfunction
+
+augroup EscapeUnite
+    autocmd!
+    autocmd FileType unite call s:EscapeUnite()
+augroup END
