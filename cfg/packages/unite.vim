@@ -1,13 +1,12 @@
 " -quick-match -auto-preview
 nnoremap <c-u> :Unite -start-insert<cr>
-nnoremap <leader>dr :Unite directory_rec -start-insert<cr>
 nnoremap <c-g> :execute 'Unite grep'<cr><bs><C-r>=getcwd()<cr>
+nnoremap <c-d> :Unite directory_rec/async<cr>
+nnoremap <c-f> :Unite file_rec/async<cr>
 " nnoremap <c-d> :Unite directory_rec/async -start-insert<cr>
 " Quickly switch lcd
 nnoremap <silent> <leader>mru
       \ :<C-u>Unite -buffer-name=change-cwd -default-action=cd directory_mru directory_rec/async<CR>
-nnoremap <tab> :VimFilerExplorer .<cr>
-nnoremap <s-tab> :VimFilerExplorer .<cr>
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
@@ -41,7 +40,7 @@ call unite#custom#profile('source/grep', 'context', {
             \ 'no_start_insert'  : 1,
             \ 'empty'            : 1,
             \ 'no_resize'        : 1,
-            \ 'auto_preview'     : 1
+            \ 'auto_preview'     : 0
         \ })
 
 " let g:unite_source_grep_command = 'grep'

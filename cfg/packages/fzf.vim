@@ -3,9 +3,10 @@ nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
 nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <silent> <Leader>cd :call ListDirectories()<cr>
 nnoremap <leader><TAB> :GitFiles<cr>
-nnoremap <BS> :call FindFilesInDirectory()<cr>
+" nnoremap <BS> :call FindFilesInDirectory()<cr>
+nnoremap <BS> :GitFiles<cr>
 nnoremap <c-a> :Ag<cr>
-nnoremap <c-f> :BLines<cr>function
+nnoremap <c-b> :BLines<cr>function
 nnoremap <leader>ls :Buffers<cr>
 nnoremap <C-i> :History<cr>
 nnoremap <C-t> :Tags<cr>
