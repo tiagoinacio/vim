@@ -10,6 +10,7 @@ nnoremap <c-b> :BLines<cr>function
 nnoremap <leader>ls :Buffers<cr>
 nnoremap <C-i> :History<cr>
 nnoremap <C-t> :Tags<cr>
+nnoremap <c-w><c-w> :Windows<cr>
 
 imap <c-x><c-l> <plug>(fzf-complete-line)
 

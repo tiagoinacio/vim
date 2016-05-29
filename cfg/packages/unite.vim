@@ -1,8 +1,9 @@
 " -quick-match -auto-preview
 nnoremap <c-u> :Unite -start-insert<cr>
 nnoremap <c-g> :execute 'Unite grep'<cr><bs><C-r>=getcwd()<cr>
-nnoremap <c-d> :Unite directory_rec/async<cr>
+nnoremap <c-d> :VimFilerExplorer<cr>
 nnoremap <c-f> :Unite file_rec/async<cr>
+nnoremap <leader>ur :Unite register<cr>
 " nnoremap <c-d> :Unite directory_rec/async -start-insert<cr>
 " Quickly switch lcd
 nnoremap <silent> <leader>mru
