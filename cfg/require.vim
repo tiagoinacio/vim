@@ -66,6 +66,8 @@ Plug 'junegunn/fzf.vim'
 " explorer
 Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
+Plug 'dyng/ctrlsf.vim'
+Plug 'rking/ag.vim'
 Plug 'Shougo/vimfiler.vim'
 Plug 'romgrk/vimfiler-prompt'
 Plug 'Shougo/denite.nvim'

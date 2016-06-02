@@ -2,15 +2,15 @@ nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
 nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
 nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <silent> <Leader>cd :call ListDirectories()<cr>
-nnoremap <leader><TAB> :GitFiles<cr>
+nnoremap <leader><BS> :Files<cr>
 " nnoremap <BS> :call FindFilesInDirectory()<cr>
 nnoremap <BS> :GitFiles<cr>
 nnoremap <c-a> :Ag<cr>
-nnoremap <c-b> :BLines<cr>function
+nnoremap <leader><c-f> :BLines<cr>function
 nnoremap <leader>ls :Buffers<cr>
-nnoremap <C-i> :History<cr>
-nnoremap <C-t> :Tags<cr>
-nnoremap <c-w><c-w> :Windows<cr>
+nnoremap <leader><c-i> :History<cr>
+nnoremap <leader><c-t> :Tags<cr>
+nnoremap <leader><c-w> :Windows<cr>
 
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
@@ -139,12 +139,3 @@ function! s:ag_handler(lines)
   endif
 endfunction
 
-command! -nargs=* Ag call fzf#run({
-\ 'source':  printf('ag --nogroup --column --color "%s"',
-\                   escape(empty(<q-args>) ? '^(?=.)' : <q-args>, '"\')),
-\ 'sink*':    function('<sid>ag_handler'),
-\ 'options': '--ansi --expect=ctrl-t,ctrl-v,ctrl-x --delimiter : --nth 4.. '.
-\            '--multi --bind ctrl-f:select-all,ctrl-d:deselect-all '.
-\            '--color hl:68,hl+:110',
-\ 'down':    '50%'
-\ })
