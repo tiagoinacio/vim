@@ -19,6 +19,10 @@ Plug 'vim-scripts/SearchComplete'
 " auto complete words async
 Plug 'Shougo/deoplete.nvim'
 
+" snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 " Plug 'othree/jspc.vim'
 
@@ -38,7 +42,7 @@ Plug 'osyo-manga/vim-over'
 Plug 'godlygeek/tabular'
 
 " tmux helper
-Plug 'tpope/vim-tbone'
+Plug 'wellle/tmux-complete.vim'
 
 " swapp windows easily
 Plug 'wesQ3/vim-windowswap'
