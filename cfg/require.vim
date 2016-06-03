@@ -13,75 +13,104 @@ Plug 'benekastah/neomake'
 " more text objects
 Plug 'wellle/targets.vim'
 
-" auto completition
+" auto completition in search
 Plug 'vim-scripts/SearchComplete'
+
+" auto complete words async
 Plug 'Shougo/deoplete.nvim'
+
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
-Plug 'othree/jspc.vim'
+" Plug 'othree/jspc.vim'
 
-" motion
-Plug 'haya14busa/vim-easyoperator-line'
+" camel case motion
 Plug 'bkad/CamelCaseMotion'
-Plug 'easymotion/vim-easymotion'
-Plug 'dbarsam/vim-rainbow-parentheses'
 
-" window
+" easily go to any word on screen
+Plug 'easymotion/vim-easymotion'
+
+" developer icons
 " Plug 'ryanoasis/vim-devicons'
-Plug 'chrisbra/NrrwRgn' " narrow region to new buffer
+
 " preview substitute commands. Hint [:OverCommandLine]
 Plug 'osyo-manga/vim-over'
+
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
+
+" tmux helper
 Plug 'tpope/vim-tbone'
+
+" swapp windows easily
 Plug 'wesQ3/vim-windowswap'
-Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
+
+" delete all buffers except the current one
+Plug 'vim-scripts/BufOnly.vim'
+
+" status bar
 Plug 'bling/vim-airline'
+
+" status bar themes
 Plug 'vim-airline/vim-airline-themes'
+
+" git gutter
 Plug 'airblade/vim-gitgutter'
 
 " tags
 Plug 'ludovicchabant/vim-gutentags'
 
-" languague support
-" Plug 'vim-scripts/argwrap.vim' " arguments wrap
-Plug 'leafgarland/typescript-vim', {'for': 'typescript,ts,tsc'} " for typescript
-Plug 'vim-scripts/vim-dtsm', {'for': 'typescript,ts,tsc'} " for typescript
-Plug 'Quramy/tsuquyomi', {'for': 'typescript,ts,tsc'} " for typescript
+" comment multiple languages
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
-Plug 'vim-scripts/MatlabFilesEdition', {'for': 'matlab,m'}
-Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
-Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
-Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
-" Plug 'ahayman/vim-nodejs-complete', {'for': 'json,javascript,js'} " syntax support for nodejs
-Plug 'othree/yajs.vim', {'for': 'json,javascript,js'} " support new ES6 syntax
-" Plug 'bigfish/vim-js-context-coloring', {'do': 'npm install --update'}
-Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
-Plug 'gorodinskiy/vim-coloresque' " color hex, rgb, etc
 
-" grep
+" json support
+Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
+
+" beatify js
+Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
+
+" js helper
+Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
+"
+" support new ES6 syntax
+Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
+
+" less support
+Plug 'groenewege/vim-less', {'for': 'less'} "syntax support for less
+
+" color hex rgb etc
+Plug 'gorodinskiy/vim-coloresque'
+
+" dispatch async processes
 Plug 'tpope/vim-dispatch'
-" Plug 'dyng/ctrlsf.vim'
+
+" fuzzy finder
 Plug 'junegunn/fzf.vim'
 
 " explorer
-Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
+
+" grep with context
 Plug 'dyng/ctrlsf.vim'
+
+" grep
 Plug 'rking/ag.vim'
+
+" sidebar
 Plug 'Shougo/vimfiler.vim'
-Plug 'romgrk/vimfiler-prompt'
-Plug 'Shougo/denite.nvim'
-Plug 'Shougo/neomru.vim'
+
+" async processes
 Plug 'Shougo/vimproc.vim', {'do': 'make'}
-Plug 'kablamo/vim-git-log'
+
+" git commit [GV!]
 Plug 'junegunn/gv.vim'
-Plug 'gregsexton/gitv'
+
+" git wrapper
 Plug 'tpope/vim-fugitive'
+
+" project root
 Plug 'dbakker/vim-projectroot'
 
 " theme
 Plug 'panosl/lucario'
-Plug 'KabbAmine/yowish.vim'
 Plug 'daylerees/colour-schemes', {'do': 'mv ~/.vim/plugged/colour-schemes/vim/colors/* ~/.vim/colors/'}
 Plug 'vim-scripts/Tango-colour-scheme'
 Plug 'ajh17/Spacegray.vim'
@@ -99,9 +128,14 @@ Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
 
 " helpers
 Plug 'HTML-AutoCloseTag', {'for': 'html,css'}
+
+" repeat motions
 Plug 'tpope/vim-repeat'
+
+" surround helper
 Plug 'tpope/vim-surround'
+
+" match with %
 Plug 'tmhedberg/matchit'
-Plug 'danro/rename.vim'
 
 call plug#end()
