@@ -30,6 +30,7 @@ set synmaxcol=180
 "" GENERAL OPTIONS ""
 """""""""""""""""""""
 " set autochdir
+au FocusLost * silent! wa
 set completeopt-=preview
 set noswapfile
 set list!
