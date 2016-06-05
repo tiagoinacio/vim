@@ -16,6 +16,9 @@ Plug 'wellle/targets.vim'
 " auto completition in search
 Plug 'vim-scripts/SearchComplete'
 
+" snippers
+Plug 'SirVer/ultisnips'
+
 " auto complete words async
 Plug 'Shougo/deoplete.nvim'
 

@@ -6,7 +6,8 @@ nnoremap <leader><BS> :Files<cr>
 " nnoremap <BS> :call FindFilesInDirectory()<cr>
 nnoremap <BS> :GitFiles<cr>
 nnoremap <c-a> :Ag<cr>
-nnoremap <leader><c-f> :BLines<cr>function
+nnoremap <leader>bf :BLines<cr>function
+nnoremap <leader>bl :BLines<cr>
 nnoremap <leader>ls :Buffers<cr>
 nnoremap <leader><c-i> :History<cr>
 nnoremap <leader><c-t> :Tags<cr>
