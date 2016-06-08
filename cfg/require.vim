@@ -21,6 +21,15 @@ Plug 'SirVer/ultisnips'
 
 " auto complete words async
 Plug 'Shougo/deoplete.nvim'
+Plug 'davidhalter/jedi'
+Plug 'zchee/deoplete-jedi'
+Plug 'Shougo/context_filetype.vim'
+Plug 'Shougo/neopairs.vim'
+Plug 'Shougo/neoinclude.vim'
+Plug 'carlitux/deoplete-ternjs'
+
+" echo function args in echo area
+Plug 'Shougo/echodoc.vim'
 
 " snippets
 Plug 'SirVer/ultisnips'
