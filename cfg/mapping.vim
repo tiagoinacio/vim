@@ -60,7 +60,7 @@ nnoremap H 4h
 " Buffers
 nnoremap + :bn<cr>
 nnoremap - :bp<cr>
-nnoremap <leader>bd :bd<cr>
+nnoremap <leader>bd :bp \| bd #<cr>
 
 " Tags
 nnoremap <leader>tn :tnext<cr>
@@ -89,6 +89,7 @@ nnoremap <leader>qc :cclose<cr>
 " COMMAND-LINE MODE "
 """""""""""""""""""""
 cnoremap <C-a> <Home>
+cnoremap w!! w !sudo tee % >/dev/null
 
 """""""""""""""
 " VISUAL MODE "

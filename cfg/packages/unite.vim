@@ -1,5 +1,5 @@
 " -quick-match -auto-preview
-nnoremap <c-u> :Unite -start-insert<cr>
+nnoremap <leader>c-u> :Unite -start-insert<cr>
 nnoremap <c-g> :execute 'Unite grep'<cr><bs><C-r>=getcwd()<cr>
 nnoremap <leader>ne :VimFilerExplorer<cr>
 nnoremap <c-f> :Unite file_rec/async<cr>
