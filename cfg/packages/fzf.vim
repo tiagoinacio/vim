@@ -12,6 +12,7 @@ nnoremap <leader>ls :Buffers<cr>
 nnoremap <leader><c-i> :History<cr>
 nnoremap <leader><c-t> :Tags<cr>
 nnoremap <leader><c-w> :Windows<cr>
+nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
 
 imap <c-x><c-l> <plug>(fzf-complete-line)
 
@@ -19,7 +20,27 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 set rtp+=/usr/local/opt/fzf
 " autocmd VimEnter * command! -nargs=+ -complete=file Ag call fzf#vim#ag_raw(<q-args>)
 
-function! FindFilesInDirectory()
+function! FZFCommands(function)
+    call fzf#run({
+        \   'source': 'printf "
+        \Ag\nBCommits\nBLines\nBuffers\nBTags\n
+        \Colors\nCommands\nCommits\nFiletypes\n
+        \Files\nFZF\nLocate\n
+        \GFiles\nGFiles?\nHistory\nHistory:\nHistory\nHelptags\nMarks\n
+        \Maps\nTags\nWindows\nSnippets\n
+        \"',
+        \ 'sink': function(a:function),
+        \ 'options': '--multi'
+        \ })
+endfunction
+
+function! s:ExecFZFCommand(command)
+    echom a:command
+    exec a:command
+    call feedkeys('i', 'n')
+endfunction
+
+function! s:FindFilesInDirectory()
     let s:path = expand('%:p:h')
     exec "Files ".s:path
 endfunction
@@ -92,7 +113,7 @@ function! FZFGrep(pattern, ...)
 let filter = a:0 > 0 ? a:1 : '*'
 let command = 'ag -i "'.a:pattern.'" '.filter
 call fzf#run({
-  \ 'source': command,
+  \ 'source': ,
   \ 'sink': function('AgHandler'),
   \ 'options': '+m'
   \ })
