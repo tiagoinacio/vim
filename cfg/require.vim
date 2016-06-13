@@ -103,6 +103,8 @@ Plug 'junegunn/fzf.vim'
 
 " explorer
 Plug 'Shougo/unite.vim'
+Plug 'kmnk/vim-unite-giti'
+Plug 'romgrk/vimfiler-prompt'
 
 " grep with context
 Plug 'dyng/ctrlsf.vim'

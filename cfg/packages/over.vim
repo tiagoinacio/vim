@@ -1,1 +1,1 @@
-nnoremap / :OverCommandLine<cr>/
+nnoremap <silent> s :OverCommandLine<cr>

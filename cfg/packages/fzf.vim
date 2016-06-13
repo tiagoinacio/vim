@@ -5,7 +5,6 @@ nnoremap <silent> <Leader>cd :call ListDirectories()<cr>
 nnoremap <leader><BS> :Files<cr>
 " nnoremap <BS> :call FindFilesInDirectory()<cr>
 nnoremap <BS> :GitFiles<cr>
-nnoremap <c-a> :Ag<cr>
 nnoremap <leader>bf :BLines<cr>function
 nnoremap <leader>bl :BLines<cr>
 nnoremap <leader>ls :Buffers<cr>

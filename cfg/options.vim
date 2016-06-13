@@ -35,6 +35,7 @@ set noswapfile
 set list!
 set title
 set tags=./tags;/
+set so=999 " center cursor
 
 """""""""""""""
 "" SEARCHING ""
