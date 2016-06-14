@@ -13,6 +13,12 @@ Plug 'benekastah/neomake'
 " more text objects
 Plug 'wellle/targets.vim'
 
+" custom text objects
+Plug 'kana/vim-textobj-user'
+
+" text object for methods
+Plug 'thalesmello/vim-textobj-methodcall'
+
 " auto completition in search
 Plug 'vim-scripts/SearchComplete'
 
