@@ -5,17 +5,14 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 
 " documentation
 Plug 'heavenshell/vim-jsdoc', {'for': 'json,javascript,js'}
-Plug 'othree/jsdoc-syntax.vim'
 
 " error handling
 Plug 'benekastah/neomake'
 
 " more text objects
 Plug 'wellle/targets.vim'
-
 " custom text objects
 Plug 'kana/vim-textobj-user'
-
 " text object for methods
 Plug 'thalesmello/vim-textobj-methodcall'
 
@@ -33,6 +30,7 @@ Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim'
 Plug 'carlitux/deoplete-ternjs'
+Plug 'wellle/tmux-complete.vim'
 
 " echo function args in echo area
 Plug 'Shougo/echodoc.vim'
@@ -50,20 +48,11 @@ Plug 'bkad/CamelCaseMotion'
 " easily go to any word on screen
 Plug 'easymotion/vim-easymotion'
 
-" developer icons
-" Plug 'ryanoasis/vim-devicons'
-
 " preview substitute commands. Hint [:OverCommandLine]
 Plug 'osyo-manga/vim-over'
 
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
-
-" tmux helper
-Plug 'wellle/tmux-complete.vim'
-
-" swapp windows easily
-Plug 'wesQ3/vim-windowswap'
 
 " delete all buffers except the current one
 Plug 'vim-scripts/BufOnly.vim'
@@ -113,16 +102,12 @@ Plug 'junegunn/fzf.vim'
 " explorer
 Plug 'Shougo/unite.vim'
 Plug 'kmnk/vim-unite-giti'
-Plug 'romgrk/vimfiler-prompt'
 
 " grep with context
 Plug 'dyng/ctrlsf.vim'
 
 " grep
 Plug 'rking/ag.vim'
-
-" sidebar
-Plug 'Shougo/vimfiler.vim'
 
 " async processes
 Plug 'Shougo/vimproc.vim', {'do': 'make'}

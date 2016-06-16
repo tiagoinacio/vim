@@ -80,6 +80,9 @@ function! s:MkNonExDir(file, buf)
     endif
 endfunction
 
+function! Filename()
+    echo expand('%:p')
+endfunction
 
 function! UpdateFlavour()
     let g:bf_flavour_path = expand('%:p')
@@ -119,5 +122,6 @@ augroup all_autocmds
     autocmd BufReadPost locationlist nnoremap <buffer> <cr> <cr>
     autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr>
     autocmd! BufWritePost * Neomake
+    command! Filename execute ":call Filename()"
     " autocmd CursorMoved * exe printf('match EasyMotionIncCursor /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 augroup END

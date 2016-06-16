@@ -7,6 +7,7 @@ set guifont=Hack:h13
 set background=dark
 " colorscheme base16-default
 colorscheme default
+hi Visual ctermbg=white
 " set number
 
 if has('gui_running')

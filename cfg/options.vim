@@ -29,7 +29,7 @@ set synmaxcol=180
 """""""""""""""""""""
 "" GENERAL OPTIONS ""
 """""""""""""""""""""
-" set autochdir
+set path+=.*,**
 au FocusLost * silent! wa
 set noswapfile
 set list!
