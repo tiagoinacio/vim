@@ -72,9 +72,6 @@ Plug 'ludovicchabant/vim-gutentags'
 " comment multiple languages
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
 
-" ruby support
-Plug 'vim-ruby/vim-ruby'
-
 " json support
 Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
 
