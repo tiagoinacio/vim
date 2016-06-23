@@ -23,9 +23,8 @@ Plug 'vim-scripts/SearchComplete'
 Plug 'SirVer/ultisnips'
 
 " auto complete words async
+Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/deoplete.nvim'
-Plug 'davidhalter/jedi'
-Plug 'zchee/deoplete-jedi'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim'
@@ -49,7 +48,7 @@ Plug 'bkad/CamelCaseMotion'
 Plug 'easymotion/vim-easymotion'
 
 " preview substitute commands. Hint [:OverCommandLine]
-Plug 'osyo-manga/vim-over'
+" Plug 'osyo-manga/vim-over'
 
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
@@ -97,7 +96,9 @@ Plug 'tpope/vim-dispatch'
 Plug 'junegunn/fzf.vim'
 
 " explorer
+Plug 'tpope/vim-vinegar'
 Plug 'Shougo/unite.vim'
+Plug 'liquidz/unite-bookmark-file'
 Plug 'kmnk/vim-unite-giti'
 
 " grep with context

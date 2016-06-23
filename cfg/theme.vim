@@ -10,10 +10,6 @@ colorscheme default
 hi Visual ctermbg=white
 " set number
 
-if has('gui_running')
-    colorscheme codeschool
-endif
-
 """"""""""""""""
 "" HIGHLIGHTS ""
 """"""""""""""""

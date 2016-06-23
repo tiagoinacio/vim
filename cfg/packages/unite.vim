@@ -11,6 +11,8 @@ nnoremap <silent> <leader>mru
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
+let g:unite_bookmark_file = '~/.fzf_favorites'
+
 " let g:unite_source_grep_default_opts = '-i -A 3 -B 3'
 " Using ag as recursive command.
 " let g:unite_source_rec_async_command =

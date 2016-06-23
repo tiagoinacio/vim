@@ -106,6 +106,10 @@ function! CompareWithEDS()
     exec 'vsplit ' . l:basePath
 endfunction
 
+function! AutoComplete()
+    " echo 1
+endfunction
+
 augroup BWCCreateDir
     autocmd!
     autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
@@ -113,6 +117,7 @@ augroup END
 
 augroup all_autocmds
     autocmd!
+    autocmd InsertChange * call AutoComplete()
     autocmd BufEnter * :call UpdateFlavour()
     autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
     autocmd BufEnter * :call MarkMargin(1)
