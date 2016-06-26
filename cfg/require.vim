@@ -23,7 +23,6 @@ Plug 'vim-scripts/SearchComplete'
 Plug 'SirVer/ultisnips'
 
 " auto complete words async
-Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/deoplete.nvim'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
