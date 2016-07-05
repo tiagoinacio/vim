@@ -25,6 +25,10 @@ filetype off
 filetype plugin on
 set scrolljump=5
 set synmaxcol=180
+set dictionary=/usr/share/dict/web2
+set dictionary+=/usr/share/dict/web2a
+set dictionary+=/usr/share/dict/connectives
+set complete+=k
 
 """""""""""""""""""""
 "" GENERAL OPTIONS ""

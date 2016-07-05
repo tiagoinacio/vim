@@ -24,6 +24,7 @@ Plug 'SirVer/ultisnips'
 
 " auto complete words async
 Plug 'Shougo/deoplete.nvim'
+Plug 'ujihisa/neco-look'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim'
