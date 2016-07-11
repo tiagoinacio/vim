@@ -44,3 +44,12 @@ hi CursorLine cterm=NONE guibg=00 ctermbg=00
 """"""""""""
 highlight Cursor guifg=white guibg=black
 highlight iCursor guifg=white guibg=steelblue
+
+""""""""""""
+"" OPTIONS "
+""""""""""""
+set noshowmode
+set noruler
+set laststatus=0
+set noshowcmd
+

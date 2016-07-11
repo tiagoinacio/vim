@@ -57,10 +57,10 @@ Plug 'godlygeek/tabular'
 Plug 'vim-scripts/BufOnly.vim'
 
 " status bar
-Plug 'bling/vim-airline'
+" Plug 'bling/vim-airline'
 
 " status bar themes
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline-themes'
 
 " git gutter
 Plug 'airblade/vim-gitgutter'
