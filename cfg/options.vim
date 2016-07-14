@@ -33,7 +33,7 @@ set complete+=k
 """""""""""""""""""""
 "" GENERAL OPTIONS ""
 """""""""""""""""""""
-set path+=.*,**
+" set path+=**
 au FocusLost * silent! wa
 set noswapfile
 set list!
