@@ -125,9 +125,6 @@ onoremap ih" :<c-u>normal! F"vi"<cr>
 onoremap ih' :<c-u>normal! F'vi'<cr>
 onoremap ih{ :<c-u>normal! F{vi{<cr>
 
-" JAVASCRIPT "
-nnoremap <leader>br ibrowser.pause();<esc>=l
-
 """""""""
 " MOUSE "
 """""""""
@@ -136,3 +133,8 @@ nnoremap <leader>br ibrowser.pause();<esc>=l
 " TEXT "
 """"""""
 nnoremap <leader>ju gggqG_j
+
+""""""""
+" FIND "
+""""""""
+nnoremap <BS> :find .?*/
