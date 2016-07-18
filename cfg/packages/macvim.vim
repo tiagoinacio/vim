@@ -9,11 +9,5 @@ if has("gui")
     hi CursorLine ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
     highlight Cursor guifg=NONE guibg=magenta
     highlight NonText guifg=bg guibg=white
-    set clipboard=unnamed
-
-    nnoremap <bs> :Unite file_rec/async <cr>
-    nnoremap <tab> :Unite<cr>
-    nnoremap <leader>ls :Unite buffer<cr>
-    nnoremap <leader>fp :Unite bookmark/file<cr>
-    nnoremap <leader>fa :Unite bookmark/file<cr>
+    set clipboard=unnamedplus
 endif
