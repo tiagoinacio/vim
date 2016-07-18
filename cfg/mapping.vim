@@ -137,4 +137,4 @@ nnoremap <leader>ju gggqG_j
 """"""""
 " FIND "
 """"""""
-nnoremap <BS> :find .?*/
+nnoremap <BS> :find
