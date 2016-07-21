@@ -101,6 +101,13 @@ function! Filename()
     echo expand('%:p')
 endfunction
 
+function! Favorites(...)
+    :e ~/.fzf_favorites
+    if a:0 > 0
+        :execute "normal /" . a:1 . "\<cr>"
+    endif
+endfunction
+
 function! UpdateFlavour()
     let g:bf_flavour_path = expand('%:p')
     if g:bf_flavour_path =~ 'flavour/'
@@ -145,5 +152,6 @@ augroup all_autocmds
     autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr>
     autocmd! BufWritePost * Neomake
     command! Filename execute ":call Filename()"
+    command! -nargs=? Favorites call Favorites(<f-args>)
     " autocmd CursorMoved * exe printf('match EasyMotionIncCursor /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 augroup END

@@ -6,12 +6,6 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 " error handling
 Plug 'benekastah/neomake'
 
-" auto completition in search
-Plug 'vim-scripts/SearchComplete'
-
-" snippers
-Plug 'SirVer/ultisnips'
-
 " auto complete words async
 Plug 'Shougo/deoplete.nvim'
 Plug 'ujihisa/neco-look'
@@ -22,16 +16,10 @@ Plug 'carlitux/deoplete-ternjs'
 Plug 'wellle/tmux-complete.vim'
 
 " snippets
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+" Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
 
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
-
-" easily go to any word on screen
-Plug 'easymotion/vim-easymotion'
-
-" preview substitute commands. Hint [:OverCommandLine]
-" Plug 'osyo-manga/vim-over'
 
 " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'godlygeek/tabular'
@@ -64,16 +52,16 @@ Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
 Plug 'gorodinskiy/vim-coloresque'
 
 " dispatch async processes
-Plug 'tpope/vim-dispatch'
+" Plug 'tpope/vim-dispatch'
 
 " fuzzy finder
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf.vim'
 
 " explorer
-Plug 'tpope/vim-vinegar'
+" Plug 'tpope/vim-vinegar'
 
 " grep with context
-Plug 'dyng/ctrlsf.vim'
+" Plug 'dyng/ctrlsf.vim'
 
 " grep
 Plug 'rking/ag.vim'
@@ -103,9 +91,6 @@ Plug 'joshdick/onedark.vim'
 
 " latex
 Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
-
-" helpers
-Plug 'HTML-AutoCloseTag', {'for': 'html,css'}
 
 " repeat motions
 Plug 'tpope/vim-repeat'

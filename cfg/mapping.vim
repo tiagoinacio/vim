@@ -82,7 +82,7 @@ nnoremap <leader>lc :lclose<cr>
 nnoremap <leader>qn :cnext<cr>
 nnoremap <leader>qp :cprevious<cr>
 nnoremap <leader>qt :call QuickfixToggle()<cr>
-nnoremap <leader>qo :Copen<cr>
+nnoremap <leader>qo :copen<cr>
 nnoremap <leader>qc :cclose<cr>
 
 """""""""""""""""""""
@@ -137,4 +137,6 @@ nnoremap <leader>ju gggqG_j
 """"""""
 " FIND "
 """"""""
-nnoremap <BS> :find
+nnoremap <bs> :Favorites<space>
+nnoremap <tab> :Find<space>
+nnoremap / /\v
