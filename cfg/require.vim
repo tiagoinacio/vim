@@ -42,26 +42,14 @@ Plug 'elzr/vim-json', {'for': 'json,javascript,js'}
 " beatify js
 Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 
-" js helper
-Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
+" " js helper
+" Plug 'othree/javascript-libraries-syntax.vim', {'for': 'json,javascript,js'}
 "
 " support new ES6 syntax
 Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
 
 " color hex rgb etc
 Plug 'gorodinskiy/vim-coloresque'
-
-" dispatch async processes
-" Plug 'tpope/vim-dispatch'
-
-" fuzzy finder
-" Plug 'junegunn/fzf.vim'
-
-" explorer
-" Plug 'tpope/vim-vinegar'
-
-" grep with context
-" Plug 'dyng/ctrlsf.vim'
 
 " grep
 Plug 'rking/ag.vim'
@@ -94,6 +82,9 @@ Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
 
 " repeat motions
 Plug 'tpope/vim-repeat'
+
+" easy motion
+Plug 'easymotion/vim-easymotion'
 
 " surround helper
 Plug 'tpope/vim-surround'
