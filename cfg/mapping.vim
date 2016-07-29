@@ -137,5 +137,5 @@ nnoremap <leader>ju gggqG_j
 """"""""
 " FIND "
 """"""""
-nnoremap <bs> :Favorites<space>
+" nnoremap <bs> :Favorites<space>
 " nnoremap <tab> :find<space>

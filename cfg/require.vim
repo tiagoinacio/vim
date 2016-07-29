@@ -6,6 +6,9 @@ Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,j
 " error handling
 Plug 'benekastah/neomake'
 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 " auto complete words async
 Plug 'Shougo/deoplete.nvim'
 Plug 'ujihisa/neco-look'
