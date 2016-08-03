@@ -113,17 +113,14 @@ inoremap <esc> <nop>
 """""""""""""""""
 " OPERATOR MODE "
 """""""""""""""""
-onoremap p i(
-onoremap q i"
-onoremap b i{
-onoremap il( :<c-u>normal! f(vi(<cr>
-onoremap il" :<c-u>normal! f"vi"<cr>
-onoremap il' :<c-u>normal! f'vi'<cr>
-onoremap il{ :<c-u>normal! f{vi{<cr>
-onoremap il( :<c-u>normal! F(vi(<cr>
-onoremap ih" :<c-u>normal! F"vi"<cr>
-onoremap ih' :<c-u>normal! F'vi'<cr>
-onoremap ih{ :<c-u>normal! F{vi{<cr>
+" onoremap il( :<c-u>normal! f(vi(<cr>
+" onoremap il" :<c-u>normal! f"vi"<cr>
+" onoremap il' :<c-u>normal! f'vi'<cr>
+" onoremap il{ :<c-u>normal! f{vi{<cr>
+" onoremap il( :<c-u>normal! F(vi(<cr>
+" onoremap ih" :<c-u>normal! F"vi"<cr>
+" onoremap ih' :<c-u>normal! F'vi'<cr>
+" onoremap ih{ :<c-u>normal! F{vi{<cr>
 
 """""""""
 " MOUSE "
