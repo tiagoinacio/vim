@@ -79,6 +79,7 @@ Plug '29decibel/codeschool-vim-theme'
 Plug 'trusktr/seti.vim'
 Plug 'chriskempson/base16-vim'
 Plug 'joshdick/onedark.vim'
+Plug 'croaker/mustang-vim'
 
 " latex
 Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'}
