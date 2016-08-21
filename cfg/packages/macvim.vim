@@ -9,5 +9,5 @@ if has("gui")
     hi CursorLine ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
     highlight Cursor guifg=NONE guibg=magenta
     highlight NonText guifg=bg guibg=white
-    set clipboard=unnamedplus
+    set clipboard=unnamed
 endif
