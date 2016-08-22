@@ -7,7 +7,7 @@ set guifont=Hack:h13
 set background=dark
 " colorscheme base16-default
 colorscheme default
-colorscheme mustang
+"colorscheme mustang
 hi Visual ctermbg=white
 " set number
 
