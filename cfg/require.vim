@@ -1,5 +1,9 @@
 call plug#begin('~/.vim/plugged')
 
+"temp
+Plug 'sotte/presenting.vim'
+
+
 " personal plugins
 Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,js'}
 
@@ -52,7 +56,7 @@ Plug 'michalliu/sourcebeautify.vim', {'for': 'json,javascript,js'}
 Plug 'othree/yajs.vim', {'for': 'json,javascript,js'}
 
 " color hex rgb etc
-Plug 'gorodinskiy/vim-coloresque'
+Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'}
 
 " grep
 Plug 'rking/ag.vim'
