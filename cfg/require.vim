@@ -21,6 +21,7 @@ Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'wellle/tmux-complete.vim'
+Plug 'tpope/vim-dispatch'
 
 " snippets
 " Plug 'SirVer/ultisnips'
