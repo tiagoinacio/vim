@@ -5,7 +5,7 @@ Plug 'sotte/presenting.vim'
 
 
 " personal plugins
-Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,js'}
+" Plug 'git@gitlab.app.betfair:inaciot/vim-bf-b2b.git', {'for': 'json,javascript,js'}
 
 " error handling
 Plug 'benekastah/neomake'
@@ -23,6 +23,7 @@ Plug 'carlitux/deoplete-ternjs'
 Plug 'wellle/tmux-complete.vim'
 Plug 'tpope/vim-dispatch'
 
+Plug 'Shougo/denite.nvim'
 " snippets
 " Plug 'SirVer/ultisnips'
 " Plug 'honza/vim-snippets'
@@ -39,6 +40,7 @@ Plug 'vim-scripts/BufOnly.vim'
 Plug 'airblade/vim-gitgutter'
 
 " tags
+Plug 'c0r73x/neotags.nvim'
 Plug 'ludovicchabant/vim-gutentags'
 
 " comment multiple languages

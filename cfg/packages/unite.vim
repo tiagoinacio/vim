@@ -4,7 +4,7 @@
 " nnoremap <leader>ne :VimFilerExplorer<cr>
 " nnoremap <c-f> :Unite file_rec/async<cr>
 " nnoremap <leader>ur :Unite register<cr>
-" " nnoremap <c-d> :Unite directory_rec/async -start-insert<cr>
+nnoremap <c-s> :Unite directory_rec/async -start-insert<cr>
 " " Quickly switch lcd
 " nnoremap <silent> <leader>mru
 "       \ :<C-u>Unite -buffer-name=change-cwd -default-action=cd directory_mru directory_rec/async<CR>
