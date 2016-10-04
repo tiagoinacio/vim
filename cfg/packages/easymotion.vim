@@ -1,5 +1,5 @@
 nmap <cr> <Plug>(easymotion-bd-w)
-nmap \ <Plug>(easymotion-overwin-f2)
+nnoremap \\ /
 " nmap \| <Plug>(easymotion-bd-w)
 "
 " let g:EasyMotion_do_mapping = 0

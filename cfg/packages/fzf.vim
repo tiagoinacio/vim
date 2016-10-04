@@ -3,11 +3,13 @@ nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
 " nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 "  nnoremap <silent> <Leader>cd :call ListDirectories()<cr>
 nnoremap <leader><BS> :Files<cr>
-nnoremap <BS> :GitFiles<cr>
+nnoremap <tab> :GitFiles<cr>
+nnoremap <BS> /
+vnoremap <BS> /
 "  nnoremap <leader>bf :BLines<cr>function
 "  nnoremap <leader>bl :BLines<cr>
  nnoremap <leader>ls :Buffers<cr>
- nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
+ "nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
 
  imap <c-x><c-l> <plug>(fzf-complete-line)
 

@@ -10,6 +10,13 @@ Plug 'sotte/presenting.vim'
 " error handling
 Plug 'benekastah/neomake'
 
+Plug 'metakirby5/codi.vim'
+
+
+" Vim 8
+" Plug 'ramele/agrep'
+" Plug 'skywind3000/asyncrun.vim'
+
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
