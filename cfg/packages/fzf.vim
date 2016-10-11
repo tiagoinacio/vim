@@ -1,10 +1,10 @@
 " nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
 nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
-" nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
-"  nnoremap <silent> <Leader>cd :call ListDirectories()<cr>
+nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <leader><BS> :Files<cr>
 nnoremap <tab> :GitFiles<cr>
-nnoremap <BS> /
+nnoremap <BS> :GitFiles<cr>
+nnoremap <leader>ta :Tags<cr>
 vnoremap <BS> /
 "  nnoremap <leader>bf :BLines<cr>function
 "  nnoremap <leader>bl :BLines<cr>
