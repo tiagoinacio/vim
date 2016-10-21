@@ -51,6 +51,22 @@ highlight iCursor guifg=white guibg=steelblue
 """"""""""""
 set noshowmode
 set noruler
-set laststatus=0
+set laststatus=2
 set noshowcmd
+hi StatusLine ctermbg=black ctermfg=8
+
+let g:yowish = {
+            \   'term_italic' : 0,
+            \   'colors': {
+            \       'background'       : ['#2f343f', 'none'],
+            \       'backgroundDark'   : ['#191d27', '16'],
+            \       'backgroundLight'  : ['#464b5b', '59'],
+            \       'blue'             : ['#5295e2', '68'],
+            \       'comment'          : ['#5b6176', '242'],
+            \       'lightBlue'        : ['#e39f52', '179'],
+            \       'lightYellow'      : ['#80aee3', '110'],
+            \       'yellow'           : ['#5295e2', '68'],
+            \   }
+            \ }
+
 

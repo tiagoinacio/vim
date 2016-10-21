@@ -96,19 +96,19 @@ set winwidth=84
 set splitright
 set nonumber
 set cursorline
-set noruler                           "Show cursor location info on status line
 let g:quickfix_is_open = 0
 let g:location_list_is_open = 0
 
 """""""""""""""""
 "" STATUS LINE ""
 """""""""""""""""
-set statusline=Git\ \-\>\ "
-set statusline+=%{exists('g:loaded_fugitive')?fugitive#head():''}
-set statusline+=\ -\ %f
-set statusline+=%{gutentags#statusline()}
-set statusline+=%=        " Switch to the right side
-set statusline+=\ %y
-set statusline+=%l        " Current line
-set statusline+=/         " Separator
-set statusline+=%L        " Total lines
+" set statusline=Git\ \-\>\ "
+" set statusline+=%{exists('g:loaded_fugitive')?fugitive#head():''}
+" set statusline+=\ -\ %f
+" set statusline+=%{gutentags#statusline()}
+" set statusline+=%=        " Switch to the right side
+" set statusline+=\ %y
+" set statusline+=%l        " Current line
+" set statusline+=/         " Separator
+" set statusline+=%L        " Total lines
+set statusline=%{ALEGetStatusLine()} " override previous
