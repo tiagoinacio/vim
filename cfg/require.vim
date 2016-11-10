@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 "Plug 'benekastah/neomake' " error handling
 Plug 'w0rp/ale'
 
+Plug 'vim-scripts/visSum.vim'
+
 " Async
 Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
