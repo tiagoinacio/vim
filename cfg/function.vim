@@ -108,32 +108,6 @@ function! Favorites(...)
     endif
 endfunction
 
-function! UpdateFlavour()
-    let g:bf_flavour_path = expand('%:p')
-    if g:bf_flavour_path =~ 'flavour/'
-        let g:bf_airline_path = 'flavour ⮁'
-    elseif g:bf_flavour_path =~ 'base/'
-        let g:bf_airline_path = 'base ⮁'
-    elseif g:bf_flavour_path =~ 'bf-edw-static-client'
-        let g:bf_airline_path = 'edw ⮁'
-    elseif g:bf_flavour_path =~ 'bf-eds-static-client'
-        let g:bf_airline_path = 'eds ⮁'
-    else
-        let g:bf_airline_path = ''
-    endif
-endfunction
-
-function! CompareWithEDS()
-    let l:flavourPath = expand("%:p")
-    let l:basePath = substitute(l:flavourPath, "bf-edw-static-client-nj\\/flavour", "bf-eds-static-client", "")
-    echom l:basePath
-    exec 'vsplit ' . l:basePath
-endfunction
-
-function! AutoComplete()
-    " echo 1
-endfunction
-
 augroup BWCCreateDir
     autocmd!
     autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
@@ -141,8 +115,6 @@ augroup END
 
 augroup all_autocmds
     autocmd!
-    autocmd InsertChange * call AutoComplete()
-    autocmd BufEnter * :call UpdateFlavour()
     autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
     autocmd BufEnter * :call MarkMargin(1)
     autocmd BufEnter * :call <SID>AutoProjectRootCD()
@@ -152,5 +124,4 @@ augroup all_autocmds
     autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr>
     command! Filename execute ":call Filename()"
     command! -nargs=? Favorites call Favorites(<f-args>)
-    " autocmd CursorMoved * exe printf('match EasyMotionIncCursor /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 augroup END

@@ -1,3 +1,4 @@
+
 """""""""""""""
 "" VARIABLES ""
 """""""""""""""
@@ -23,6 +24,7 @@ syntax enable        " enable syntax processing
 filetype indent on      " load filetype-specific indent files
 filetype off
 filetype plugin on
+set backspace=indent,eol,start
 set scrolljump=5
 set synmaxcol=180
 set dictionary=/usr/share/dict/web2
@@ -54,15 +56,21 @@ set ignorecase
 """"""""""""""""""
 set modelines=1
 "           +--Disable hlsearch while loading viminfo
-"           | +--Remember marks for last 200 files
-"           | |    +--Remember up to 1000 lines in each register
+"           | +--Remember marks for last 200 fmap ^[[A <up>
+map ^[[B <down>
+map ^[[C <right>
+map ^[[D <left>iles
+"           | |    +--Remember up to 1000 lines in each registmap ^[[A <up>
+map ^[[B <down>
+map ^[[C <right>
+map ^[[D <left>er
 "           | |    |      +--Remember up to 0.5MB in each register
 "           | |    |      |     +--Remember last 200 search patterns
 "           | |    |      |     |     +---Remember last 200 commands
 "           | |    |      |     |     |
 "           v v    v      v     v     v
 set viminfo=h,'200,<1000,s500,/200,:200
-set clipboard+=unnamedplus
+set clipboard=unnamed
 
 """"""""""""""
 "" SESSIONS ""
@@ -111,4 +119,7 @@ let g:location_list_is_open = 0
 " set statusline+=%l        " Current line
 " set statusline+=/         " Separator
 " set statusline+=%L        " Total lines
-set statusline=%{ALEGetStatusLine()} " override previous
+" set statusline=%{ALEGetStatusLine()} " override previous
+"
+
+set mouse=a

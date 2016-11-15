@@ -65,11 +65,6 @@ vnoremap <BS> /
      \ })
  endfunction
 
- command! FzfGulp call fzf#run({
- \ 'source': split(gulpVim#GetTasks()),
- \ 'sink': 'GulpExt'
- \ })
-
  " [Buffers] Jump to the existing window if possible
  let g:fzf_buffers_jump = 1
 

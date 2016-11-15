@@ -2,20 +2,19 @@ call plug#begin('~/.vim/plugged')
 "Plug 'benekastah/neomake' " error handling
 Plug 'w0rp/ale'
 
-Plug 'vim-scripts/visSum.vim'
-
 " Async
 Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+Plug 'Shougo/neocomplete.vim'
 " Auto complete words async
-Plug 'Shougo/deoplete.nvim'
-Plug 'ujihisa/neco-look'
+" Plug 'Shougo/deoplete.nvim'
+" Plug 'ujihisa/neco-look'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim'
-Plug 'carlitux/deoplete-ternjs'
+" Plug 'carlitux/deoplete-ternjs'
 Plug 'wellle/tmux-complete.vim'
 
 " Snippets
@@ -39,12 +38,11 @@ Plug 'easymotion/vim-easymotion' " easy motion
 Plug 'tpope/vim-surround' " surround helper
 Plug 'tmhedberg/matchit' " match with %
 Plug 'godlygeek/tabular' " tabularize by = signs, etc. Hint [:Tab /=]
-Plug 'Shougo/denite.nvim'
 Plug 'tpope/vim-dispatch'
 
 " Tags
-Plug 'c0r73x/neotags.nvim'
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'c0r73x/neotags.nvim'
+" Plug 'ludovicchabant/vim-gutentags'
 
 " Search
 Plug 'dyng/ctrlsf.vim'
