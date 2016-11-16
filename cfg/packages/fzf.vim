@@ -1,15 +1,15 @@
-" nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
+nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
 nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
 nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <leader><BS> :Files<cr>
-nnoremap <tab> :GitFiles<cr>
+" nnoremap <tab> :GitFiles<cr>
 nnoremap <BS> :GitFiles<cr>
 nnoremap <leader>ta :Tags<cr>
 vnoremap <BS> /
 "  nnoremap <leader>bf :BLines<cr>function
 "  nnoremap <leader>bl :BLines<cr>
  nnoremap <leader>ls :Buffers<cr>
- "nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
+ nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
 
  imap <c-x><c-l> <plug>(fzf-complete-line)
 
@@ -34,7 +34,7 @@ vnoremap <BS> /
  function! s:ExecFZFCommand(command)
      echom a:command
      exec a:command
-     call feedkeys('i', 'n')
+     " call feedkeys('i', 'n')
  endfunction
 
  function! s:FindFilesInDirectory()
@@ -49,13 +49,13 @@ vnoremap <BS> /
  function! s:OpenAllFiles(path)
      exec "cd ".a:path
      exec "Files ".a:path
-     call feedkeys('i', 'n')
+     " call feedkeys('i', 'n')
  endfunction
 
  function! s:OpenGitFiles(path)
      exec "cd ".a:path
      GitFiles
-     call feedkeys('i', 'n')
+     " call feedkeys('i', 'n')
  endfunction
 
  function! ListFavorites(path)

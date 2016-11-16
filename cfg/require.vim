@@ -47,7 +47,7 @@ Plug 'tpope/vim-dispatch'
 
 " Tags
 " Plug 'c0r73x/neotags.nvim'
-" Plug 'ludovicchabant/vim-gutentags'
+Plug 'ludovicchabant/vim-gutentags'
 
 " Search
 Plug 'ramele/agrep'
