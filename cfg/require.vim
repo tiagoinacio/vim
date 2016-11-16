@@ -1,6 +1,11 @@
 call plug#begin('~/.vim/plugged')
-"Plug 'benekastah/neomake' " error handling
-Plug 'w0rp/ale'
+
+" async linting
+Plug 'neomake/neomake'
+
+" panels
+Plug 'Shougo/denite.nvim'
+Plug 'Shougo/neomru.vim'
 
 " Async
 Plug 'skywind3000/asyncrun.vim'
@@ -45,7 +50,7 @@ Plug 'tpope/vim-dispatch'
 " Plug 'ludovicchabant/vim-gutentags'
 
 " Search
-Plug 'dyng/ctrlsf.vim'
+Plug 'ramele/agrep'
 
 " GIT
 Plug 'junegunn/gv.vim' " git commit [GV!]
