@@ -12,6 +12,9 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+" Enhancements to explorer
+Plug 'tpope/vim-vinegar'
+
 Plug 'Shougo/neocomplete.vim'
 " Auto complete words async
 " Plug 'Shougo/deoplete.nvim'
