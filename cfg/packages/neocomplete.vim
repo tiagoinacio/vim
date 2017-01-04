@@ -43,13 +43,13 @@ inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
 " Close popup by <Space>.
 " inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
 
-" Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-
+" " Enable omni completion.
+" autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+" autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+" autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+" autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+" autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+"
 " Enable heavy omni completion.
 if !exists('g:neocomplete#sources#omni#input_patterns')
   let g:neocomplete#sources#omni#input_patterns = {}
@@ -70,7 +70,7 @@ aug omnicomplete
     au FileType css setl omnifunc=csscomplete#CompleteCSS
     au FileType markdown setl omnifunc=htmlcomplete#CompleteTags
     au FileType html,htmldjango,jinja setl omnifunc=emmet#completeTag
-    au FileType javascript setl omnifunc=tern#Complete
+    " au FileType javascript setl omnifunc=tern#Complete
     au FileType python setl omnifunc=pythoncomplete#Complete
     au FileType xml setl omnifunc=xmlcomplete#CompleteTags
 aug END

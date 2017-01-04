@@ -2,6 +2,7 @@
 "" THEME ""
 """""""""""
 set t_Co=256
+set term=screen-256color
 let base16colorspace=256
 set nolist
 set guifont=Hack:h13
