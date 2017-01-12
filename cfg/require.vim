@@ -40,6 +40,7 @@ Plug 'heavenshell/vim-jsdoc'
 Plug 'pangloss/vim-javascript'
 
 " Helpers
+Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
 Plug 'dbakker/vim-projectroot' " project root
 Plug 'tpope/vim-repeat' " repeat motions
@@ -53,9 +54,9 @@ Plug 'Raimondi/delimitMate'
 " Tags
 " Plug 'c0r73x/neotags.nvim'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'majutsushi/tagbar'
 
 " Search
-Plug 'ramele/agrep'
 
 " GIT
 Plug 'junegunn/gv.vim' " git commit [GV!]

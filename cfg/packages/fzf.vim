@@ -2,6 +2,11 @@ nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
 nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
 nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
 nnoremap <leader><BS> :Files<cr>
+nnoremap <leader>bl :BLines<cr>
+nnoremap <leader>hh :History<cr>
+nnoremap <leader>gs :GFiles?<cr>
+nnoremap <leader>hc :History:<cr>
+nnoremap <leader>hs :History/<cr>
 " nnoremap <tab> :GitFiles<cr>
 nnoremap <BS> :GitFiles<cr>
 nnoremap <leader>ta :Tags<cr>
