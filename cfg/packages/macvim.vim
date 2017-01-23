@@ -8,9 +8,10 @@ if has("gui")
     hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
     hi CursorLine ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
     hi FoldColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
-    highlight Cursor guifg=NONE guibg=magenta
+    highlight Cursor guifg=NONE guibg=MAGENTA
     highlight NonText guifg=bg guibg=white
     set clipboard=unnamed
     nmap <BS> :find
     nmap <tab> :ls<cr>:e
+    nmap <leader>fa :Favorites<cr>
 endif

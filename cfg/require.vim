@@ -28,8 +28,11 @@ Plug 'wellle/tmux-complete.vim'
 " Snippets
 " Plug 'SirVer/ultisnips'
 " Plug 'honza/vim-snippets'
+Plug 'dyng/ctrlsf.vim'
 
 " Languages Support
+Plug 'idanarye/vim-vebugger'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
 Plug 'othree/jspc.vim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
