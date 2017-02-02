@@ -1,5 +1,10 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'tiagoinacio/javascript-switch.vim'
+if exists('g:javascriptswitch_mappings')
+    nnoremap <leader>sw ToggleSpec()<CR>
+endif
+
 " async linting
 Plug 'neomake/neomake'
 
@@ -8,22 +13,21 @@ Plug 'neomake/neomake'
 " Plug 'Shougo/neomru.vim'
 
 " Async
-Plug 'skywind3000/asyncrun.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " Enhancements to explorer
 Plug 'tpope/vim-vinegar'
 
-Plug 'Shougo/neocomplete.vim'
 " Auto complete words async
-" Plug 'Shougo/deoplete.nvim'
-" Plug 'ujihisa/neco-look'
+Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
-Plug 'Shougo/neoinclude.vim'
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+Plug 'Shougo/neoinclude.vim', { 'for': 'js,javascript,html,ts' }
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': 'js,javascript,html,ts' }
 Plug 'wellle/tmux-complete.vim'
+Plug 'ujihisa/neco-look'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 
 " Snippets
 " Plug 'SirVer/ultisnips'
@@ -31,8 +35,7 @@ Plug 'wellle/tmux-complete.vim'
 Plug 'dyng/ctrlsf.vim'
 
 " Languages Support
-Plug 'idanarye/vim-vebugger'
-Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'osyo-manga/vim-marching', {'for': 'c,cpp,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
 Plug 'othree/jspc.vim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
@@ -43,7 +46,6 @@ Plug 'heavenshell/vim-jsdoc'
 Plug 'pangloss/vim-javascript'
 
 " Helpers
-Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-scripts/BufOnly.vim' " delete all buffers except the current one
 Plug 'dbakker/vim-projectroot' " project root
 Plug 'tpope/vim-repeat' " repeat motions
@@ -52,7 +54,6 @@ Plug 'tpope/vim-surround' " surround helper
 Plug 'tmhedberg/matchit' " match with %
 Plug 'godlygeek/tabular' " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'tpope/vim-dispatch'
-Plug 'Raimondi/delimitMate'
 
 " Tags
 " Plug 'c0r73x/neotags.nvim'
@@ -67,6 +68,7 @@ Plug 'tpope/vim-fugitive' " git wrapper
 Plug 'airblade/vim-gitgutter' " git gutter
 
 " Themes
+Plug 'rakr/vim-one'
 Plug 'vim-scripts/Tango-colour-scheme'
 Plug 'nelstrom/vim-mac-classic-theme'
 Plug 'gosukiwi/vim-atom-dark'
