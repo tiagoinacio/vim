@@ -8,10 +8,6 @@ endif
 " async linting
 Plug 'neomake/neomake'
 
-" panels
-" Plug 'Shougo/denite.nvim'
-" Plug 'Shougo/neomru.vim'
-
 " Async
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
@@ -20,7 +16,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-vinegar'
 
 " Auto complete words async
-Plug 'Shougo/neocomplete.vim'
+if version > 790
+    Plug 'Shougo/neocomplete.vim'
+endif
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim', { 'for': 'js,javascript,html,ts' }
@@ -30,12 +28,11 @@ Plug 'ujihisa/neco-look'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 
 " Snippets
-" Plug 'SirVer/ultisnips'
-" Plug 'honza/vim-snippets'
 Plug 'dyng/ctrlsf.vim'
 
 " Languages Support
-Plug 'osyo-manga/vim-marching', {'for': 'c,cpp,c++'}
+Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
+Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
 Plug 'othree/jspc.vim'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
@@ -59,8 +56,6 @@ Plug 'tpope/vim-dispatch'
 " Plug 'c0r73x/neotags.nvim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'majutsushi/tagbar'
-
-" Search
 
 " GIT
 Plug 'junegunn/gv.vim' " git commit [GV!]

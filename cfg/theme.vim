@@ -2,7 +2,6 @@
 "" THEME ""
 """""""""""
 set t_Co=256
-set term=screen-256color
 let base16colorspace=256
 set nolist
 set guifont=Hack:h13
@@ -10,16 +9,16 @@ set background=dark
 " colorscheme base16-default
 colorscheme default
 "colorscheme mustang
-hi Visual ctermbg=white
+" hi Visual ctermbg=white
 " set number
 
 """"""""""""""""
 "" HIGHLIGHTS ""
 """"""""""""""""
 " hi Normal ctermbg=231
-hi CursorColumn ctermbg=00 cterm=NONE ctermfg=NONE guibg=NONE
-hi SignColumn guibg=NONE ctermbg=NONE
-hi CursorLine cterm=NONE guibg=NONE ctermbg=NONE
+ hi CursorColumn ctermbg=00 cterm=NONE ctermfg=NONE guibg=NONE
+ hi SignColumn guibg=NONE ctermbg=NONE
+ hi CursorLine cterm=NONE guibg=NONE ctermbg=NONE
 
 " for base16
 " highlight CursorLine   ctermbg=236
@@ -55,4 +54,13 @@ set noshowmode
 set noruler
 set laststatus=2
 set noshowcmd
-hi StatusLine ctermbg=black ctermfg=8
+
+if !has('nvim')
+    set term=screen-256color
+else
+    colorscheme emacs
+endif
+
+hi StatusLine ctermbg=white ctermfg=black guibg=black guifg=white
+hi CursorColumn guibg=white
+hi CursorLine guibg=white

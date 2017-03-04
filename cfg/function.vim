@@ -112,6 +112,7 @@ augroup BWCCreateDir
     autocmd!
     autocmd BufWritePre * :call s:MkNonExDir(expand('<afile>'), +expand('<abuf>'))
 augroup END
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 
 augroup all_autocmds
     autocmd!
@@ -122,6 +123,7 @@ augroup all_autocmds
     autocmd BufReadPost quickfix nnoremap <buffer> <cr> <cr>
     autocmd BufReadPost locationlist nnoremap <buffer> <cr> <cr>
     autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr>
+    autocmd FileType cpp match OverLength /\%81v.\+/
     command! Filename execute ":call Filename()"
     command! -nargs=? Favorites call Favorites(<f-args>)
 augroup END

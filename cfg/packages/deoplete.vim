@@ -5,13 +5,13 @@ if has('nvim')
 
     " let g:deoplete#enable_refresh_always = 1
 
-    if has("gui")
-        let g:deoplete#enable_at_startup = 0
-        let g:deoplete#disable_auto_complete = 1
-    else
+    " if has("gui")
+        " let g:deoplete#enable_at_startup = 0
+        " let g:deoplete#disable_auto_complete = 1
+    " else
         let g:deoplete#enable_at_startup = 1
         let g:deoplete#disable_auto_complete = 0
-    endif
+    " endif
 
     " let g:deoplete#sources = {}
     " let g:deoplete#sources._ = ['buffer', 'member', 'tag', 'file', 'dictionary', 'tmuxcomplete']

@@ -51,26 +51,26 @@ inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
 " autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 "
 " Enable heavy omni completion.
-if !exists('g:neocomplete#sources#omni#input_patterns')
-  let g:neocomplete#sources#omni#input_patterns = {}
-endif
+" if !exists('g:neocomplete#sources#omni#input_patterns')
+"   let g:neocomplete#sources#omni#input_patterns = {}
+" endif
 "let g:neocomplete#sources#omni#input_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
-"let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
-"let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
+" let g:neocomplete#sources#omni#input_patterns.c = '[^.[:digit:] *\t]\%(\.\|->\)'
+" let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 
 " For perlomni.vim setting.
 "  https://github.com/c9s/perlomni.vim
-let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+" let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
 "  let g:neocomplete#force_omni_input_patterns.javascript = '[^. \t]\.\w*'
 "  " JavaScript
 
-aug omnicomplete
-    au!
-    au FileType css setl omnifunc=csscomplete#CompleteCSS
-    au FileType markdown setl omnifunc=htmlcomplete#CompleteTags
-    au FileType html,htmldjango,jinja setl omnifunc=emmet#completeTag
-    " au FileType javascript setl omnifunc=tern#Complete
-    au FileType python setl omnifunc=pythoncomplete#Complete
-    au FileType xml setl omnifunc=xmlcomplete#CompleteTags
-aug END
+" aug omnicomplete
+"     au!
+"     au FileType css setl omnifunc=csscomplete#CompleteCSS
+"     au FileType markdown setl omnifunc=htmlcomplete#CompleteTags
+"     au FileType html,htmldjango,jinja setl omnifunc=emmet#completeTag
+"     " au FileType javascript setl omnifunc=tern#Complete
+"     au FileType python setl omnifunc=pythoncomplete#Complete
+"     au FileType xml setl omnifunc=xmlcomplete#CompleteTags
+" aug END

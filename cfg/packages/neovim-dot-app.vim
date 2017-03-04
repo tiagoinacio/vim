@@ -1,7 +1,6 @@
-if exists('neovim_dot_app')
+if exists('nyaovim_version')
     colorscheme emacs
     set guifont=Hack:h13
-    " let g:enable_bold_font = 1
 
     hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
     hi CursorLine ctermbg=NONE cterm=NONE ctermfg=NONE guibg=#fff3ff
