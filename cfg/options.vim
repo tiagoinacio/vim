@@ -40,7 +40,7 @@ set noswapfile
 set list!
 set title
 set tags=./tags;/
-set so=999 " center cursor
+" set so=999 " center cursor
 
 """""""""""""""
 "" SEARCHING ""
@@ -119,6 +119,6 @@ let g:location_list_is_open = 0
 " set statusline+=/         " Separator
 " set statusline+=%L        " Total lines
 " set statusline=%{ALEGetStatusLine()} " override previous
-"
+
 
 set mouse=a

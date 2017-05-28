@@ -129,3 +129,5 @@ inoremap JK <Esc>
 "  nnoremap <tab> :find<space>
 
 set nocompatible
+
+nnoremap <leader>cdl :cd %:p:h<cr>

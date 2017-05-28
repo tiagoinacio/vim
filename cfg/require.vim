@@ -8,17 +8,13 @@ endif
 " async linting
 Plug 'neomake/neomake'
 
-" Async
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-
 " Enhancements to explorer
 Plug 'tpope/vim-vinegar'
 
+Plug 'Shougo/unite.vim'
+Plug 'Shougo/denite.nvim'
 " Auto complete words async
-if version > 790
-    Plug 'Shougo/neocomplete.vim'
-endif
+Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim', { 'for': 'js,javascript,html,ts' }
@@ -31,14 +27,23 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'dyng/ctrlsf.vim'
 
 " Languages Support
+Plug 'leafgarland/typescript-vim', {'for': 'ts'}
 Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
-Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,javascript'} " color hex rgb etc
+Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,ts,javascript'} " color hex rgb etc
 Plug 'othree/jspc.vim'
-Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
+if has('gui_running')
+else
+    " Async
+    Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+    Plug 'junegunn/fzf.vim'
+
+    " Tern
+    Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
+endif
 Plug 'gerw/vim-latex-suite', { 'for': 'latex,tex'} " latex
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
-Plug 'elzr/vim-json', {'for': 'json,javascript,js'} " json support
+Plug 'elzr/vim-json', {'for': 'ts,json,javascript,js'} " json support
 Plug 'heavenshell/vim-jsdoc'
 Plug 'pangloss/vim-javascript'
 
