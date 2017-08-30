@@ -8,12 +8,12 @@ nnoremap <leader>gt :GitGutterToggle<cr>
 
 let g:gitgutter_override_sign_column_highlight = 1
 let g:gitgutter_realtime = 1
-let g:gitgutter_sign_column_always = 1
 let g:gitgutter_signs = 1
 let g:gitgutter_max_signs = 300  " default value
 let g:gitgutter_escape_grep = 1
 let g:gitgutter_highlight_lines = 0
 let g:gitgutter_map_keys = 0
+set signcolumn=yes
 
 " highlight GitGutterAdd ctermbg=NONE guibg=NONE
 " highlight GitGutterChange guibg=NONE ctermbg=NONE

@@ -11,7 +11,7 @@ if has("gui")
     highlight Cursor guifg=NONE guibg=MAGENTA
     highlight NonText guifg=bg guibg=white
     set clipboard=unnamed
-    nmap <BS> :find
-    nmap <tab> :ls<cr>:e
+    nmap <BS> :Unite file_rec/async<cr>
+    nmap <tab> :Unite buffer<cr>
     nmap <leader>fa :Favorites<cr>
 endif
