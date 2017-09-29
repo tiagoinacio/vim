@@ -26,6 +26,7 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,ts,javascript'} " color hex rgb etc
+Plug 'mxw/vim-jsx', {'for': 'js,jsx,ts'}
 Plug 'othree/jspc.vim'
 if has('gui_running')
 else

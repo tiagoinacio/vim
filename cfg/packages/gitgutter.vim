@@ -1,8 +1,8 @@
 nnoremap <leader>gp :GitGutterPreviewHunk<cr>
 nnoremap <leader>gr :GitGutterRevertHunk<cr>
 
-" nnoremap <tab> :GitGutterPrevHunk<cr>
-" nnoremap <s-tab> :GitGutterNextHunk<cr>
+nnoremap <CTRL-P> :GitGutterPrevHunk<cr>
+nnoremap <CTRL-N> :GitGutterNextHunk<cr>
 
 nnoremap <leader>gt :GitGutterToggle<cr>
 
@@ -13,7 +13,7 @@ let g:gitgutter_max_signs = 300  " default value
 let g:gitgutter_escape_grep = 1
 let g:gitgutter_highlight_lines = 0
 let g:gitgutter_map_keys = 0
-set signcolumn=yes
+let g:gitgutter_signcolumn= 1
 
 " highlight GitGutterAdd ctermbg=NONE guibg=NONE
 " highlight GitGutterChange guibg=NONE ctermbg=NONE
