@@ -9,6 +9,7 @@ set background=dark
 " colorscheme base16-default
 colorscheme default
 colorscheme emacs
+" colorscheme default
 " colorscheme mustang
 " hi Visual ctermbg=white
 " set number
