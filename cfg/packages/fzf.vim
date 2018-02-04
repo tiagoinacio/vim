@@ -16,7 +16,8 @@ else
     "  nnoremap <leader>bf :BLines<cr>function
     "  nnoremap <leader>bl :BLines<cr>
     nnoremap <leader>ls :Buffers<cr>
-    nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
+    " nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
+    nnoremap <tab> :Commands<cr>
 
     imap <c-x><c-l> <plug>(fzf-complete-line)
 
@@ -48,6 +49,10 @@ else
         let s:path = expand('%:p:h')
         exec "Files ".s:path
     endfunction
+
+    command! -nargs=* -complete=dir Cd call fzf#run(fzf#wrap(
+      \ {'source': 'find ./* -type d',
+      \  'sink': 'cd'}))
 
     function! s:ChangeDirectory(path)
         exec "cd ".a:path

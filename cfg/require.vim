@@ -7,8 +7,12 @@ endif
 
 " async linting
 Plug 'neomake/neomake'
-Plug 'Shougo/denite.nvim'
+" Plug 'Shougo/denite.nvim'
 " Plug 'rafi/vim-denite-task'
+" Plug 'sotte/presenting.vim'
+Plug 'Shougo/unite.vim'
+Plug 'Shougo/vimfiler.vim'
+Plug 'romgrk/vimfiler-prompt'
 
 " Auto complete words async
 Plug 'Shougo/neocomplete.vim'
@@ -23,11 +27,11 @@ Plug 'ujihisa/neco-look'
 Plug 'dyng/ctrlsf.vim'
 
 " Languages Support
-Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
+" Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,ts,javascript'} " color hex rgb etc
 Plug 'mxw/vim-jsx', {'for': 'js,jsx,ts'}
-Plug 'othree/jspc.vim'
+" Plug 'othree/jspc.vim'
 if has('gui_running')
 else
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -35,7 +39,7 @@ else
     Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 endif
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
-Plug 'elzr/vim-json', {'for': 'ts,json,javascript,js'} " json support
+" Plug 'elzr/vim-json', {'for': 'ts,json,javascript,js'} " json support
 Plug 'heavenshell/vim-jsdoc'
 Plug 'pangloss/vim-javascript'
 
@@ -46,6 +50,7 @@ Plug 'tpope/vim-repeat' " repeat motions
 Plug 'easymotion/vim-easymotion' " easy motion
 Plug 'tpope/vim-surround' " surround helper
 Plug 'tmhedberg/matchit' " match with %
+Plug 'Valloric/MatchTagAlways' " match always visually equal signs, brackets, etc
 Plug 'godlygeek/tabular' " tabularize by = signs, etc. Hint [:Tab /=]
 Plug 'tpope/vim-dispatch'
 
@@ -53,7 +58,7 @@ Plug 'tpope/vim-dispatch'
 " Plug 'c0r73x/neotags.nvim'
 Plug 'ludovicchabant/vim-gutentags'
 
-Plug 'rhysd/nyaovim-tree-view'
+" Plug 'rhysd/nyaovim-tree-view'
 
 " GIT
 Plug 'junegunn/gv.vim' " git commit [GV!]
