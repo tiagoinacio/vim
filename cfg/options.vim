@@ -37,7 +37,7 @@ set complete+=k
 set path+=**
 au FocusLost * silent! wa
 set noswapfile
-set list!
+set list
 set title
 set tags=./tags;/
 " set so=999 " center cursor
@@ -45,7 +45,7 @@ set tags=./tags;/
 """""""""""""""
 "" SEARCHING ""
 """""""""""""""
-set nohlsearch
+" set nohlsearch
 set smartcase
 set smartindent
 set ignorecase
@@ -101,7 +101,9 @@ set showcmd             " show command in bottom barset cursorline
 set winfixwidth
 set winwidth=84
 set splitright
-set nonumber
+" set nonumber
+set number
+set relativenumber
 set cursorline
 let g:quickfix_is_open = 0
 let g:location_list_is_open = 0

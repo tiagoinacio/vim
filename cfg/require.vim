@@ -13,6 +13,7 @@ Plug 'neomake/neomake'
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
 Plug 'romgrk/vimfiler-prompt'
+Plug 'ggalindezb/Vim-Colorscheme-Template'
 
 " Auto complete words async
 Plug 'Shougo/neocomplete.vim'

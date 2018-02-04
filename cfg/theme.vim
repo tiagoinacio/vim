@@ -2,13 +2,11 @@
 "" THEME ""
 """""""""""
 set t_Co=256
-let base16colorspace=256
-set nolist
+" let base16colorspace=256
 set guifont=Hack:h13
-set background=dark
+set background=light
 " colorscheme base16-default
-colorscheme default
-colorscheme emacs
+" colorscheme emacs
 " colorscheme default
 " colorscheme mustang
 " hi Visual ctermbg=white
@@ -30,8 +28,8 @@ colorscheme emacs
 " highlight clear SignColumn
 " highlight VertSplit    ctermbg=236
 " highlight ColorColumn  ctermbg=237
-" highlight LineNr       ctermbg=236 ctermfg=240
-" highlight CursorLineNr ctermbg=236 ctermfg=240
+highlight LineNr ctermbg=00 ctermfg=255
+" highlight CursorLineNr ctermbg=00 ctermfg=165
 " highlight CursorLine   ctermbg=236
 " highlight StatusLineNC ctermbg=238 ctermfg=0
 " highlight StatusLine   ctermbg=240 ctermfg=12
@@ -60,7 +58,8 @@ set noshowcmd
 if !has('nvim')
     set term=screen-256color
 else
-    colorscheme emacs
+    " colorscheme emacs
+    colorscheme default
 endif
 
 hi StatusLine ctermbg=white ctermfg=black guibg=black guifg=white
