@@ -14,6 +14,8 @@ Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
 Plug 'romgrk/vimfiler-prompt'
 Plug 'ggalindezb/Vim-Colorscheme-Template'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Auto complete words async
 Plug 'Shougo/neocomplete.vim'
@@ -31,7 +33,12 @@ Plug 'dyng/ctrlsf.vim'
 " Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,ts,javascript'} " color hex rgb etc
-Plug 'mxw/vim-jsx', {'for': 'js,jsx,ts'}
+Plug 'hail2u/vim-css3-syntax', {'for': 'css,less,sass'}
+Plug 'mxw/vim-jsx'
+" Plug 'mxw/vim-jsx', {'for': 'js,jsx,ts'}
+Plug 'MaxMEllon/vim-jsx-pretty', {'for': 'js,jsx,ts'}
+Plug 'othree/html5-syntax.vim', {'for': 'html,js,jsx,ts'}
+Plug 'othree/html5.vim', {'for': 'html,js,jsx,ts'}
 " Plug 'othree/jspc.vim'
 if has('gui_running')
 else

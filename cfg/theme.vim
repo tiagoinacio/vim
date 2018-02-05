@@ -29,7 +29,8 @@ set background=light
 " highlight VertSplit    ctermbg=236
 " highlight ColorColumn  ctermbg=237
 highlight LineNr ctermbg=00 ctermfg=255
-" highlight CursorLineNr ctermbg=00 ctermfg=165
+highlight CursorLineNr ctermbg=00 ctermfg=55
+highlight NonText ctermfg=253
 " highlight CursorLine   ctermbg=236
 " highlight StatusLineNC ctermbg=238 ctermfg=0
 " highlight StatusLine   ctermbg=240 ctermfg=12
