@@ -9,7 +9,6 @@ endif
 Plug 'neomake/neomake'
 " Plug 'Shougo/denite.nvim'
 " Plug 'rafi/vim-denite-task'
-" Plug 'sotte/presenting.vim'
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
 Plug 'romgrk/vimfiler-prompt'
@@ -28,10 +27,9 @@ Plug 'wellle/tmux-complete.vim'
 Plug 'ujihisa/neco-look'
 
 " Register
-Plug 'maxbrunsfeld/vim-yankstack'
+Plug 'junegunn/vim-peekaboo'
 
 " Snippets
-Plug 'dyng/ctrlsf.vim'
 Plug 'eugen0329/vim-esearch'
 
 " Languages Support
