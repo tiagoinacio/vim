@@ -3,6 +3,7 @@ else
     nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
     nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
     nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
+    nnoremap <silent> <Leader>gd :call GitDiff()<cr>
     nnoremap <leader><BS> :Files<cr>
     nnoremap <leader>bl :BLines<cr>
     nnoremap <leader>hh :History<cr>
@@ -12,6 +13,7 @@ else
     " nnoremap <tab> :GitFiles<cr>
     nnoremap <BS> :GitFiles<cr>
     nnoremap <leader>ta :Tags<cr>
+    nnoremap <leader>bt :BTags<cr>
     vnoremap <BS> /
     "  nnoremap <leader>bf :BLines<cr>function
     "  nnoremap <leader>bl :BLines<cr>
@@ -74,6 +76,13 @@ else
         call fzf#run({
                     \   'source': 'cat $HOME/.fzf_favorites',
                     \   'sink': function(a:path)
+                    \ })
+    endfunction
+
+    function! GitDiff()
+        call fzf#run({
+                    \   'source': 'git diff master --name-only',
+                    \   'sink': 'e'
                     \ })
     endfunction
 

@@ -18,6 +18,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " Auto complete words async
+Plug 'vim-scripts/CmdlineComplete' " auto complete in command mode
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
@@ -26,8 +27,12 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': 'js,javas
 Plug 'wellle/tmux-complete.vim'
 Plug 'ujihisa/neco-look'
 
+" Register
+Plug 'maxbrunsfeld/vim-yankstack'
+
 " Snippets
 Plug 'dyng/ctrlsf.vim'
+Plug 'eugen0329/vim-esearch'
 
 " Languages Support
 " Plug 'vim-scripts/DoxygenToolkit.vim', {'for': 'c,cpp,cc,c++'}
