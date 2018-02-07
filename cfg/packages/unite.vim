@@ -1,6 +1,7 @@
  " -quick-match -auto-preview
 " noremap <leader>un :Unite -start-insert<cr>
  nnoremap <c-g> :execute 'Unite grep'<cr><bs><C-r>=getcwd()<cr>
+ nnoremap <leader>yr :Unite history/yank
  " nnoremap <leader>ne :VimFilerExplorer<cr>
  " nnoremap <c-f> :Unite file_rec/async<cr>
  " nnoremap <leader>ur :Unite register<cr>
