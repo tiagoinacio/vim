@@ -50,6 +50,7 @@ else
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
     Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
+    Plug 'pbogut/fzf-mru.vim'
 endif
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
 " Plug 'elzr/vim-json', {'for': 'ts,json,javascript,js'} " json support

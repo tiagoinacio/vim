@@ -10,6 +10,7 @@ else
     nnoremap <leader>gs :GFiles?<cr>
     nnoremap <leader>hc :History:<cr>
     nnoremap <leader>hs :History/<cr>
+    nnoremap <leader>mr :FZFMru<cr>
     " nnoremap <tab> :GitFiles<cr>
     nnoremap <BS> :GitFiles<cr>
     nnoremap <leader>ta :Tags<cr>
