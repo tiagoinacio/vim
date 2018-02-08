@@ -20,7 +20,7 @@ else
     "  nnoremap <leader>bl :BLines<cr>
     nnoremap <leader>ls :Buffers<cr>
     " nnoremap <tab> :call FZFCommands('s:ExecFZFCommand')<cr>
-    nnoremap <tab> :Commands<cr>
+    " nnoremap <tab> :Commands<cr>
 
     imap <c-x><c-l> <plug>(fzf-complete-line)
 

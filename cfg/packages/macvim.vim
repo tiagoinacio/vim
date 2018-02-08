@@ -12,6 +12,5 @@ if has("gui")
     highlight NonText guifg=bg guibg=white
     set clipboard=unnamed
     nmap <BS> :Unite file_rec/async<cr>
-    nmap <tab> :Unite buffer<cr>
     nmap <leader>fa :Favorites<cr>
 endif
