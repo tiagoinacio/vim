@@ -70,6 +70,7 @@ Plug 'tpope/vim-dispatch'
 " Tags
 " Plug 'c0r73x/neotags.nvim'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'majutsushi/tagbar'
 
 " Plug 'rhysd/nyaovim-tree-view'
 
