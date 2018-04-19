@@ -37,10 +37,10 @@ set complete+=k
 set path+=**
 au FocusLost * silent! wa
 set noswapfile
-set list
+set nolist " dolar sign at end of line
 set title
 set tags=./tags;/
-" set so=999 " center cursor
+set so=999 " center cursor
 
 """""""""""""""
 "" SEARCHING ""

@@ -1,4 +1,4 @@
-" nnoremap <C-e> :Lexplore<cr>
+nnoremap <C-e> :Lexplore<cr>
 " nnoremap <leader>dc :Texplore<cr>
 
 let g:netrw_winsize = 20

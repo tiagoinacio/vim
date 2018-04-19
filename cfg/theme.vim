@@ -58,6 +58,7 @@ set noshowcmd
 
 if !has('nvim')
     set term=screen-256color
+    set bg=dark
 else
     " colorscheme emacs
     colorscheme default
