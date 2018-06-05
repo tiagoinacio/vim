@@ -12,7 +12,7 @@ let g:airline#extensions#tagbar#enabled = 1
 " let g:airline#extensions#windowswap#enabled = 1
 " let g:airline#extensions#tabline#fnamemod = ':t:.'
 "
-let g:airline_theme='soda'
+" let g:airline_theme='soda'
 " let g:airline_theme='powerlineish'
 "
 " let g:airline#extensions#bufferline#enabled = 0

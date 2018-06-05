@@ -1,65 +1,3 @@
-"function! Start()
-"endfunction
-"call Start()
-
-function! LS()
-    echo split(globpath('.', '**'), '\n')
-endfunction
-
-let s:hidden_all = 0
-function! ToggleHiddenAll()
-    if s:hidden_all  == 0
-        let s:hidden_all = 1
-        set noshowmode
-        set noruler
-        set laststatus=0
-        set noshowcmd
-    else
-        let s:hidden_all = 0
-        set showmode
-        set ruler
-        set laststatus=2
-        set showcmd
-    endif
-endfunction
-
-function! LocationListToggle()
-    if g:location_list_is_open
-        lclose
-        let g:location_list_is_open = 0
-        execute g:location_list_return_to_window . "wincmd w"
-    else
-        let g:location_list_return_to_window = winnr()
-        lopen
-        let g:location_list_is_open = 1
-    endif
-endfunction
-
-function! QuickfixToggle()
-    if g:quickfix_is_open
-        cclose
-        let g:quickfix_is_open = 0
-        execute g:quickfix_return_to_window . "wincmd w"
-    else
-        let g:quickfix_return_to_window = winnr()
-        copen
-        let g:quickfix_is_open = 1
-    endif
-endfunction
-
-function! MarkMargin (on)
-    if exists('b:MarkMargin')
-        try
-            call matchdelete(b:MarkMargin)
-        catch /./
-        endtry
-        unlet b:MarkMargin
-    endif
-    if a:on
-        let b:MarkMargin = matchadd('ColorColumn', '\%121v', 100)
-    endif
-endfunction
-
 function! Tab_Or_Complete()
     if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
         return "\<C-N>"
@@ -117,7 +55,6 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 augroup all_autocmds
     autocmd!
     autocmd FilterWritePre * if &diff | setlocal wrap< | endif " wrap lines with diff
-    autocmd BufEnter * :call MarkMargin(1)
     autocmd BufEnter * :call <SID>AutoProjectRootCD()
     autocmd BufWritePre * :%s/\s\+$//e
     autocmd BufReadPost quickfix nnoremap <buffer> <cr> <cr>

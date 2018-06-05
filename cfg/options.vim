@@ -35,6 +35,7 @@ set complete+=k
 "" GENERAL OPTIONS ""
 """""""""""""""""""""
 set path+=**
+set wildignore+=**/node_modules/**,**/build/**,**/coverage/**,node_modules/**,*/node_modules/*
 au FocusLost * silent! wa
 set noswapfile
 set nolist " dolar sign at end of line
@@ -107,6 +108,7 @@ set relativenumber
 set cursorline
 let g:quickfix_is_open = 0
 let g:location_list_is_open = 0
+set hlsearch
 
 """""""""""""""""
 "" STATUS LINE ""
