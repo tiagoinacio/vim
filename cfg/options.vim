@@ -30,6 +30,8 @@ set dictionary=/usr/share/dict/web2
 set dictionary+=/usr/share/dict/web2a
 set dictionary+=/usr/share/dict/connectives
 set complete+=k
+set undofile " Maintain undo history between sessions
+set undodir=~/.vim/undodir
 
 """""""""""""""""""""
 "" GENERAL OPTIONS ""

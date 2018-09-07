@@ -10,6 +10,7 @@ Plug 'Shougo/neoyank.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'tpope/vim-vinegar'
 Plug 'sotte/presenting.vim'
 
 Plug 'vim-scripts/CmdlineComplete' " auto complete in command mode
@@ -21,7 +22,18 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': 'js,javas
 Plug 'wellle/tmux-complete.vim'
 Plug 'ujihisa/neco-look'
 
-Plug 'eugen0329/vim-esearch'
+" file tree explorer
+if has('nvim')
+    Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+    Plug 'Shougo/defx.nvim'
+    Plug 'roxma/nvim-yarp'
+    Plug 'roxma/vim-hug-neovim-rpc'
+endif
+
+" search
+Plug 'Shougo/denite.nvim'
+Plug 'mileszs/ack.vim'
 
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,ts,javascript'} " color hex rgb etc
