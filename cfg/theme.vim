@@ -1,10 +1,11 @@
 set t_Co=256
-set term=screen-256color
 set guifont=Hack:h13
 
  hi CursorColumn ctermbg=NONE cterm=NONE ctermfg=NONE guibg=NONE
  hi SignColumn guibg=NONE ctermbg=NONE
  hi CursorLine cterm=NONE guibg=NONE ctermbg=NONE
+
+set bg=light
 
 " for base16
 " highlight LineNr ctermbg=00 ctermfg=255

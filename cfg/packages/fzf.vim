@@ -1,8 +1,5 @@
 if has("gui")
 else
-    nnoremap <silent> <Leader>fg :call ListFavorites('s:OpenGitFiles')<cr>
-    nnoremap <silent> <Leader>fa :call ListFavorites('s:OpenAllFiles')<cr>
-    nnoremap <silent> <Leader>fp :call ListFavorites('s:ChangeDirectory')<cr>
     nnoremap <silent> <Leader>gd :call GitDiff()<cr>
     nnoremap <leader><BS> :Files<cr>
     nnoremap <leader>bl :BLines<cr>

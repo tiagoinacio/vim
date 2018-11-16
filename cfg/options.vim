@@ -83,11 +83,11 @@ set ssop-=folds      " do not store folds
 """"""""""""""""""""""""""
 "" TABS AND INDENTATION ""
 """"""""""""""""""""""""""
-set tabstop=4        " number of visual spaces per TAB
-set softtabstop=4    " number of spaces in tab when editing
+set tabstop=2        " number of visual spaces per TAB
+set softtabstop=2    " number of spaces in tab when editing
 set expandtab        " tabs are spaces
 set linespace=2
-set shiftwidth=4
+set shiftwidth=2
 set foldmethod=indent
 set foldignore=
 set foldlevel=99

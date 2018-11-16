@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'tiagoinacio/javascript-switch.vim'
+Plug 'tiagoinacio/fzf-bookmark.vim'
 if exists('g:javascriptswitch_mappings')
     nnoremap <leader>sw ToggleSpec()<CR>
 endif
@@ -9,9 +10,12 @@ Plug 'neomake/neomake'
 Plug 'Shougo/neoyank.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 Plug 'tpope/vim-vinegar'
 Plug 'sotte/presenting.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'vim-scripts/CmdlineComplete' " auto complete in command mode
 Plug 'Shougo/neocomplete.vim'
