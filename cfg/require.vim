@@ -38,6 +38,7 @@ endif
 " search
 Plug 'Shougo/denite.nvim'
 Plug 'mileszs/ack.vim'
+Plug 'dyng/ctrlsf.vim'
 
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
 Plug 'gorodinskiy/vim-coloresque', {'for': 'css,less,scss,html,js,ts,javascript'} " color hex rgb etc
