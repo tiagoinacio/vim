@@ -104,27 +104,10 @@ set showcmd             " show command in bottom barset cursorline
 set winfixwidth
 set winwidth=84
 set splitright
-" set nonumber
 set number
 set relativenumber
 set cursorline
 let g:quickfix_is_open = 0
 let g:location_list_is_open = 0
 set hlsearch
-
-"""""""""""""""""
-"" STATUS LINE ""
-"""""""""""""""""
-" set statusline=Git\ \-\>\ "
-" set statusline+=%{exists('g:loaded_fugitive')?fugitive#head():''}
-" set statusline+=\ -\ %f
-" set statusline+=%{gutentags#statusline()}
-" set statusline+=%=        " Switch to the right side
-" set statusline+=\ %y
-" set statusline+=%l        " Current line
-" set statusline+=/         " Separator
-" set statusline+=%L        " Total lines
-" set statusline=%{ALEGetStatusLine()} " override previous
-
-
 set mouse=a

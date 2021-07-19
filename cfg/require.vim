@@ -2,9 +2,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tiagoinacio/javascript-switch.vim'
 Plug 'tiagoinacio/fzf-bookmark.vim'
-if exists('g:javascriptswitch_mappings')
-    nnoremap <leader>sw ToggleSpec()<CR>
-endif
 
 Plug 'neomake/neomake'
 Plug 'Shougo/neoyank.vim'

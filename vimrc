@@ -4,7 +4,7 @@
 set nocompatible
 so ~/.vim/autoload/plug.vim
 
- for f in split(glob('~/.vim/cfg/*.vim'), '\n')
+for f in split(glob('~/.vim/cfg/*.vim'), '\n')
      exe 'source' f
 endfor
 
