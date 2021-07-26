@@ -2,6 +2,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'tiagoinacio/javascript-switch.vim'
 Plug 'tiagoinacio/fzf-bookmark.vim'
+if exists('g:javascriptswitch_mappings')
+    nnoremap <leader>sw ToggleSpec()<CR>
+endif
 
 Plug 'neomake/neomake'
 Plug 'Shougo/neoyank.vim'
@@ -10,17 +13,13 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 Plug 'tpope/vim-vinegar'
-Plug 'sotte/presenting.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'vim-scripts/CmdlineComplete' " auto complete in command mode
-Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/context_filetype.vim'
 Plug 'Shougo/neopairs.vim'
 Plug 'Shougo/neoinclude.vim', { 'for': 'js,javascript,html,ts' }
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern', 'for': 'js,javascript,html,ts' }
-Plug 'wellle/tmux-complete.vim'
 Plug 'ujihisa/neco-look'
 
 " file tree explorer
@@ -32,9 +31,13 @@ else
     Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': 'npm install -g neovim && npm install -g typescript && ./install.sh'}
+" For async completion
+Plug 'Shougo/deoplete.nvim'
+
 " search
 Plug 'Shougo/denite.nvim'
-Plug 'mileszs/ack.vim'
 Plug 'dyng/ctrlsf.vim'
 
 Plug 'rhysd/vim-clang-format', {'for': 'c,cpp,cc,c++'}
@@ -48,7 +51,6 @@ if has('gui_running')
 else
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
-    Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
     Plug 'pbogut/fzf-mru.vim'
 endif
 Plug 'tomtom/tcomment_vim' " comment multiple languages support
@@ -65,6 +67,9 @@ Plug 'Valloric/MatchTagAlways' " match always visually equal signs, brackets, et
 Plug 'tpope/vim-dispatch'
 
 Plug 'ludovicchabant/vim-gutentags'
+
+Plug 'pechorin/any-jump.vim'
+Plug 'ripxorip/aerojump.nvim', { 'do': ':UpdateRemotePlugins' }
 
 Plug 'tpope/vim-fugitive' " git wrapper
 Plug 'airblade/vim-gitgutter' " git gutter

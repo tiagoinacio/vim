@@ -8,9 +8,9 @@ set guifont=Hack:h13
 set bg=light
 
 " for base16
-highlight LineNr ctermbg=00 ctermfg=255
-highlight CursorLineNr ctermbg=00 ctermfg=55
-highlight NonText ctermfg=253
+" highlight LineNr ctermbg=00 ctermfg=255
+" highlight CursorLineNr ctermbg=00 ctermfg=55
+" highlight NonText ctermfg=253
 
-highlight Cursor guifg=white guibg=black
-highlight iCursor guifg=white guibg=steelblue
+" highlight Cursor guifg=white guibg=black
+" highlight iCursor guifg=white guibg=steelblue
