@@ -73,4 +73,6 @@ Plug 'ripxorip/aerojump.nvim', { 'do': ':UpdateRemotePlugins' }
 
 Plug 'tpope/vim-fugitive' " git wrapper
 Plug 'airblade/vim-gitgutter' " git gutter
+Plug 'ripxorip/bolt.nvim', { 'do': ':UpdateRemotePlugins' }
+
 call plug#end()
