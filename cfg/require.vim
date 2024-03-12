@@ -32,7 +32,7 @@ else
 endif
 
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'mhartington/nvim-typescript', {'do': 'npm install -g neovim && npm install -g typescript && ./install.sh'}
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 " For async completion
 Plug 'Shougo/deoplete.nvim'
 
